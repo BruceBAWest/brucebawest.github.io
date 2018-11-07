@@ -58,13 +58,13 @@ But why No, though? Because I don't give a shit. No, because I don't want to go 
 
 It's as simple as that. I'm selfish. I don't care.
 
-I'm focused on me, on living one day at a time, on taking one step at a time, on surviving, on finding my own little piece of happiness, and frankly: it's working. I'm happy. I'm like a living dead man, and I'm happy.
+I'm focused on me, on living one day at a time, on taking one step at a time, on surviving, on finding my own little piece of happiness, and frankly it's working. I'm happy. I'm like a living dead man, but I'm happy.
 
-How did I come to this level of acceptance? I found stoicism. Seriously. Stoicism changed my outlook. My outlook used to consist of looking at at life through Facebook and wishing I had what you have, that I could be normal, that I could live the normal, boring, rat-race lifestyle. But I can't. I really can't. And stoicism helped me realize that, and accept that, and give me a new outlook. Whatever happens is gonna happen, and I can't change that, and I can't have an affect on anything but me, and my actions and reactions. I can't choose not to have MS (and other arguably worse things), but I can choose how I choose to react to it. 
+How did I come to this level of acceptance? I found stoicism. Seriously. Stoicism changed my outlook. My outlook used to consist of looking at your life through Facebook and wishing I had what you have, that I could be normal, that I could live the normal, boring, rat-race lifestyle. That I could eat out. That I could spend a summer day on the beautiful beach that's just around the corner from my house. But I can't. I really can't. And stoicism helped me realize that, and accept that, and gave me a new outlook. Whatever happens is gonna happen, and I can't change that. I can't have an affect on anything but me, and my actions and reactions. I can't choose not to have MS (and other arguably worse things), but I can choose how I react to it. 
 
-On that subject, I'm starting this blog. I don't expect anyone's going to read it, so I'm not even editing it. I won't change the grammer, punctiation, spelling, none of it. I don't give a shit, and no one's reading this. Besides, I don't use words good. English is my first and only language, and I suck at it. In the army profanities became commonplace in my word regimen, and so since that's how I think and speak in my own little island at home, that's the fucking way its pouring out on this screen, because: fuck you, this is my blog. I'll fucking say fuck as much as I fucking want. Why should I give a fuck? And why should you? 
+On that subject, I'm starting this blog. I don't expect anyone's going to read it, so I'm not even editing it. I won't change the grammer, punctiation, spelling, none of it. I don't give a shit, and no one's reading this. Besides, I don't use words good. English is my first and only language, and I suck at it. In the army profanities became commonplace in my word regimen, and so since that's how I think and speak in my own little island at home, that's the fucking way its pouring out on this screen, because: fuck you, this is my blog. I'll fucking say fuck as much as I fucking want. Why should I give a fuck? And why should you? Fuck. 
 
-Seriosuly, I don't give a fuck. 
+Seriosuly, I don't give a fuck... 
 
 Now, there are exceptions. 
 
@@ -72,7 +72,7 @@ Warren Buffett.
 
 No, I don't really give a fuck about him either, but I respect *some* of his choices - mostly I just respect his ability to command his environment to create the life he did. Atta boy, Warren, you old dog.
 
-Warren Buffett gave a piece of advice to a pilot named Mike Flint. Flint had been a pilot, happily flying the old bastard around for pay, and Warren thought that clearly Mike wasn't succeeding in life because he's only a pilot, or something like that. Look, it all sounds a bit arrogent, but who am I judge? Anyway, what worked for Warren must work, so here's what he said to Flint: "5/25 rule. List 25 goals. Circle your top 5. Tell the other 20 to fuck off (I'm paraphrasing here). And that's it. The whole recipe. 5 parts give a fuck, 20 parts don't give a fuck, renders one damn succesful life. 
+Warren Buffett gave a piece of advice to a pilot named Mike Flint. Flint had been a pilot, happily flying the old rich bastard around for pay, and Warren thought that clearly Mike wasn't succeeding in life because he's only a pilot, or something like that. Look, it all sounds a bit arrogent, but who am I judge? Anyway, what worked for Warren must work, so here's what he said to Flint: "5/25 rule. List 25 goals. Circle your top 5. Tell the other 20 to fuck off (I'm paraphrasing here). And that's it. The whole recipe. 5 parts give a fuck, 20 parts don't give a fuck, renders one damn succesful life. 
 
 So... that's what I'm gonna do. 
 
@@ -81,22 +81,21 @@ I mean, what have I got to lose, right? Could my life be any harder? Doubt it. I
 So here's my 5: 
 
 1. Get healthy (look, it's all relative, I'm not gonna be a damn olympic athlete, I have fucking MS and shit). 
-	A. Keep up the diet, but work in more pretein (I went vegan, BTW. It helps with the MS. It's totally a thing, and it's working wonders for me). 
-    B. Pick up heavy shit and put it back down. ("WHAT?! LIFT WEIGHTS WITH WITH MS AND SHIT?!" you might scream. Fuck you, make your own life choices. This one's for me. Why? Cardio is a killer for me. Serously, cardio and HIIT are off the table. I can't progress if I'm passing out and then having month-long MS relapses every time I work out. So HIIT and cardio are out. So is the ol' body building life of lifting six days a week and training so you can pose in little bikinis and show the world how in love with yourself you are. Eww. No thanks. I just wanna be healthy-ish (it's all relative (yes, parenthesis within parenthesis. deal with it. (it's totally a developer thing. (did I mention I'm a developer?)))so mind your own fucking business).
+	A. Keep up the diet, but work in more pretein (I went vegan, BTW. It helps with the MS. It's totally a thing, and it's been awesome for me – but not activist vegan. I still wear leather, and I'm not offended you're eating steak, eggs and bacon for breakfast. Hell, I crave that too - but my body has been so much better for not eating like that). 
+    B. Pick up heavy shit and put it back down. ("WHAT?! LIFT WEIGHTS WITH WITH MS AND SHIT?!" you might scream. Fuck you, make your own life choices. This one's for me. Why? Cardio is a killer for me. Serously, cardio and HIIT are off the table. I can't progress if I'm passing out and then having month-long MS relapses every time I work out. So HIIT and cardio are out. So is the ol' body building life of lifting six days a week and training so you can pose in little bikinis and show the world how in love with yourself you are. Eww. No thanks. I just wanna be healthy-ish (it's all relative).
     This one's totally number one, because I have MS and shit, and because I need to gain as much strength and health as I can if I'm gonna live long enough to be of some value to those I care about. 
     
 2. Stop cussing. (just fucking kidding. lol).
 
-2. Be better a husband / father (seroiusly, my honeybadger-don't-care attitude cannot rear its head at everything my wife has to say. That would make me a total asshole. I mean, I am an asshole, but I don't want to be an asshole to my wife. She's a sweet and tender little loving lady with a heart of gold. She doesn't deserve that shit. You do, but not her. She's precious.
-Alsp, I don't have kids yet, so making them is an important first step in being a better father). 
+2. Be better a husband / father (seriously, my honeybadger-don't-care attitude cannot rear its head at everything my wife has to say. That would make me a total asshole. I mean, I am an asshole, but I don't want to be an asshole to my wife. She's a sweet and tender little loving lady with a heart of gold. She doesn't deserve that shit. You do, but not her. She's precious.
+Also, I don't have kids yet, so making them is an important first step in being a better father, and therefore I have to be a better husband so my wife lets me do things with her that render kids. Recipe for kids: 1 man, 1 woman, renders 1 baby eventually... or more, but ain't nobody got time fo that. Or strenght. Or energy. Or patience. Or desire. One baby, that's all I ask). 
 
 3. Get my Ph D. (no, not for a notch on my belt - I genuinely want to have a career, and I like teaching, and I like speaking, and I like research and academia, and screw you if you have a problem with that. I have MS and shit, not the plague. You can't get what I've got. Your kids will be safe. I'll watch my damned language around them, I fucking promise).
 
 4. Grow and expand my consultancy (yes. I consult. Software, tech, etc. This isn't a business proposal or I would've edited out all the fucks, so I'm not going into my business here.)
 
-5. Earn a tenured professor role (pretty self explanatory. But I have to earn my PhD first, and if you're keeping track, I'm still just finally finishing my undergrad as a washed up adult, so goal has time requirements. Bonus, I'm a disabled vet, so I think I get some kind of hiring preference at schools or something. If you've got it, flaunt it. 
-
+5. Earn a tenured professorship (pretty self explanatory. But I have to earn my PhD first, and if you're keeping track, I'm still just finally finishing my undergrad as a washed up adult, so this goal has time requirements. Bonus, I'm a disabled vet, so I think I get some kind of hiring preference at schools or something. If you've got it, flaunt it, amiright?  
 
 That's it. That's my five. That's the whole point of this blog / public journal entry. That's pretty much it. 
 
-Look, I'm not Ernest fucking Hemingway, I'm not a writer. I don't know the rules. This is how I'm ending this shit. Deal with it. Now fuck off.
+Look, I'm not Ernest fucking Hemingway. I'm not a writer. I don't know the rules. This is how I'm ending this shit. Deal with it. Now fuck off.
