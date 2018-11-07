@@ -52,9 +52,9 @@ I don't.
 
 Honeybadger don't give a shit. 
 
-I'm a selfish asshole now. I used to care about others, try to put myself out there for others, but now I've found balance by learning the word "NO." When people want something from me, I don't give a shit, so, "No." When people want to hang out with me (and trust me, they don't), I don't give a shit, so I say "No!" I've gotten good at it. No is my favorite new word. 
+I'm a selfish asshole now. I used to care about others, try to put myself out there for others, but now I've found balance by learning the word "NO." When people want something from me, I don't give a shit, so, "No." When people want to hang out with me (and trust me, they don't), I don't give a shit, so I say "No!" I've gotten good at it. No is my favorite new word. (It goes right up on the mantle next to "Fuck", and "I don't give a fuck" – sometimes subbed with "I don't give a shit").  
 
-But why no? Because I don't give a shit. No, because I don't want to go on your deep sea fishing trip (I mean, I kinda do, but not enough to suffer the consequences - I mean, in this heat, I might not make it back from that one). No, because I don't want to be your free developer in a trade for shares in a startup idea you have that is just never gonna get off the ground, and frankly I don't give a shit. No to whatever it is you're about to ask, before you even get the words out of your mouth, because I just don't care. 
+But why No, though? Because I don't give a shit. No, because I don't want to go on your deep sea fishing trip (I mean, I kinda do, but not enough to suffer the consequences - I mean, in this heat, I might not make it back from that one). No, because I don't want to be your free developer in trade for shares in a startup idea you have that is just never gonna get off the ground, (you have "such a great business idea" and you just need someone else to do literally everything for you) and frankly I don't give a shit. No to whatever it is you're about to ask, before you even get the words out of your mouth, because I just don't care. 
 
 It's as simple as that. I'm selfish. I don't care.
 
