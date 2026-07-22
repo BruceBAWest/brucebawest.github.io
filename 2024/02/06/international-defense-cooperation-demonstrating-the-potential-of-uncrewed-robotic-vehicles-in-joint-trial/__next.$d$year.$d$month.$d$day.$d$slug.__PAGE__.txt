@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[8780,["336","static/chunks/app/%5Byear%5D/%5Bmonth%5D/%5Bday%5D/%5Bslug%5D/page-223bf4f87f5a4734.js"],"LegacyRedirect"]
+3:I[2133,[],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"destination":"https://brucebawest.com/blog/international-defense-cooperation-demonstrating-the-potential-of-uncrewed-robotic-vehicles-in-joint-trial/","label":"the recovered Field Notes article"}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"JeqZ9h1kRduW-RM3zRR6X"}
+5:null

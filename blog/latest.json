@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-07-22T13:41:55.833556+00:00",
+  "items": [
+    {
+      "title": "The CMMC suspension is an organizational knowledge test",
+      "description": "The CMMC Phase II suspension lowers the immediate pressure of third-party certification, but it does not remove the obligation to protect defense data\u2014or the need to preserve the organizational knowledge built around that work.",
+      "href": "/blog/the-cmmc-pause-is-an-organizational-knowledge-test/",
+      "date": "2026-07-17",
+      "category": "Cybersecurity",
+      "readTime": 13
+    },
+    {
+      "title": "From signals to strategic options",
+      "description": "How agentic AI can help turn scattered external change into evidence-backed innovation options without replacing strategic judgment.",
+      "href": "/blog/from-signals-to-strategic-options/",
+      "date": "2026-07-15",
+      "category": "AI Strategy",
+      "readTime": 4
+    },
+    {
+      "title": "Model the builders, not only the models",
+      "description": "Why agent-based modeling could help explain how builder-side review networks, routing policies, and AI-mediated deliberation create\u2014or erode\u2014accountability before deployment.",
+      "href": "/blog/model-the-builders/",
+      "date": "2026-07-15",
+      "category": "Research",
+      "readTime": 6
+    }
+  ]
+}

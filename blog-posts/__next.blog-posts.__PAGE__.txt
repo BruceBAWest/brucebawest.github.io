@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[8780,["845","static/chunks/app/blog-posts/page-223bf4f87f5a4734.js"],"LegacyRedirect"]
+3:I[2133,[],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"destination":"https://brucebawest.com/blog/","label":"Field Notes"}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"JeqZ9h1kRduW-RM3zRR6X"}
+5:null
