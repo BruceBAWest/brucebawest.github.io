@@ -2747,15 +2747,15 @@
 
 
 <h1 id="a-safety-classifier-is-policy-made-executable">A safety classifier is policy made executable<a class="headerlink" href="#a-safety-classifier-is-policy-made-executable" title="Permanent link">&para;</a></h1>
-<p>OpenAI released gpt-oss-safeguard on October 29, a pair of open-weight reasoning models designed to classify content against policies supplied by a developer. Instead of fixing every moderation category during training, the system can interpret an organization's written policy at inference time.</p>
+<p>OpenAI's October 29 release introduces gpt-oss-safeguard, a pair of open-weight reasoning models that classify content against policies a developer supplies. Instead of fixing every moderation category during training, the system can interpret an organization's written policy at inference time.</p>
 <p>That flexibility exposes a governance truth: a safety classifier is policy made executable.</p>
 <!-- more -->
 
-<p>Artificial intelligence (AI) safety controls are often discussed as though they were technical filters placed after the real decisions have been made. In practice, the filter contains decisions. Someone defines the categories, acceptable evidence, thresholds, exceptions, and consequences of a match.</p>
+<p>Artificial intelligence (AI) safety controls are often discussed as though they are technical filters that follow the real decisions. In practice, the filter contains decisions. Someone defines the categories, acceptable evidence, thresholds, exceptions, and consequences of a match.</p>
 <p>When a model reasons over a custom policy, those choices can change more quickly. The governance loop must be able to keep up.</p>
 <h2 id="a-policy-must-be-testable">A policy must be testable<a class="headerlink" href="#a-policy-must-be-testable" title="Permanent link">&para;</a></h2>
 <p>Written policy is frequently designed for human interpretation. It contains terms such as reasonable, sensitive, suspicious, or harmful whose meaning depends on context. A classifier forces the organization to confront that ambiguity at scale.</p>
-<p>Before deployment, teams should turn policy into a representative evaluation set. It should include clear violations, clearly acceptable content, difficult boundary cases, adversarial phrasing, domain-specific language, and examples from the populations and environments the system will encounter.</p>
+<p>Before deployment, teams should turn policy into a representative evaluation corpus. It should include clear violations, clearly acceptable content, difficult boundary cases, adversarial phrasing, domain-specific language, and examples from the populations and environments the system will encounter.</p>
 <p>Performance should not collapse into one accuracy figure. False positives and false negatives have different costs. Results should be examined by category, context, language, and affected group.</p>
 <h2 id="the-decision-around-the-score-matters">The decision around the score matters<a class="headerlink" href="#the-decision-around-the-score-matters" title="Permanent link">&para;</a></h2>
 <p>A classifier does not determine what the organization must do. Its output feeds a workflow.</p>
@@ -2763,7 +2763,7 @@
 <p>The <a href="https://doi.org/10.6028/NIST.AI.100-1">National Institute of Standards and Technology AI Risk Management Framework</a> emphasizes the context in which risks are mapped, measured, and managed. The same classifier can be appropriate in one workflow and unacceptable in another because the consequences differ.</p>
 <h2 id="policy-and-model-need-joint-change-control">Policy and model need joint change control<a class="headerlink" href="#policy-and-model-need-joint-change-control" title="Permanent link">&para;</a></h2>
 <p>If the policy changes, behavior changes. If the model changes, interpretation of the same policy may change. If the environment changes, yesterday's evaluation may no longer represent today's inputs.</p>
-<p>Organizations should version all three: policy, model, and evaluation set. A release record should identify the owner, rationale, tested impact, rollout plan, monitoring measures, and rollback path. Material disagreements and appeals should feed the next evaluation cycle.</p>
+<p>Organizations should version all three: policy, model, and evaluation corpus. A release record should identify the owner, rationale, measured impact, rollout plan, monitoring measures, and rollback path. Material disagreements and appeals should feed the next evaluation cycle.</p>
 <p>Open weights can improve inspection, customization, and local control. They also make implementers responsible for the surrounding system. A model release cannot know the institution's authority, user expectations, legal duties, or tolerance for error.</p>
 <p>The useful mental model is not “install a safeguard.” It is “operate a policy decision system.” That framing brings the right people—policy owners, domain experts, engineers, evaluators, operators, and affected users—into the work before a model silently turns ambiguous prose into consequential action.</p>
 <h2 id="sources-and-research-trail">Sources and research trail<a class="headerlink" href="#sources-and-research-trail" title="Permanent link">&para;</a></h2>
@@ -2845,19 +2845,10 @@
         <nav aria-label="Writing &amp; practice links">
           <h2>Writing &amp; practice</h2>
           <ul>
-            <li><a href="../index.html">Latest Field Notes <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="../about/">About this notebook <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="../index.html">Latest Field Notes</a></li>
+            <li><a href="../about/">About this notebook</a></li>
             <li><a href="https://brucebawest.com/#practice">Strategy + delivery</a></li>
-            <li><a href="https://xendevlabs.com/" target="_blank" rel="noopener noreferrer">Xendev Labs <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="https://xendevlabs.com/" target="_blank" rel="noopener noreferrer">Xendev Labs <span aria-hidden="true">↗</span></a></li>
           </ul>
         </nav>
 
@@ -2865,23 +2856,9 @@
           <h2>Connect</h2>
           <ul>
             <li><a href="https://brucebawest.com/contact/">Direct inquiry</a></li>
-            <li><a href="https://www.linkedin.com/in/brucebawest" target="_blank" rel="noopener noreferrer"><span class="bw-linkedin-mini-glyph" aria-hidden="true">in</span> LinkedIn <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="https://github.com/BruceBAWest" target="_blank" rel="noopener noreferrer"><svg class="bw-git-branch" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M6 3v12"></path>
-    <circle cx="18" cy="6" r="3"></circle>
-    <circle cx="6" cy="18" r="3"></circle>
-    <path d="M18 9a9 9 0 0 1-9 9"></path>
-  </svg> GitHub <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="https://brucebawest.com/blog/feed.xml" target="_blank" rel="noopener noreferrer">RSS feed <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="https://www.linkedin.com/in/brucebawest" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></li>
+            <li><a href="https://github.com/BruceBAWest" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></li>
+            <li><a href="https://brucebawest.com/blog/feed.xml" target="_blank" rel="noopener noreferrer">RSS feed <span aria-hidden="true">↗</span></a></li>
           </ul>
         </nav>
       </div>
@@ -2889,10 +2866,7 @@
       <div class="bw-site-footer__lower">
         <span>© 2026 Bruce B. A. West</span>
         <span>Build · Transform · Research</span>
-        <a href="#">Back to top <svg class="bw-arrow-up" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="m5 12 7-7 7 7"></path>
-    <path d="M12 19V5"></path>
-  </svg></a>
+        <a href="#">Back to top <span aria-hidden="true">↑</span></a>
       </div>
     </div>
   </footer>

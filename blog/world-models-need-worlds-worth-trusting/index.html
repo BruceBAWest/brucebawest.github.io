@@ -2748,16 +2748,16 @@
 
 <h1 id="world-models-need-worlds-worth-trusting">World models need worlds worth trusting<a class="headerlink" href="#world-models-need-worlds-worth-trusting" title="Permanent link">&para;</a></h1>
 <p>Robots and autonomous vehicles need experience. The hard question is where that experience should come from when real-world data is expensive, dangerous, rare, or incomplete.</p>
-<p>NVIDIA's January 6 announcement of <a href="https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-world-foundation-model-platform-to-accelerate-physical-ai-development">Cosmos world foundation models</a> offered one answer: generate and manipulate simulated physical environments at scale. The platform was presented as infrastructure for training and evaluating physical artificial intelligence (AI) systems, including robotics and autonomous vehicles.</p>
+<p>NVIDIA's January 6 announcement of <a href="https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-world-foundation-model-platform-to-accelerate-physical-ai-development">Cosmos world foundation models</a> offers one answer: generate and manipulate simulated physical environments at scale. The company presents the platform as infrastructure for training and evaluating physical artificial intelligence (AI) systems, including robotics and autonomous vehicles.</p>
 <!-- more -->
 
 <h2 id="simulation-changes-the-bottleneck">Simulation changes the bottleneck<a class="headerlink" href="#simulation-changes-the-bottleneck" title="Permanent link">&para;</a></h2>
 <p>A world model can help a team produce situations that are costly or unsafe to collect repeatedly: an obscured pedestrian, a damaged runway, a warehouse obstruction, an unusual weather pattern, or a combination of small disturbances that rarely occur together. This makes simulation useful for exploration, training, and early evaluation.</p>
 <p>It also relocates uncertainty. Instead of asking only whether the model learned from enough examples, teams must ask whether the generated world preserves the causal and operational properties that matter. A scene can be visually convincing while being physically wrong. A simulated sensor can omit the noise, latency, calibration drift, or adversarial interference that determines performance outside the lab.</p>
-<p>The classic literature on simulation validation distinguishes between whether a model was built correctly and whether it is an adequate representation for its intended use. Sargent's <a href="https://doi.org/10.1109/WSC.2013.6721430">work on verification and validation</a> remains relevant because there is no context-free standard of realism. A simulation adequate for design ideation may be inadequate for a safety claim.</p>
+<p>The classic literature on simulation validation distinguishes between whether a team has built a model correctly and whether it is an adequate representation for its intended use. Sargent's <a href="https://doi.org/10.1109/WSC.2013.6721430">work on verification and validation</a> remains relevant because there is no context-free standard of realism. A simulation adequate for design ideation may be inadequate for a safety claim.</p>
 <h2 id="the-scenario-library-is-organizational-knowledge">The scenario library is organizational knowledge<a class="headerlink" href="#the-scenario-library-is-organizational-knowledge" title="Permanent link">&para;</a></h2>
 <p>For a defense or critical-infrastructure program, the most valuable asset may not be the generator. It may be the curated scenario library around it.</p>
-<p>That library should preserve why each scenario exists, which operational observation motivated it, which assumptions were made, which hazards it exercises, and which experts consider it representative. It should also record where the simulation is known to diverge from reality. Otherwise, scenario generation can produce volume without coverage.</p>
+<p>That library should preserve why each scenario exists, which operational observation motivates it, which assumptions underpin it, which hazards it exercises, and which experts consider it representative. It should also record where the simulation is known to diverge from reality. Otherwise, scenario generation can produce volume without coverage.</p>
 <p>This is knowledge-management work. Operators hold tacit knowledge about edge cases. Safety engineers frame hazards differently from data scientists. Maintainers know which failures recur after deployment. Test teams know which metrics are easy to game. A good simulation program creates boundary objects—scenarios, annotations, and test results—that let those communities make their knowledge inspectable to one another.</p>
 <h2 id="a-practical-standard-for-generated-worlds">A practical standard for generated worlds<a class="headerlink" href="#a-practical-standard-for-generated-worlds" title="Permanent link">&para;</a></h2>
 <p>Before using synthetic environments to support consequential claims, a team should be able to answer five questions:</p>
@@ -2849,19 +2849,10 @@
         <nav aria-label="Writing &amp; practice links">
           <h2>Writing &amp; practice</h2>
           <ul>
-            <li><a href="../index.html">Latest Field Notes <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="../about/">About this notebook <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="../index.html">Latest Field Notes</a></li>
+            <li><a href="../about/">About this notebook</a></li>
             <li><a href="https://brucebawest.com/#practice">Strategy + delivery</a></li>
-            <li><a href="https://xendevlabs.com/" target="_blank" rel="noopener noreferrer">Xendev Labs <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="https://xendevlabs.com/" target="_blank" rel="noopener noreferrer">Xendev Labs <span aria-hidden="true">↗</span></a></li>
           </ul>
         </nav>
 
@@ -2869,23 +2860,9 @@
           <h2>Connect</h2>
           <ul>
             <li><a href="https://brucebawest.com/contact/">Direct inquiry</a></li>
-            <li><a href="https://www.linkedin.com/in/brucebawest" target="_blank" rel="noopener noreferrer"><span class="bw-linkedin-mini-glyph" aria-hidden="true">in</span> LinkedIn <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="https://github.com/BruceBAWest" target="_blank" rel="noopener noreferrer"><svg class="bw-git-branch" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M6 3v12"></path>
-    <circle cx="18" cy="6" r="3"></circle>
-    <circle cx="6" cy="18" r="3"></circle>
-    <path d="M18 9a9 9 0 0 1-9 9"></path>
-  </svg> GitHub <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="https://brucebawest.com/blog/feed.xml" target="_blank" rel="noopener noreferrer">RSS feed <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="https://www.linkedin.com/in/brucebawest" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></li>
+            <li><a href="https://github.com/BruceBAWest" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></li>
+            <li><a href="https://brucebawest.com/blog/feed.xml" target="_blank" rel="noopener noreferrer">RSS feed <span aria-hidden="true">↗</span></a></li>
           </ul>
         </nav>
       </div>
@@ -2893,10 +2870,7 @@
       <div class="bw-site-footer__lower">
         <span>© 2026 Bruce B. A. West</span>
         <span>Build · Transform · Research</span>
-        <a href="#">Back to top <svg class="bw-arrow-up" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="m5 12 7-7 7 7"></path>
-    <path d="M12 19V5"></path>
-  </svg></a>
+        <a href="#">Back to top <span aria-hidden="true">↑</span></a>
       </div>
     </div>
   </footer>

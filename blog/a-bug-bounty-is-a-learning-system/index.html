@@ -2758,21 +2758,21 @@
 
 
 <h1 id="a-bug-bounty-is-a-learning-system">A bug bounty is a learning system<a class="headerlink" href="#a-bug-bounty-is-a-learning-system" title="Permanent link">&para;</a></h1>
-<p>Anthropic opened a <a href="https://www.anthropic.com/news/testing-our-safety-defenses-with-a-new-bug-bounty-program">bug bounty for unreleased safety defenses</a> on May 14. Researchers were invited to find universal jailbreaks in classifiers designed to block a narrow set of dangerous chemical, biological, radiological, and nuclear requests.</p>
-<p>The bounty was an evaluation mechanism. More importantly, it was a way to bring outside knowledge into the development process.</p>
+<p>Anthropic's May 14 opening of a <a href="https://www.anthropic.com/news/testing-our-safety-defenses-with-a-new-bug-bounty-program">bug bounty for unreleased safety defenses</a> invites researchers to find universal jailbreaks in classifiers intended to block a narrow set of dangerous chemical, biological, radiological, and nuclear requests.</p>
+<p>The bounty is an evaluation mechanism. More importantly, it is a way to bring outside knowledge into the development process.</p>
 <!-- more -->
 
 <p>Artificial intelligence (AI) teams face an asymmetry. Internal developers know the system, but they also inherit its assumptions. External researchers arrive with different tools, incentives, and ways of framing the problem. A well-designed bounty converts that diversity into evidence before an attacker does.</p>
 <h2 id="the-submission-is-the-beginning">The submission is the beginning<a class="headerlink" href="#the-submission-is-the-beginning" title="Permanent link">&para;</a></h2>
 <p>Finding a jailbreak does not by itself improve safety. The organization has to reproduce it, determine its scope, identify the failed assumption, design a mitigation, test for regressions, and monitor whether the pattern reappears in another form.</p>
 <p>The most valuable artifact may be the generalized test case. One creative attack should become a family of evaluations that persists across model and classifier releases. Otherwise, the organization fixes an example and forgets the mechanism.</p>
-<p>Argyris and Schön distinguished between correcting an error within existing assumptions and <strong>double-loop learning</strong>, which revisits the governing assumptions themselves. A mature bounty asks not only “How do we block this prompt?” but “What did our threat model, architecture, or evaluation process fail to see?”</p>
+<p>Argyris and Schön distinguish between correcting an error within existing assumptions and <strong>double-loop learning</strong>, which revisits the governing assumptions themselves. A mature bounty asks not only “How do we block this prompt?” but “What does our threat model, architecture, or evaluation process fail to see?”</p>
 <h2 id="make-participation-worth-the-effort">Make participation worth the effort<a class="headerlink" href="#make-participation-worth-the-effort" title="Permanent link">&para;</a></h2>
 <p>External testing depends on trust. Researchers need clear scope, safe-harbor terms, useful feedback, fair rewards, and confidence that serious findings will be handled responsibly. The program needs triage capacity so submissions do not disappear into a queue.</p>
 <p>Invite-only access can support sensitive testing and timely response, but it narrows the population of challengers. Teams should be explicit about which kinds of diversity the cohort includes and which blind spots may remain.</p>
 <h2 id="watch-the-boundary-of-the-test">Watch the boundary of the test<a class="headerlink" href="#watch-the-boundary-of-the-test" title="Permanent link">&para;</a></h2>
-<p>This bounty focused on universal jailbreaks and a specific harm domain. That creates tractable acceptance criteria. It does not establish that the whole model is safe.</p>
-<p>Leaders should resist converting a successful bounty into a broad assurance claim. The evidence supports a narrower statement: selected researchers tested selected controls against defined attacks during a defined period.</p>
+<p>This bounty focuses on universal jailbreaks and a specific harm domain. That creates tractable acceptance criteria. It does not establish that the whole model is safe.</p>
+<p>Leaders should resist converting a successful bounty into a broad assurance claim. The evidence supports a narrower statement: selected researchers have tested selected controls against defined attacks during a defined period.</p>
 <h2 id="build-the-institutional-loop">Build the institutional loop<a class="headerlink" href="#build-the-institutional-loop" title="Permanent link">&para;</a></h2>
 <p>An effective program connects five steps:</p>
 <ol>
@@ -2863,19 +2863,10 @@
         <nav aria-label="Writing &amp; practice links">
           <h2>Writing &amp; practice</h2>
           <ul>
-            <li><a href="../index.html">Latest Field Notes <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="../about/">About this notebook <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="../index.html">Latest Field Notes</a></li>
+            <li><a href="../about/">About this notebook</a></li>
             <li><a href="https://brucebawest.com/#practice">Strategy + delivery</a></li>
-            <li><a href="https://xendevlabs.com/" target="_blank" rel="noopener noreferrer">Xendev Labs <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="https://xendevlabs.com/" target="_blank" rel="noopener noreferrer">Xendev Labs <span aria-hidden="true">↗</span></a></li>
           </ul>
         </nav>
 
@@ -2883,23 +2874,9 @@
           <h2>Connect</h2>
           <ul>
             <li><a href="https://brucebawest.com/contact/">Direct inquiry</a></li>
-            <li><a href="https://www.linkedin.com/in/brucebawest" target="_blank" rel="noopener noreferrer"><span class="bw-linkedin-mini-glyph" aria-hidden="true">in</span> LinkedIn <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="https://github.com/BruceBAWest" target="_blank" rel="noopener noreferrer"><svg class="bw-git-branch" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M6 3v12"></path>
-    <circle cx="18" cy="6" r="3"></circle>
-    <circle cx="6" cy="18" r="3"></circle>
-    <path d="M18 9a9 9 0 0 1-9 9"></path>
-  </svg> GitHub <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="https://brucebawest.com/blog/feed.xml" target="_blank" rel="noopener noreferrer">RSS feed <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="https://www.linkedin.com/in/brucebawest" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></li>
+            <li><a href="https://github.com/BruceBAWest" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></li>
+            <li><a href="https://brucebawest.com/blog/feed.xml" target="_blank" rel="noopener noreferrer">RSS feed <span aria-hidden="true">↗</span></a></li>
           </ul>
         </nav>
       </div>
@@ -2907,10 +2884,7 @@
       <div class="bw-site-footer__lower">
         <span>© 2026 Bruce B. A. West</span>
         <span>Build · Transform · Research</span>
-        <a href="#">Back to top <svg class="bw-arrow-up" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="m5 12 7-7 7 7"></path>
-    <path d="M12 19V5"></path>
-  </svg></a>
+        <a href="#">Back to top <span aria-hidden="true">↑</span></a>
       </div>
     </div>
   </footer>

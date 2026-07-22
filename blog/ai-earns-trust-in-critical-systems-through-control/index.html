@@ -2599,10 +2599,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#trust-came-from-a-bounded-job" class="md-nav__link">
+  <a href="#trust-comes-from-a-bounded-job" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Trust came from a bounded job
+        Trust comes from a bounded job
       
     </span>
   </a>
@@ -2747,18 +2747,18 @@
 
 
 <h1 id="ai-earns-trust-in-critical-systems-through-control">AI earns trust in critical systems through control<a class="headerlink" href="#ai-earns-trust-in-critical-systems-through-control" title="Permanent link">&para;</a></h1>
-<p>On September 4, Google DeepMind and its research partners described an artificial intelligence (AI) controller tested at the Laser Interferometer Gravitational-Wave Observatory (LIGO) in Livingston, Louisiana. Their Deep Loop Shaping method reduced control noise in a difficult mirror-control loop by a reported factor of 30 to 100.</p>
+<p>Google DeepMind and its research partners report on September 4 that an artificial intelligence (AI) controller has undergone testing at the Laser Interferometer Gravitational-Wave Observatory (LIGO) in Livingston, Louisiana. Their Deep Loop Shaping method reduces control noise in a difficult mirror-control loop by a reported factor of 30 to 100.</p>
 <p>The achievement is technically specific, and that is precisely why it offers a useful lesson for AI in critical systems.</p>
 <!-- more -->
 
 <p>LIGO measures distortions smaller than most of us can reasonably imagine. Distant waves, traffic, and other vibrations can disturb its mirrors. The observatory depends on thousands of feedback controls to maintain alignment without adding noise that obscures the signal it is built to detect.</p>
 <p>This is not a setting where “generally helpful” is a meaningful requirement. Performance must be defined against physics.</p>
-<h2 id="trust-came-from-a-bounded-job">Trust came from a bounded job<a class="headerlink" href="#trust-came-from-a-bounded-job" title="Permanent link">&para;</a></h2>
-<p>Deep Loop Shaping used reinforcement learning (RL), first in simulation and then on hardware, to suppress noise in a particular control problem. The controller was not asked to run the observatory or decide what a detected event meant. It had a defined function, measurable constraints, and a surrounding control architecture.</p>
+<h2 id="trust-comes-from-a-bounded-job">Trust comes from a bounded job<a class="headerlink" href="#trust-comes-from-a-bounded-job" title="Permanent link">&para;</a></h2>
+<p>Deep Loop Shaping uses reinforcement learning (RL), first in simulation and then on hardware, to suppress noise in a particular control problem. The controller does not run the observatory or decide what a detected event means. It has a defined function, measurable constraints, and a surrounding control architecture.</p>
 <p>That boundedness is not a limitation to apologize for. It is a design advantage. Teams could specify acceptable behavior, observe the consequences, compare performance, and retain the rest of the system's safeguards.</p>
 <p>For critical applications, confidence grows when the role of AI can be stated with similar precision: what variable it influences, over what range, with which inputs, under which conditions, and with what fallback.</p>
 <h2 id="simulation-is-evidence-not-permission">Simulation is evidence, not permission<a class="headerlink" href="#simulation-is-evidence-not-permission" title="Permanent link">&para;</a></h2>
-<p>The team trained and evaluated the controller in a simulated environment before testing it on the physical system. The result reportedly carried over to hardware, but that transfer had to be demonstrated.</p>
+<p>The team first trains and evaluates the controller in a simulated environment, then tests it on the physical system. The result reportedly carries over to hardware, but that transfer requires empirical demonstration.</p>
 <p>This distinction matters across defense, aviation, energy, health, and industrial control. A simulation encodes assumptions about disturbances, sensors, timing, equipment, and users. Good performance demonstrates what happened inside those assumptions. It does not prove the assumptions complete.</p>
 <p>The evidence chain should therefore preserve model versions, simulator conditions, test configurations, hardware results, observed limits, and operator actions. When the environment changes, the team needs to know which evidence still applies.</p>
 <h2 id="human-centered-control-is-more-than-a-stop-button">Human-centered control is more than a stop button<a class="headerlink" href="#human-centered-control-is-more-than-a-stop-button" title="Permanent link">&para;</a></h2>
@@ -2845,19 +2845,10 @@
         <nav aria-label="Writing &amp; practice links">
           <h2>Writing &amp; practice</h2>
           <ul>
-            <li><a href="../index.html">Latest Field Notes <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="../about/">About this notebook <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="../index.html">Latest Field Notes</a></li>
+            <li><a href="../about/">About this notebook</a></li>
             <li><a href="https://brucebawest.com/#practice">Strategy + delivery</a></li>
-            <li><a href="https://xendevlabs.com/" target="_blank" rel="noopener noreferrer">Xendev Labs <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="https://xendevlabs.com/" target="_blank" rel="noopener noreferrer">Xendev Labs <span aria-hidden="true">↗</span></a></li>
           </ul>
         </nav>
 
@@ -2865,23 +2856,9 @@
           <h2>Connect</h2>
           <ul>
             <li><a href="https://brucebawest.com/contact/">Direct inquiry</a></li>
-            <li><a href="https://www.linkedin.com/in/brucebawest" target="_blank" rel="noopener noreferrer"><span class="bw-linkedin-mini-glyph" aria-hidden="true">in</span> LinkedIn <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="https://github.com/BruceBAWest" target="_blank" rel="noopener noreferrer"><svg class="bw-git-branch" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M6 3v12"></path>
-    <circle cx="18" cy="6" r="3"></circle>
-    <circle cx="6" cy="18" r="3"></circle>
-    <path d="M18 9a9 9 0 0 1-9 9"></path>
-  </svg> GitHub <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="https://brucebawest.com/blog/feed.xml" target="_blank" rel="noopener noreferrer">RSS feed <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="https://www.linkedin.com/in/brucebawest" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></li>
+            <li><a href="https://github.com/BruceBAWest" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></li>
+            <li><a href="https://brucebawest.com/blog/feed.xml" target="_blank" rel="noopener noreferrer">RSS feed <span aria-hidden="true">↗</span></a></li>
           </ul>
         </nav>
       </div>
@@ -2889,10 +2866,7 @@
       <div class="bw-site-footer__lower">
         <span>© 2026 Bruce B. A. West</span>
         <span>Build · Transform · Research</span>
-        <a href="#">Back to top <svg class="bw-arrow-up" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="m5 12 7-7 7 7"></path>
-    <path d="M12 19V5"></path>
-  </svg></a>
+        <a href="#">Back to top <span aria-hidden="true">↑</span></a>
       </div>
     </div>
   </footer>

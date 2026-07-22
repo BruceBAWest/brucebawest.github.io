@@ -707,41 +707,15 @@ body {
   transform: translateX(2px);
 }
 
-.bw-site-footer__navigation a svg {
-  width: 14px;
-  height: 14px;
-  flex: none;
+.bw-site-footer__navigation a span {
   color: #687480;
+  font-family: var(--bw-mono);
   transition: color .18s ease;
 }
 
-.bw-site-footer__navigation a .bw-git-branch {
-  width: 16px;
-  height: 16px;
-}
-
-.bw-site-footer__navigation a:hover svg,
-.bw-site-footer__navigation a:focus-visible svg {
+.bw-site-footer__navigation a:hover span,
+.bw-site-footer__navigation a:focus-visible span {
   color: var(--bw-cyan);
-}
-
-.bw-site-footer__navigation .bw-linkedin-mini-glyph {
-  width: 31px;
-  height: 31px;
-  flex: none;
-  display: grid;
-  place-items: center;
-  border-radius: 3px;
-  background: var(--bw-cyan);
-  color: #071012;
-  font: 800 15px/1 Arial, sans-serif;
-  letter-spacing: -.06em;
-  text-transform: none;
-}
-
-.bw-site-footer__navigation a:hover .bw-linkedin-mini-glyph,
-.bw-site-footer__navigation a:focus-visible .bw-linkedin-mini-glyph {
-  color: #071012;
 }
 
 .bw-site-footer__lower {
@@ -771,12 +745,6 @@ body {
   color: #7f8a95;
   text-decoration: none;
   transition: color .18s ease;
-}
-
-.bw-site-footer__lower a svg {
-  width: 14px;
-  height: 14px;
-  flex: none;
 }
 
 .bw-site-footer__lower a:hover,

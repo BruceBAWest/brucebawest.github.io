@@ -2733,7 +2733,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
                           <span class="md-ellipsis">
                             
-                              2 min read
+                              3 min read
                             
                           </span>
                         </div>
@@ -2758,18 +2758,18 @@
 
 
 <h1 id="capability-releases-need-operational-gates">Capability releases need operational gates<a class="headerlink" href="#capability-releases-need-operational-gates" title="Permanent link">&para;</a></h1>
-<p>Anthropic released <a href="https://www.anthropic.com/news/claude-4">Claude 4</a> on May 22 alongside a less ordinary announcement: it was <a href="https://www.anthropic.com/news/activating-asl3-protections">activating stronger Artificial Intelligence Safety Level 3 (ASL-3) safeguards</a> for Claude Opus 4 even though it had not concluded that the model definitively crossed the relevant capability threshold.</p>
+<p>Anthropic's May 22 release of <a href="https://www.anthropic.com/news/claude-4">Claude 4</a> comes with a less ordinary announcement: the company is <a href="https://www.anthropic.com/news/activating-asl3-protections">activating stronger Artificial Intelligence Safety Level 3 (ASL-3) safeguards</a> for Claude Opus 4 even though it has not concluded that the model definitively crosses the relevant capability threshold.</p>
 <p>That provisional decision is worth examining. It treats uncertainty as a reason to strengthen a control, not as permission to continue under the old one.</p>
 <!-- more -->
 
-<p>ASL-3 is Anthropic's name for deployment and security measures associated with elevated risk under its Responsible Scaling Policy. The May controls focused narrowly on chemical, biological, radiological, and nuclear (CBRN) misuse and on protecting model weights from sophisticated theft.</p>
+<p>ASL-3 is Anthropic's name for deployment and security measures associated with elevated risk under its Responsible Scaling Policy. The May controls focus narrowly on chemical, biological, radiological, and nuclear (CBRN) misuse and on protecting model weights from sophisticated theft.</p>
 <h2 id="a-gate-connects-evidence-to-action">A gate connects evidence to action<a class="headerlink" href="#a-gate-connects-evidence-to-action" title="Permanent link">&para;</a></h2>
 <p>Many governance processes require evidence but never specify what it changes. A team runs evaluations, records risks, and then negotiates the release under schedule pressure.</p>
-<p>An operational gate is different. It establishes in advance that a defined condition—or unresolved uncertainty near that condition—triggers a prepared set of controls. Those controls might include tighter access, two-person authorization, independent testing, restricted tools, enhanced monitoring, or delayed deployment.</p>
+<p>An operational gate is different. It establishes in advance that a defined condition—or unresolved uncertainty near that condition—triggers a prepared set of controls. Those controls might include tighter access, two-person authorization, independent testing, restricted tools, enhanced monitoring, or a deployment delay.</p>
 <p>The gate does not eliminate judgment. It disciplines judgment by preventing every release from becoming a fresh debate about risk tolerance.</p>
 <h2 id="provisional-controls-create-learning">Provisional controls create learning<a class="headerlink" href="#provisional-controls-create-learning" title="Permanent link">&para;</a></h2>
 <p>Activating safeguards early can reveal their cost and weakness before they are strictly required. Teams learn where classifiers create false positives, which workflows break, how monitoring performs, and what staffing the control requires.</p>
-<p>This resembles the principle of graceful extensibility in resilience engineering: a system should be able to increase its capacity to respond as conditions approach the edge of what was anticipated. Woods' <a href="https://doi.org/10.1016/j.ress.2015.03.018">resilience research</a> argues against assuming that fixed defenses will cover every future disturbance.</p>
+<p>This resembles the principle of graceful extensibility in resilience engineering: a system should be able to increase its capacity to respond as conditions approach the edge of expected performance. Woods' <a href="https://doi.org/10.1016/j.ress.2015.03.018">resilience research</a> argues against assuming that fixed defenses will cover every future disturbance.</p>
 <h2 id="translate-the-pattern-to-deployed-systems">Translate the pattern to deployed systems<a class="headerlink" href="#translate-the-pattern-to-deployed-systems" title="Permanent link">&para;</a></h2>
 <p>Defense and critical-infrastructure teams can create their own gates around use cases. Examples include:</p>
 <ul>
@@ -2783,7 +2783,7 @@
 <h2 id="do-not-inherit-the-vendors-boundary">Do not inherit the vendor's boundary<a class="headerlink" href="#do-not-inherit-the-vendors-boundary" title="Permanent link">&para;</a></h2>
 <p>A provider's capability threshold addresses provider-level concerns. A customer's operational risk may become unacceptable much earlier. A model that poses no extraordinary general hazard can still be unsuitable for a specific clinical, intelligence, financial, or command decision.</p>
 <p>Organizations need local gates tied to mission consequences. They should use vendor evidence without outsourcing their risk judgment.</p>
-<p>The May release demonstrated a useful governance posture: prepare stronger controls before certainty, activate them when evidence becomes ambiguous, and use operation under the controls to learn. That is a more credible approach than waiting for a threshold to be crossed clearly—then discovering the safeguards exist only on paper.</p>
+<p>The May release demonstrates a useful governance posture: prepare stronger controls before certainty, activate them when evidence becomes ambiguous, and use operation under the controls to learn. That is a more credible approach than waiting for a threshold to become unmistakable—then discovering the safeguards exist only on paper.</p>
 <h2 id="sources-and-research-trail">Sources and research trail<a class="headerlink" href="#sources-and-research-trail" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Anthropic, <a href="https://www.anthropic.com/news/claude-4">“Introducing Claude 4”</a> (May 22, 2025).</li>
@@ -2863,19 +2863,10 @@
         <nav aria-label="Writing &amp; practice links">
           <h2>Writing &amp; practice</h2>
           <ul>
-            <li><a href="../index.html">Latest Field Notes <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="../about/">About this notebook <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="../index.html">Latest Field Notes</a></li>
+            <li><a href="../about/">About this notebook</a></li>
             <li><a href="https://brucebawest.com/#practice">Strategy + delivery</a></li>
-            <li><a href="https://xendevlabs.com/" target="_blank" rel="noopener noreferrer">Xendev Labs <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="https://xendevlabs.com/" target="_blank" rel="noopener noreferrer">Xendev Labs <span aria-hidden="true">↗</span></a></li>
           </ul>
         </nav>
 
@@ -2883,23 +2874,9 @@
           <h2>Connect</h2>
           <ul>
             <li><a href="https://brucebawest.com/contact/">Direct inquiry</a></li>
-            <li><a href="https://www.linkedin.com/in/brucebawest" target="_blank" rel="noopener noreferrer"><span class="bw-linkedin-mini-glyph" aria-hidden="true">in</span> LinkedIn <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="https://github.com/BruceBAWest" target="_blank" rel="noopener noreferrer"><svg class="bw-git-branch" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M6 3v12"></path>
-    <circle cx="18" cy="6" r="3"></circle>
-    <circle cx="6" cy="18" r="3"></circle>
-    <path d="M18 9a9 9 0 0 1-9 9"></path>
-  </svg> GitHub <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="https://brucebawest.com/blog/feed.xml" target="_blank" rel="noopener noreferrer">RSS feed <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="https://www.linkedin.com/in/brucebawest" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></li>
+            <li><a href="https://github.com/BruceBAWest" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></li>
+            <li><a href="https://brucebawest.com/blog/feed.xml" target="_blank" rel="noopener noreferrer">RSS feed <span aria-hidden="true">↗</span></a></li>
           </ul>
         </nav>
       </div>
@@ -2907,10 +2884,7 @@
       <div class="bw-site-footer__lower">
         <span>© 2026 Bruce B. A. West</span>
         <span>Build · Transform · Research</span>
-        <a href="#">Back to top <svg class="bw-arrow-up" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="m5 12 7-7 7 7"></path>
-    <path d="M12 19V5"></path>
-  </svg></a>
+        <a href="#">Back to top <span aria-hidden="true">↑</span></a>
       </div>
     </div>
   </footer>

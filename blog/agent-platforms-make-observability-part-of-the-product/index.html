@@ -2758,25 +2758,25 @@
 
 
 <h1 id="agent-platforms-make-observability-part-of-the-product">Agent platforms make observability part of the product<a class="headerlink" href="#agent-platforms-make-observability-part-of-the-product" title="Permanent link">&para;</a></h1>
-<p>On March 11, OpenAI released <a href="https://openai.com/index/new-tools-for-building-agents/">new tools for building agents</a>: the Responses application programming interface, built-in web and file search, computer use, an Agents software development kit, and integrated tracing.</p>
-<p>The announcement reduced the amount of custom plumbing required to create systems that can pursue goals across tools. It also made a deeper point visible: in an agentic system, observability is not support infrastructure. It is part of the product.</p>
+<p>OpenAI's March 11 release introduces <a href="https://openai.com/index/new-tools-for-building-agents/">new tools for building agents</a>: the Responses application programming interface, built-in web and file search, computer use, an Agents software development kit, and integrated tracing.</p>
+<p>The announcement reduces the amount of custom plumbing required to create systems that can pursue goals across tools. It also makes a deeper point visible: in an agentic system, observability is not support infrastructure. It is part of the product.</p>
 <!-- more -->
 
 <p>An application programming interface (API) call that returns text can often be evaluated at its boundary. An agent may search, select a source, call a tool, hand work to another component, retry after failure, and change external state. Two runs can reach similar answers through very different—and differently risky—paths.</p>
 <h2 id="the-path-matters">The path matters<a class="headerlink" href="#the-path-matters" title="Permanent link">&para;</a></h2>
-<p>Traditional software observability focuses on logs, metrics, and traces that help engineers explain system behavior. Agent systems need all three, but the semantic layer is richer. Teams need to know what goal the agent believed it was pursuing, which evidence it used, why a tool was selected, what state changed, where a guardrail intervened, and when a person took control.</p>
+<p>Traditional software observability focuses on logs, metrics, and traces that help engineers explain system behavior. Agent systems need all three, but the semantic layer is richer. Teams need to know which goal the agent is pursuing, which evidence it uses, why it selects a tool, what state changes, where a guardrail intervenes, and when a person takes control.</p>
 <p>A final answer can look correct while the process violated policy. The reverse is also possible: an agent may follow a sound process and encounter an unavailable tool or ambiguous instruction. Evaluation that collapses both cases into pass or fail will teach the team too little.</p>
 <h2 id="handoffs-are-control-points">Handoffs are control points<a class="headerlink" href="#handoffs-are-control-points" title="Permanent link">&para;</a></h2>
-<p>The Agents software development kit (SDK) introduced explicit handoffs among agents. In organizational terms, that resembles a work transfer among specialists. Coordination research shows that handoffs require accountability, predictability, and shared understanding. Okhuysen and Bechky's <a href="https://doi.org/10.1080/19416520903047533">integrative review</a> is useful here: coordination mechanisms work by making responsibilities and interdependencies legible.</p>
+<p>The Agents software development kit (SDK) includes explicit handoffs among agents. In organizational terms, that resembles a work transfer among specialists. Coordination research shows that handoffs require accountability, predictability, and shared understanding. Okhuysen and Bechky's <a href="https://doi.org/10.1080/19416520903047533">integrative review</a> is useful here: coordination mechanisms work by making responsibilities and interdependencies legible.</p>
 <p>An agent handoff should therefore carry more than content. It should carry purpose, authority, provenance, uncertainty, and completion criteria. Otherwise, one agent can inherit a task without the context required to recognize that it should stop.</p>
 <h2 id="build-an-operational-record">Build an operational record<a class="headerlink" href="#build-an-operational-record" title="Permanent link">&para;</a></h2>
 <p>Before production, teams should define a trace schema that answers:</p>
 <ul>
 <li>Who or what initiated the run?</li>
 <li>What instructions, model, tools, and data boundaries applied?</li>
-<li>Which claims came from sources and which were inferred?</li>
+<li>Which claims come from sources and which depend on inference?</li>
 <li>Which actions changed external state?</li>
-<li>Where did retries, overrides, or policy checks occur?</li>
+<li>Where do retries, overrides, or policy checks occur?</li>
 <li>Who owns the outcome and the incident if it fails?</li>
 </ul>
 <p>Those traces should feed evaluation datasets and incident reviews. Repeated corrections can reveal a weak prompt, an ambiguous policy, an unreliable data source, or a poorly designed handoff. The record becomes organizational memory for improving the system.</p>
@@ -2863,19 +2863,10 @@
         <nav aria-label="Writing &amp; practice links">
           <h2>Writing &amp; practice</h2>
           <ul>
-            <li><a href="../index.html">Latest Field Notes <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="../about/">About this notebook <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="../index.html">Latest Field Notes</a></li>
+            <li><a href="../about/">About this notebook</a></li>
             <li><a href="https://brucebawest.com/#practice">Strategy + delivery</a></li>
-            <li><a href="https://xendevlabs.com/" target="_blank" rel="noopener noreferrer">Xendev Labs <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="https://xendevlabs.com/" target="_blank" rel="noopener noreferrer">Xendev Labs <span aria-hidden="true">↗</span></a></li>
           </ul>
         </nav>
 
@@ -2883,23 +2874,9 @@
           <h2>Connect</h2>
           <ul>
             <li><a href="https://brucebawest.com/contact/">Direct inquiry</a></li>
-            <li><a href="https://www.linkedin.com/in/brucebawest" target="_blank" rel="noopener noreferrer"><span class="bw-linkedin-mini-glyph" aria-hidden="true">in</span> LinkedIn <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="https://github.com/BruceBAWest" target="_blank" rel="noopener noreferrer"><svg class="bw-git-branch" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M6 3v12"></path>
-    <circle cx="18" cy="6" r="3"></circle>
-    <circle cx="6" cy="18" r="3"></circle>
-    <path d="M18 9a9 9 0 0 1-9 9"></path>
-  </svg> GitHub <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="https://brucebawest.com/blog/feed.xml" target="_blank" rel="noopener noreferrer">RSS feed <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="https://www.linkedin.com/in/brucebawest" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></li>
+            <li><a href="https://github.com/BruceBAWest" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></li>
+            <li><a href="https://brucebawest.com/blog/feed.xml" target="_blank" rel="noopener noreferrer">RSS feed <span aria-hidden="true">↗</span></a></li>
           </ul>
         </nav>
       </div>
@@ -2907,10 +2884,7 @@
       <div class="bw-site-footer__lower">
         <span>© 2026 Bruce B. A. West</span>
         <span>Build · Transform · Research</span>
-        <a href="#">Back to top <svg class="bw-arrow-up" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="m5 12 7-7 7 7"></path>
-    <path d="M12 19V5"></path>
-  </svg></a>
+        <a href="#">Back to top <span aria-hidden="true">↑</span></a>
       </div>
     </div>
   </footer>

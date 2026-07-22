@@ -2748,11 +2748,11 @@
 
 <h1 id="frontier-safety-must-be-governed-as-a-moving-threshold">Frontier safety must be governed as a moving threshold<a class="headerlink" href="#frontier-safety-must-be-governed-as-a-moving-threshold" title="Permanent link">&para;</a></h1>
 <p>When a technology changes quickly, a fixed policy can be obsolete while everyone is still complying with it.</p>
-<p>Google DeepMind's February update to its <a href="https://deepmind.google/blog/updating-the-frontier-safety-framework/">Frontier Safety Framework</a> addressed that problem by linking stronger safeguards to capability thresholds in areas that could create severe harm. The details will continue to evolve. The organizational principle should endure: controls should respond to what a system can do, not only to the name or generation printed on it.</p>
+<p>Google DeepMind's February update to its <a href="https://deepmind.google/blog/updating-the-frontier-safety-framework/">Frontier Safety Framework</a> addresses that problem by linking stronger safeguards to capability thresholds in areas that could create severe harm. The details will continue to evolve. The organizational principle should endure: controls should respond to what a system can do, not only to the name or generation printed on it.</p>
 <!-- more -->
 
 <h2 id="from-model-labels-to-capability-evidence">From model labels to capability evidence<a class="headerlink" href="#from-model-labels-to-capability-evidence" title="Permanent link">&para;</a></h2>
-<p>Organizations like stable categories. They approve a product, place a model on an allowed list, and write procedures around it. But an artificial intelligence (AI) model's effective capability depends on tools, prompts, fine-tuning, data access, scaffolding, and the time or compute available for a task. A system that was once limited to advice may later be able to plan and execute a long sequence of actions.</p>
+<p>Organizations like stable categories. They approve a product, place a model on an allowed list, and write procedures around it. But an artificial intelligence (AI) model's effective capability depends on tools, prompts, fine-tuning, data access, scaffolding, and the time or compute available for a task. A system initially limited to advice may later be able to plan and execute a long sequence of actions.</p>
 <p>Risk classification therefore has to operate at the system level. The National Institute of Standards and Technology (NIST) <a href="https://doi.org/10.6028/NIST.AI.600-1">Generative AI Profile</a> recommends monitoring risks across design, development, use, and evaluation. This is especially important when a general-purpose model is embedded inside a domain-specific workflow.</p>
 <p>For a defense program, the relevant threshold may not be a spectacular frontier capability. It may be the point at which a planning assistant can combine sensitive sources, an autonomous system can act outside its tested envelope, or a coding agent can modify a production dependency without adequate review.</p>
 <h2 id="governance-needs-tripwires">Governance needs tripwires<a class="headerlink" href="#governance-needs-tripwires" title="Permanent link">&para;</a></h2>
@@ -2763,7 +2763,7 @@
 <p>These are tripwires: observable conditions that trigger a prepared response. They help an organization avoid renegotiating its risk tolerance in the middle of a release.</p>
 <h2 id="keep-thresholds-contestable">Keep thresholds contestable<a class="headerlink" href="#keep-thresholds-contestable" title="Permanent link">&para;</a></h2>
 <p>Thresholds can create false precision. A model just below a benchmark cutoff is not necessarily safe, and a model above it is not necessarily dangerous in every configuration. Teams may also optimize for the measurement rather than the underlying risk.</p>
-<p>The answer is to treat thresholds as decision aids inside a broader assurance case. Combine quantitative evaluation with red teaming, incident evidence, domain review, and explicit uncertainty. Preserve the rationale for changes. Test whether the threshold still predicts the conditions it was designed to detect.</p>
+<p>The answer is to treat thresholds as decision aids inside a broader assurance case. Combine quantitative evaluation with red teaming, incident evidence, domain review, and explicit uncertainty. Preserve the rationale for changes. Test whether the threshold still predicts the conditions it is intended to detect.</p>
 <p>High-reliability organizations are distinguished in part by a preoccupation with failure and reluctance to simplify. Weick and Sutcliffe's <a href="https://www.wiley.com/en-us/Managing+the+Unexpected%3A+Sustained+Performance+in+a+Complex+World%2C+3rd+Edition-p-9781118862414">work on managing the unexpected</a> is useful here: an organization remains attentive to weak signals instead of allowing a classification to end the conversation.</p>
 <p>Frontier safety cannot be a document that catches up after each release. It has to be a sensing and response capability. The strongest framework will be the one that tells an organization not only what it believes today, but what evidence would require it to behave differently tomorrow.</p>
 <h2 id="sources-and-research-trail">Sources and research trail<a class="headerlink" href="#sources-and-research-trail" title="Permanent link">&para;</a></h2>
@@ -2845,19 +2845,10 @@
         <nav aria-label="Writing &amp; practice links">
           <h2>Writing &amp; practice</h2>
           <ul>
-            <li><a href="../index.html">Latest Field Notes <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="../about/">About this notebook <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="../index.html">Latest Field Notes</a></li>
+            <li><a href="../about/">About this notebook</a></li>
             <li><a href="https://brucebawest.com/#practice">Strategy + delivery</a></li>
-            <li><a href="https://xendevlabs.com/" target="_blank" rel="noopener noreferrer">Xendev Labs <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="https://xendevlabs.com/" target="_blank" rel="noopener noreferrer">Xendev Labs <span aria-hidden="true">↗</span></a></li>
           </ul>
         </nav>
 
@@ -2865,23 +2856,9 @@
           <h2>Connect</h2>
           <ul>
             <li><a href="https://brucebawest.com/contact/">Direct inquiry</a></li>
-            <li><a href="https://www.linkedin.com/in/brucebawest" target="_blank" rel="noopener noreferrer"><span class="bw-linkedin-mini-glyph" aria-hidden="true">in</span> LinkedIn <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="https://github.com/BruceBAWest" target="_blank" rel="noopener noreferrer"><svg class="bw-git-branch" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M6 3v12"></path>
-    <circle cx="18" cy="6" r="3"></circle>
-    <circle cx="6" cy="18" r="3"></circle>
-    <path d="M18 9a9 9 0 0 1-9 9"></path>
-  </svg> GitHub <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="https://brucebawest.com/blog/feed.xml" target="_blank" rel="noopener noreferrer">RSS feed <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="https://www.linkedin.com/in/brucebawest" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></li>
+            <li><a href="https://github.com/BruceBAWest" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></li>
+            <li><a href="https://brucebawest.com/blog/feed.xml" target="_blank" rel="noopener noreferrer">RSS feed <span aria-hidden="true">↗</span></a></li>
           </ul>
         </nav>
       </div>
@@ -2889,10 +2866,7 @@
       <div class="bw-site-footer__lower">
         <span>© 2026 Bruce B. A. West</span>
         <span>Build · Transform · Research</span>
-        <a href="#">Back to top <svg class="bw-arrow-up" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="m5 12 7-7 7 7"></path>
-    <path d="M12 19V5"></path>
-  </svg></a>
+        <a href="#">Back to top <span aria-hidden="true">↑</span></a>
       </div>
     </div>
   </footer>

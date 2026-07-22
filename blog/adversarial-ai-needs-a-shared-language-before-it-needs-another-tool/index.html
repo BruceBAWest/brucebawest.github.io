@@ -2748,14 +2748,14 @@
 
 <h1 id="adversarial-ai-needs-a-shared-language-before-it-needs-another-tool">Adversarial AI needs a shared language before it needs another tool<a class="headerlink" href="#adversarial-ai-needs-a-shared-language-before-it-needs-another-tool" title="Permanent link">&para;</a></h1>
 <p>Security teams and artificial intelligence (AI) teams can look at the same system and see different attack surfaces. One sees identities, networks, software dependencies, and data flows. The other sees training distributions, model behavior, embeddings, prompts, and evaluation drift.</p>
-<p>The National Institute of Standards and Technology (NIST) published its <a href="https://www.nist.gov/news-events/news/2025/03/nist-trustworthy-and-responsible-ai-report-adversarial-machine-learning">adversarial machine-learning taxonomy</a> on March 24 to create a more consistent vocabulary for attacks and mitigations across predictive and generative systems.</p>
+<p>The National Institute of Standards and Technology (NIST) publishes its <a href="https://www.nist.gov/news-events/news/2025/03/nist-trustworthy-and-responsible-ai-report-adversarial-machine-learning">adversarial machine-learning taxonomy</a> on March 24 to create a more consistent vocabulary for attacks and mitigations across predictive and generative systems.</p>
 <!-- more -->
 
 <p>The document covers evasion, poisoning, privacy, and misuse attacks, among others. Its immediate value is not a new product. It is the ability to name distinctions that determine who must act.</p>
 <h2 id="ambiguous-language-creates-unmanaged-seams">Ambiguous language creates unmanaged seams<a class="headerlink" href="#ambiguous-language-creates-unmanaged-seams" title="Permanent link">&para;</a></h2>
 <p>Consider the word “prompt injection.” A developer may treat it as an application-filtering problem. A security engineer may see untrusted input crossing a control boundary. A model evaluator may focus on instruction-following behavior. A mission owner may care only that the system disclosed data or took the wrong action.</p>
 <p>Each view is legitimate, but none is complete. If teams do not share a threat model, mitigations can be duplicated in one layer and absent in another.</p>
-<p>Taxonomies help by creating categories that can be connected to architecture, tests, controls, and incident reporting. They also make disagreement explicit. A team can ask whether an event was data poisoning, model evasion, tool misuse, or a conventional access-control failure amplified by AI.</p>
+<p>Taxonomies help by creating categories that can be connected to architecture, tests, controls, and incident reporting. They also make disagreement explicit. A team can ask whether an event represents data poisoning, model evasion, tool misuse, or a conventional access-control failure amplified by AI.</p>
 <h2 id="turn-vocabulary-into-an-operating-practice">Turn vocabulary into an operating practice<a class="headerlink" href="#turn-vocabulary-into-an-operating-practice" title="Permanent link">&para;</a></h2>
 <p>A glossary sitting in a policy library will not change system security. Teams should use the taxonomy in concrete artifacts:</p>
 <ul>
@@ -2853,19 +2853,10 @@
         <nav aria-label="Writing &amp; practice links">
           <h2>Writing &amp; practice</h2>
           <ul>
-            <li><a href="../index.html">Latest Field Notes <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="../about/">About this notebook <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="../index.html">Latest Field Notes</a></li>
+            <li><a href="../about/">About this notebook</a></li>
             <li><a href="https://brucebawest.com/#practice">Strategy + delivery</a></li>
-            <li><a href="https://xendevlabs.com/" target="_blank" rel="noopener noreferrer">Xendev Labs <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="https://xendevlabs.com/" target="_blank" rel="noopener noreferrer">Xendev Labs <span aria-hidden="true">↗</span></a></li>
           </ul>
         </nav>
 
@@ -2873,23 +2864,9 @@
           <h2>Connect</h2>
           <ul>
             <li><a href="https://brucebawest.com/contact/">Direct inquiry</a></li>
-            <li><a href="https://www.linkedin.com/in/brucebawest" target="_blank" rel="noopener noreferrer"><span class="bw-linkedin-mini-glyph" aria-hidden="true">in</span> LinkedIn <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="https://github.com/BruceBAWest" target="_blank" rel="noopener noreferrer"><svg class="bw-git-branch" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M6 3v12"></path>
-    <circle cx="18" cy="6" r="3"></circle>
-    <circle cx="6" cy="18" r="3"></circle>
-    <path d="M18 9a9 9 0 0 1-9 9"></path>
-  </svg> GitHub <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="https://brucebawest.com/blog/feed.xml" target="_blank" rel="noopener noreferrer">RSS feed <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="https://www.linkedin.com/in/brucebawest" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></li>
+            <li><a href="https://github.com/BruceBAWest" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></li>
+            <li><a href="https://brucebawest.com/blog/feed.xml" target="_blank" rel="noopener noreferrer">RSS feed <span aria-hidden="true">↗</span></a></li>
           </ul>
         </nav>
       </div>
@@ -2897,10 +2874,7 @@
       <div class="bw-site-footer__lower">
         <span>© 2026 Bruce B. A. West</span>
         <span>Build · Transform · Research</span>
-        <a href="#">Back to top <svg class="bw-arrow-up" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="m5 12 7-7 7 7"></path>
-    <path d="M12 19V5"></path>
-  </svg></a>
+        <a href="#">Back to top <span aria-hidden="true">↑</span></a>
       </div>
     </div>
   </footer>

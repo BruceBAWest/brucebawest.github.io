@@ -2758,13 +2758,13 @@
 
 
 <h1 id="the-protocol-is-becoming-an-organizational-boundary">The protocol is becoming an organizational boundary<a class="headerlink" href="#the-protocol-is-becoming-an-organizational-boundary" title="Permanent link">&para;</a></h1>
-<p>Anthropic added <a href="https://www.anthropic.com/news/claude-code-remote-mcp">remote Model Context Protocol (MCP) support to Claude Code</a> on June 18. Developers could connect the coding agent to hosted tools and knowledge sources without operating each integration locally.</p>
+<p>Anthropic's June 18 update adds <a href="https://www.anthropic.com/news/claude-code-remote-mcp">remote Model Context Protocol (MCP) support to Claude Code</a>. Developers can connect the coding agent to hosted tools and knowledge sources without operating each integration locally.</p>
 <p>This is convenient infrastructure. It also moves an important boundary: the agent can now cross from a code repository into project systems, observability platforms, knowledge bases, and other services through a common protocol.</p>
 <!-- more -->
 
 <p>MCP standardizes how an artificial intelligence application discovers and invokes external tools and resources. Standardization reduces bespoke integration work and can improve portability. It also makes the protocol a control surface.</p>
 <h2 id="context-and-authority-travel-together">Context and authority travel together<a class="headerlink" href="#context-and-authority-travel-together" title="Permanent link">&para;</a></h2>
-<p>An agent that reads an error from an observability service and edits code has crossed several professional and system boundaries. If it can also update the issue, trigger a workflow, or alter production state, it has moved from information access to organizational action.</p>
+<p>An agent that reads an error from an observability service and edits code crosses several professional and system boundaries. If it can also update the issue, trigger a workflow, or alter production state, it moves from information access to organizational action.</p>
 <p>Authentication tells the service which identity is present. Authorization must still answer whether this agent, acting for this user, on this task, under these conditions, may take this action.</p>
 <p>Broad delegated credentials are especially dangerous because the agent's technical reach can exceed the user's intent. Tool descriptions and server behavior can also change after the initial connection.</p>
 <h2 id="treat-servers-as-suppliers">Treat servers as suppliers<a class="headerlink" href="#treat-servers-as-suppliers" title="Permanent link">&para;</a></h2>
@@ -2786,7 +2786,7 @@
 <h2 id="plan-for-partial-failure">Plan for partial failure<a class="headerlink" href="#plan-for-partial-failure" title="Permanent link">&para;</a></h2>
 <p>Remote services will time out, return stale data, change schemas, or become unavailable. Agents may retry in ways that duplicate an action. Designers need idempotency, clear error states, bounded retries, and human escalation for ambiguous outcomes.</p>
 <p>The agent should never infer that silence means success.</p>
-<p>Protocols can accelerate a healthy ecosystem of interoperable tools. Their adoption will also expose whether organizations have made authority and responsibility explicit enough to be encoded.</p>
+<p>Protocols can accelerate a healthy ecosystem of interoperable tools. Their adoption will also expose whether organizations make authority and responsibility explicit enough to be encoded.</p>
 <p>The protocol is not merely a connector. It is where data, action, trust, and accountability cross from one system to another. That boundary deserves first-class engineering and governance.</p>
 <h2 id="sources-and-research-trail">Sources and research trail<a class="headerlink" href="#sources-and-research-trail" title="Permanent link">&para;</a></h2>
 <ul>
@@ -2867,19 +2867,10 @@
         <nav aria-label="Writing &amp; practice links">
           <h2>Writing &amp; practice</h2>
           <ul>
-            <li><a href="../index.html">Latest Field Notes <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="../about/">About this notebook <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="../index.html">Latest Field Notes</a></li>
+            <li><a href="../about/">About this notebook</a></li>
             <li><a href="https://brucebawest.com/#practice">Strategy + delivery</a></li>
-            <li><a href="https://xendevlabs.com/" target="_blank" rel="noopener noreferrer">Xendev Labs <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="https://xendevlabs.com/" target="_blank" rel="noopener noreferrer">Xendev Labs <span aria-hidden="true">↗</span></a></li>
           </ul>
         </nav>
 
@@ -2887,23 +2878,9 @@
           <h2>Connect</h2>
           <ul>
             <li><a href="https://brucebawest.com/contact/">Direct inquiry</a></li>
-            <li><a href="https://www.linkedin.com/in/brucebawest" target="_blank" rel="noopener noreferrer"><span class="bw-linkedin-mini-glyph" aria-hidden="true">in</span> LinkedIn <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="https://github.com/BruceBAWest" target="_blank" rel="noopener noreferrer"><svg class="bw-git-branch" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M6 3v12"></path>
-    <circle cx="18" cy="6" r="3"></circle>
-    <circle cx="6" cy="18" r="3"></circle>
-    <path d="M18 9a9 9 0 0 1-9 9"></path>
-  </svg> GitHub <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
-            <li><a href="https://brucebawest.com/blog/feed.xml" target="_blank" rel="noopener noreferrer">RSS feed <svg class="bw-external-arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="M7 7h10v10"></path>
-    <path d="M7 17 17 7"></path>
-  </svg></a></li>
+            <li><a href="https://www.linkedin.com/in/brucebawest" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></li>
+            <li><a href="https://github.com/BruceBAWest" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></li>
+            <li><a href="https://brucebawest.com/blog/feed.xml" target="_blank" rel="noopener noreferrer">RSS feed <span aria-hidden="true">↗</span></a></li>
           </ul>
         </nav>
       </div>
@@ -2911,10 +2888,7 @@
       <div class="bw-site-footer__lower">
         <span>© 2026 Bruce B. A. West</span>
         <span>Build · Transform · Research</span>
-        <a href="#">Back to top <svg class="bw-arrow-up" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-    <path d="m5 12 7-7 7 7"></path>
-    <path d="M12 19V5"></path>
-  </svg></a>
+        <a href="#">Back to top <span aria-hidden="true">↑</span></a>
       </div>
     </div>
   </footer>
