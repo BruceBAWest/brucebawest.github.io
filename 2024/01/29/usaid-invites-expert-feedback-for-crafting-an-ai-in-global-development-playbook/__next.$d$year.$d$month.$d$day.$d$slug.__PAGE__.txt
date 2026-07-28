@@ -2,5 +2,5 @@
 2:I[92388,["/_next/static/chunks/11q-3mtsn6em~.js","/_next/static/chunks/00dwf3xlex0q5.js","/_next/static/chunks/0au.pw41erehq.js"],"LegacyRedirect"]
 3:I[25326,["/_next/static/chunks/11q-3mtsn6em~.js","/_next/static/chunks/00dwf3xlex0q5.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"destination":"https://brucebawest.com/blog/usaid-invites-expert-feedback-for-crafting-an-ai-in-global-development-playbook/","label":"the recovered Field Notes article"}],[["$","script","script-0",{"src":"/_next/static/chunks/0au.pw41erehq.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3XCDis7gFImKN361e1OFa"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"destination":"https://brucebawest.com/blog/usaid-invites-expert-feedback-for-crafting-an-ai-in-global-development-playbook/","label":"the recovered Field Notes article"}],[["$","script","script-0",{"src":"/_next/static/chunks/0au.pw41erehq.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"mOf1jPEScfbc0AN0VSJ8f"}
 5:null
