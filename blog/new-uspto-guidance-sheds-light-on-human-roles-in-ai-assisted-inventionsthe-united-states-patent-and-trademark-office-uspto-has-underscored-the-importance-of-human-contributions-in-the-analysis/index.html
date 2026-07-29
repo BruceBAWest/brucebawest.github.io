@@ -3407,88 +3407,102 @@
 
 
 
-  <section
+  <details
   class="bw-reading-tools"
   data-reading-tools
   data-audio-manifest="../assets/audio/new-uspto-guidance-sheds-light-on-human-roles-in-ai-assisted-inventionsthe-united-states-patent-and-trademark-office-uspto-has-underscored-the-importance-of-human-contributions-in-the-analysis.json"
-  aria-labelledby="bw-reading-tools-title"
 >
-  <div class="bw-reading-tools__heading">
-    <span class="bw-reading-tools__eyebrow">LISTEN + READ YOUR WAY</span>
-    <h2 id="bw-reading-tools-title">Article reader</h2>
-    <p data-reader-status role="status" aria-live="polite">Preparing the reader…</p>
-  </div>
+  <summary class="bw-reading-tools__summary">
+    <span class="bw-reading-tools__summary-icon" aria-hidden="true">▶</span>
+    <span class="bw-reading-tools__summary-copy">
+      <strong>Article reader</strong>
+      <small>Listen · text size · accessible fonts</small>
+    </span>
+    <span class="bw-reading-tools__summary-action" aria-hidden="true">
+      <span class="bw-reading-tools__summary-closed">Open</span>
+      <span class="bw-reading-tools__summary-open">Condense</span>
+      <span class="bw-reading-tools__summary-chevron">⌄</span>
+    </span>
+  </summary>
 
-  <div class="bw-reader-player" data-reader-player>
-    <div class="bw-reader-player__primary">
-      <button type="button" class="bw-reader-button bw-reader-button--play" data-reader-play disabled aria-label="Play article">
-        <span data-reader-play-icon aria-hidden="true">▶</span>
-        <span data-reader-play-label>Play article</span>
-      </button>
-      <button type="button" class="bw-reader-button bw-reader-button--icon" data-reader-previous disabled aria-label="Previous sentence">←</button>
-      <button type="button" class="bw-reader-button bw-reader-button--icon" data-reader-next disabled aria-label="Next sentence">→</button>
-      <button type="button" class="bw-reader-button bw-reader-button--stop" data-reader-stop disabled>Stop</button>
+  <div class="bw-reading-tools__body">
+    <div class="bw-reading-tools__heading">
+      <span class="bw-reading-tools__eyebrow">LISTEN + READ YOUR WAY</span>
+      <h2 id="bw-reading-tools-title">Article reader</h2>
+      <p data-reader-status role="status" aria-live="polite">Preparing the reader…</p>
     </div>
 
-    <div class="bw-reader-player__timeline">
-      <span data-reader-current-time>0:00</span>
-      <input data-reader-progress type="range" min="0" max="100" value="0" step="0.1" aria-label="Article audio position" disabled>
-      <span data-reader-duration>0:00</span>
-    </div>
-
-    <label class="bw-reader-rate">
-      <span>Speed</span>
-      <select data-reader-rate disabled>
-        <option value="0.75">0.75×</option>
-        <option value="1" selected>1×</option>
-        <option value="1.25">1.25×</option>
-        <option value="1.5">1.5×</option>
-        <option value="1.75">1.75×</option>
-      </select>
-    </label>
-    <audio data-reader-audio preload="metadata"></audio>
-  </div>
-
-  <details class="bw-reader-settings">
-    <summary>Reading settings</summary>
-    <div class="bw-reader-settings__grid">
-      <label>
-        <span>Typeface</span>
-        <select data-reader-font>
-          <option value="site">Field Notes</option>
-          <option value="atkinson">Atkinson Hyperlegible</option>
-          <option value="lexend">Lexend</option>
-          <option value="opendyslexic">OpenDyslexic</option>
-        </select>
-      </label>
-      <div class="bw-reader-size" role="group" aria-label="Article text size">
-        <span>Text size</span>
-        <div>
-          <button type="button" data-reader-size-down aria-label="Decrease article text size">A−</button>
-          <output data-reader-size-output aria-live="polite">100%</output>
-          <button type="button" data-reader-size-up aria-label="Increase article text size">A+</button>
-        </div>
+    <div class="bw-reader-player" data-reader-player>
+      <div class="bw-reader-player__primary">
+        <button type="button" class="bw-reader-button bw-reader-button--play" data-reader-play disabled aria-label="Play article">
+          <span data-reader-play-icon aria-hidden="true">▶</span>
+          <span data-reader-play-label>Play article</span>
+        </button>
+        <button type="button" class="bw-reader-button bw-reader-button--icon" data-reader-previous disabled aria-label="Previous sentence">←</button>
+        <button type="button" class="bw-reader-button bw-reader-button--icon" data-reader-next disabled aria-label="Next sentence">→</button>
+        <button type="button" class="bw-reader-button bw-reader-button--stop" data-reader-stop disabled>Stop</button>
       </div>
-      <label>
-        <span>Reading surface</span>
-        <select data-reader-theme>
-          <option value="site">Field Notes dark</option>
-          <option value="paper">Paper light</option>
-          <option value="sepia">Warm sepia</option>
-          <option value="contrast">High contrast</option>
+
+      <div class="bw-reader-player__timeline">
+        <span data-reader-current-time>0:00</span>
+        <input data-reader-progress type="range" min="0" max="100" value="0" step="0.1" aria-label="Article audio position" disabled>
+        <span data-reader-duration>0:00</span>
+      </div>
+
+      <label class="bw-reader-rate">
+        <span>Speed</span>
+        <select data-reader-rate disabled>
+          <option value="0.75">0.75×</option>
+          <option value="1" selected>1×</option>
+          <option value="1.25">1.25×</option>
+          <option value="1.5">1.5×</option>
+          <option value="1.75">1.75×</option>
         </select>
       </label>
-      <label>
-        <span>Text spacing</span>
-        <select data-reader-spacing>
-          <option value="standard">Standard</option>
-          <option value="comfortable">Comfortable</option>
-        </select>
-      </label>
+      <audio data-reader-audio preload="metadata"></audio>
     </div>
-    <button type="button" class="bw-reader-reset" data-reader-reset>Reset reading preferences</button>
-  </details>
-</section>
+
+    <details class="bw-reader-settings">
+      <summary>Reading settings</summary>
+      <div class="bw-reader-settings__grid">
+        <label>
+          <span>Typeface</span>
+          <select data-reader-font>
+            <option value="site">Field Notes</option>
+            <option value="atkinson">Atkinson Hyperlegible</option>
+            <option value="lexend">Lexend</option>
+            <option value="opendyslexic">OpenDyslexic</option>
+          </select>
+        </label>
+        <div class="bw-reader-size" role="group" aria-label="Article text size">
+          <span>Text size</span>
+          <div>
+            <button type="button" data-reader-size-down aria-label="Decrease article text size">A−</button>
+            <output data-reader-size-output aria-live="polite">100%</output>
+            <button type="button" data-reader-size-up aria-label="Increase article text size">A+</button>
+          </div>
+        </div>
+        <label>
+          <span>Reading surface</span>
+          <select data-reader-theme>
+            <option value="site">Field Notes dark</option>
+            <option value="paper">Paper light</option>
+            <option value="sepia">Warm sepia</option>
+            <option value="contrast">High contrast</option>
+          </select>
+        </label>
+        <label>
+          <span>Text spacing</span>
+          <select data-reader-spacing>
+            <option value="standard">Standard</option>
+            <option value="comfortable">Comfortable</option>
+          </select>
+        </label>
+      </div>
+      <button type="button" class="bw-reader-reset" data-reader-reset>Reset reading preferences</button>
+    </details>
+  </div>
+</details>
   <div class="bw-reader-article">
     
     <h1 id="new-uspto-guidance-sheds-light-on-human-roles-in-ai-assisted-inventions-the-united-states-patent-and-trademark-office-uspto-has-underscored-the-importance-of-human-contributions-in-the-analysis-of-inventorship-particularly-in-the-arena-of-ai-assisted-inventions-according-to-recent-guidance-while-recognizing-that-ai-assisted-inventions-are-not-categorically-unpatentable-the-uspto-emphasizes-in-its-guidance-that-the-assessment-of-inventorship-should-revolve-around-human-inputs-this-stance-reflects-a-commitment-to-reward-and-incentivize-the-ingenuity-of-human-inventors-in-the-ai-realm-identifying-human-contributions-in-ai-assisted-inventions-can-be-challenging-as-there-is-no-definitive-test-however-the-usptos-guidelines-lay-out-several-integral-principles-to-aid-in-this-process-it-notes-that-a-persons-utilization-of-ai-in-the-invention-process-does-not-disqualify-them-as-an-inventor-but-simply-presenting-a-problem-to-an-ai-system-might-not-suffice-for-inventorship-with-its-new-guidance-uspto-navigates-the-intricate-landscape-of-human-inventorship-in-the-age-of-ai-offering-a-more-unambiguous-path-to-patentability-the-agency-will-now-seek-public-comments-on-the-guidance-over-the-next-three-months-for-more-insights-into-the-usptos-stance-on-human-roles-in-ai-assisted-inventions-please-refer-to-the-original-fedscoop-article">New USPTO Guidance Sheds Light on Human Roles in AI-Assisted Inventions The United States Patent and Trademark Office (USPTO) has underscored the importance of “human contributions” in the analysis of inventorship, particularly in the arena of AI-assisted inventions, according to recent guidance. While recognizing that AI-assisted inventions are not categorically unpatentable, the USPTO emphasizes in its guidance that the assessment of inventorship should revolve around human inputs. This stance reflects a commitment to reward and incentivize the ingenuity of human inventors in the AI realm. Identifying human contributions in AI-assisted inventions can be challenging, as there is no definitive test. However, the USPTO’s guidelines lay out several integral principles to aid in this process. It notes that a person’s utilization of AI in the invention process does not disqualify them as an inventor, but simply presenting a problem to an AI system might not suffice for inventorship. With its new guidance, USPTO navigates the intricate landscape of human inventorship in the age of AI, offering a more unambiguous path to patentability. The agency will now seek public comments on the guidance over the next three months. For more insights into the USPTO’s stance on human roles in AI-assisted inventions, please refer to the original FedScoop article.<a class="headerlink" href="#new-uspto-guidance-sheds-light-on-human-roles-in-ai-assisted-inventions-the-united-states-patent-and-trademark-office-uspto-has-underscored-the-importance-of-human-contributions-in-the-analysis-of-inventorship-particularly-in-the-arena-of-ai-assisted-inventions-according-to-recent-guidance-while-recognizing-that-ai-assisted-inventions-are-not-categorically-unpatentable-the-uspto-emphasizes-in-its-guidance-that-the-assessment-of-inventorship-should-revolve-around-human-inputs-this-stance-reflects-a-commitment-to-reward-and-incentivize-the-ingenuity-of-human-inventors-in-the-ai-realm-identifying-human-contributions-in-ai-assisted-inventions-can-be-challenging-as-there-is-no-definitive-test-however-the-usptos-guidelines-lay-out-several-integral-principles-to-aid-in-this-process-it-notes-that-a-persons-utilization-of-ai-in-the-invention-process-does-not-disqualify-them-as-an-inventor-but-simply-presenting-a-problem-to-an-ai-system-might-not-suffice-for-inventorship-with-its-new-guidance-uspto-navigates-the-intricate-landscape-of-human-inventorship-in-the-age-of-ai-offering-a-more-unambiguous-path-to-patentability-the-agency-will-now-seek-public-comments-on-the-guidance-over-the-next-three-months-for-more-insights-into-the-usptos-stance-on-human-roles-in-ai-assisted-inventions-please-refer-to-the-original-fedscoop-article" title="Permanent link">&para;</a></h1>
