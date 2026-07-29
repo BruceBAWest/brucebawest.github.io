@@ -1,0 +1,1163 @@
+{
+  "version": 1,
+  "slug": "the-first-deliverable-from-generative-coding-should-be-understanding",
+  "voice": "af_heart",
+  "model": "hexgrad/Kokoro-82M",
+  "duration": 1021.92,
+  "audio": "the-first-deliverable-from-generative-coding-should-be-understanding.mp3",
+  "contentHash": "92ae73df38e704a2e107d82c572e566921a397b3ce1f586e985923e979e69397",
+  "segments": [
+    {
+      "block": 0,
+      "startChar": 0,
+      "endChar": 68,
+      "text": "The first deliverable from generative coding should be understanding",
+      "start": 0.0,
+      "end": 4.2
+    },
+    {
+      "block": 1,
+      "startChar": 0,
+      "endChar": 95,
+      "text": "The most dangerous sentence in a modernization program may be, “We know what this system does.”",
+      "start": 4.52,
+      "end": 10.145
+    },
+    {
+      "block": 2,
+      "startChar": 0,
+      "endChar": 57,
+      "text": "Usually, someone knows what the system is supposed to do.",
+      "start": 10.305,
+      "end": 14.105
+    },
+    {
+      "block": 2,
+      "startChar": 58,
+      "endChar": 101,
+      "text": "Operators know the screens and workarounds.",
+      "start": 14.265,
+      "end": 17.24
+    },
+    {
+      "block": 2,
+      "startChar": 102,
+      "endChar": 159,
+      "text": "A few engineers know where the brittle integrations live.",
+      "start": 17.4,
+      "end": 21.175
+    },
+    {
+      "block": 2,
+      "startChar": 160,
+      "endChar": 211,
+      "text": "Program managers know the contracts and milestones.",
+      "start": 21.335,
+      "end": 25.11
+    },
+    {
+      "block": 2,
+      "startChar": 212,
+      "endChar": 266,
+      "text": "Cybersecurity teams know some of the exposed surfaces.",
+      "start": 25.27,
+      "end": 29.145
+    },
+    {
+      "block": 2,
+      "startChar": 267,
+      "endChar": 355,
+      "text": "The source code knows all of it at once—but in a form no single person can hold in mind.",
+      "start": 29.305,
+      "end": 35.255
+    },
+    {
+      "block": 3,
+      "startChar": 0,
+      "endChar": 125,
+      "text": "That is why the emerging market for generative coding matters to government for a reason deeper than writing software faster.",
+      "start": 35.415,
+      "end": 43.49
+    },
+    {
+      "block": 3,
+      "startChar": 126,
+      "endChar": 258,
+      "text": "Its first serious public-sector use may be helping an organization recover a working model of the technology estate it already owns.",
+      "start": 43.65,
+      "end": 52.875
+    },
+    {
+      "block": 4,
+      "startChar": 0,
+      "endChar": 60,
+      "text": "This week's modernization report is really about uncertainty",
+      "start": 53.035,
+      "end": 57.385
+    },
+    {
+      "block": 5,
+      "startChar": 0,
+      "endChar": 216,
+      "text": "The U.S. Government Accountability Office (GAO) reported last week that the Technology Modernization Fund (TMF) had invested about $1.03 billion in 68 federal information-technology projects through fiscal year 2025.",
+      "start": 57.705,
+      "end": 75.68
+    },
+    {
+      "block": 5,
+      "startChar": 217,
+      "endChar": 295,
+      "text": "Twenty-four projects expected combined savings of approximately $1.06 billion.",
+      "start": 75.84,
+      "end": 82.965
+    },
+    {
+      "block": 5,
+      "startChar": 296,
+      "endChar": 411,
+      "text": "Eleven had realized $13.5 million, while most of the expected savings were scheduled for fiscal year 2027 or later.",
+      "start": 83.125,
+      "end": 92.85
+    },
+    {
+      "block": 6,
+      "startChar": 0,
+      "endChar": 69,
+      "text": "The early savings figure should not be read as a verdict on the fund.",
+      "start": 93.01,
+      "end": 97.46
+    },
+    {
+      "block": 6,
+      "startChar": 70,
+      "endChar": 201,
+      "text": "Thirty-seven projects were designed to produce other value, including reduced security risk, and many investments are still active.",
+      "start": 97.62,
+      "end": 106.07
+    },
+    {
+      "block": 6,
+      "startChar": 202,
+      "endChar": 378,
+      "text": "The more revealing detail is why some completed projects missed their savings targets: agencies cited removed functionality and migration costs that proved higher than planned.",
+      "start": 106.23,
+      "end": 117.555
+    },
+    {
+      "block": 7,
+      "startChar": 0,
+      "endChar": 40,
+      "text": "Those are not merely budgeting problems.",
+      "start": 117.715,
+      "end": 120.465
+    },
+    {
+      "block": 7,
+      "startChar": 41,
+      "endChar": 181,
+      "text": "They are signs that a modernization team learned something important about the old environment after the estimate had already become a plan.",
+      "start": 120.625,
+      "end": 129.5
+    },
+    {
+      "block": 8,
+      "startChar": 0,
+      "endChar": 24,
+      "text": "The pattern is familiar.",
+      "start": 129.66,
+      "end": 131.635
+    },
+    {
+      "block": 8,
+      "startChar": 25,
+      "endChar": 216,
+      "text": "A legacy application may appear to perform one business function while quietly supporting dozens of interfaces, reports, exceptions, batch processes, security decisions, and downstream users.",
+      "start": 131.795,
+      "end": 144.77
+    },
+    {
+      "block": 8,
+      "startChar": 217,
+      "endChar": 264,
+      "text": "A migration estimate prices the visible system.",
+      "start": 144.93,
+      "end": 148.58
+    },
+    {
+      "block": 8,
+      "startChar": 265,
+      "endChar": 313,
+      "text": "Delivery encounters the accumulated institution.",
+      "start": 148.74,
+      "end": 152.49
+    },
+    {
+      "block": 9,
+      "startChar": 0,
+      "endChar": 106,
+      "text": "GAO's 2025 review of critical federal legacy systems makes the scale of that problem difficult to dismiss.",
+      "start": 152.65,
+      "end": 160.95
+    },
+    {
+      "block": 9,
+      "startChar": 107,
+      "endChar": 300,
+      "text": "Eight of the eleven systems it identified used outdated programming languages, seven operated with known cybersecurity vulnerabilities, and several agencies lacked complete modernization plans.",
+      "start": 161.11,
+      "end": 174.16
+    },
+    {
+      "block": 9,
+      "startChar": 301,
+      "endChar": 464,
+      "text": "The list included a 60-year-old Department of Defense (DoD) system and Treasury systems written in Common Business Oriented Language (COBOL) and assembly language.",
+      "start": 174.32,
+      "end": 185.995
+    },
+    {
+      "block": 10,
+      "startChar": 0,
+      "endChar": 35,
+      "text": "Age is only part of the difficulty.",
+      "start": 186.155,
+      "end": 188.905
+    },
+    {
+      "block": 10,
+      "startChar": 36,
+      "endChar": 192,
+      "text": "A system becomes hard to replace because years of policy, operational judgment, data relationships, and local repair have been compressed into its behavior.",
+      "start": 189.065,
+      "end": 199.54
+    },
+    {
+      "block": 10,
+      "startChar": 193,
+      "endChar": 297,
+      "text": "The code is not the whole institution, but it has become one of the institution's most durable memories.",
+      "start": 199.7,
+      "end": 206.425
+    },
+    {
+      "block": 11,
+      "startChar": 0,
+      "endChar": 35,
+      "text": "Developers do not begin with typing",
+      "start": 206.585,
+      "end": 209.26
+    },
+    {
+      "block": 12,
+      "startChar": 0,
+      "endChar": 178,
+      "text": "Popular demonstrations of generative artificial intelligence (AI) make software development look like an act of composition: describe a feature, receive code, run it, and revise.",
+      "start": 209.58,
+      "end": 221.88
+    },
+    {
+      "block": 12,
+      "startChar": 179,
+      "endChar": 294,
+      "text": "That works when the problem is bounded and the surrounding environment is simple enough to fit inside the exchange.",
+      "start": 222.04,
+      "end": 228.765
+    },
+    {
+      "block": 13,
+      "startChar": 0,
+      "endChar": 37,
+      "text": "Enterprise change begins differently.",
+      "start": 228.925,
+      "end": 231.625
+    },
+    {
+      "block": 13,
+      "startChar": 38,
+      "endChar": 115,
+      "text": "Before editing a large system, an engineer has to reconstruct a mental model.",
+      "start": 231.785,
+      "end": 237.185
+    },
+    {
+      "block": 13,
+      "startChar": 116,
+      "endChar": 162,
+      "text": "Which components participate in this behavior?",
+      "start": 237.345,
+      "end": 240.42
+    },
+    {
+      "block": 13,
+      "startChar": 163,
+      "endChar": 193,
+      "text": "Where does the data originate?",
+      "start": 240.58,
+      "end": 242.705
+    },
+    {
+      "block": 13,
+      "startChar": 194,
+      "endChar": 220,
+      "text": "What calls this interface?",
+      "start": 242.865,
+      "end": 244.89
+    },
+    {
+      "block": 13,
+      "startChar": 221,
+      "endChar": 253,
+      "text": "Which convention is intentional?",
+      "start": 245.05,
+      "end": 247.45
+    },
+    {
+      "block": 13,
+      "startChar": 254,
+      "endChar": 328,
+      "text": "Which apparent duplication is carrying a hidden compatibility requirement?",
+      "start": 247.61,
+      "end": 252.61
+    },
+    {
+      "block": 13,
+      "startChar": 329,
+      "endChar": 412,
+      "text": "Who understands the failure mode that appears only at the end of a reporting cycle?",
+      "start": 252.77,
+      "end": 258.27
+    },
+    {
+      "block": 14,
+      "startChar": 0,
+      "endChar": 64,
+      "text": "Research on developer work has documented this burden for years.",
+      "start": 258.43,
+      "end": 263.03
+    },
+    {
+      "block": 14,
+      "startChar": 65,
+      "endChar": 201,
+      "text": "LaToza, Venolia, and DeLine found that developers invest substantial effort recovering implicit knowledge and maintaining mental models.",
+      "start": 263.19,
+      "end": 272.665
+    },
+    {
+      "block": 14,
+      "startChar": 202,
+      "endChar": 318,
+      "text": "Sillito, Murphy, and De Volder catalogued the many questions programmers must answer while performing a change task.",
+      "start": 272.825,
+      "end": 280.525
+    },
+    {
+      "block": 14,
+      "startChar": 319,
+      "endChar": 379,
+      "text": "The difficult work is not confined to writing the new lines.",
+      "start": 280.685,
+      "end": 284.735
+    },
+    {
+      "block": 14,
+      "startChar": 380,
+      "endChar": 449,
+      "text": "It is discovering the relationships that make a safe change possible.",
+      "start": 284.895,
+      "end": 289.195
+    },
+    {
+      "block": 15,
+      "startChar": 0,
+      "endChar": 90,
+      "text": "This is where a knowledge graph can become more than fashionable architecture terminology.",
+      "start": 289.355,
+      "end": 294.73
+    },
+    {
+      "block": 15,
+      "startChar": 91,
+      "endChar": 351,
+      "text": "A knowledge graph represents entities and the relationships among them: a service calls an interface; a field is consumed by a report; a package implements a control; a test covers a behavior; a repository belongs to a team; a decision introduced a constraint.",
+      "start": 294.89,
+      "end": 312.89
+    },
+    {
+      "block": 15,
+      "startChar": 352,
+      "endChar": 498,
+      "text": "Hogan and colleagues' survey of knowledge graphs emphasizes their value for integrating and querying diverse, changing collections of information.",
+      "start": 313.05,
+      "end": 322.55
+    },
+    {
+      "block": 16,
+      "startChar": 0,
+      "endChar": 187,
+      "text": "Applied to software, that structure can help an engineer ask questions across files, services, dependencies, documentation, tests, and history instead of searching each source separately.",
+      "start": 322.71,
+      "end": 335.135
+    },
+    {
+      "block": 16,
+      "startChar": 188,
+      "endChar": 302,
+      "text": "More importantly, it can give many agents and many people a shared representation of the estate they are changing.",
+      "start": 335.295,
+      "end": 342.545
+    },
+    {
+      "block": 17,
+      "startChar": 0,
+      "endChar": 52,
+      "text": "The graph is not truth simply because it is a graph.",
+      "start": 342.705,
+      "end": 346.13
+    },
+    {
+      "block": 17,
+      "startChar": 53,
+      "endChar": 118,
+      "text": "It can be incomplete, stale, overconnected, or confidently wrong.",
+      "start": 346.29,
+      "end": 350.79
+    },
+    {
+      "block": 17,
+      "startChar": 119,
+      "endChar": 232,
+      "text": "Its usefulness depends on lineage, versioning, access control, validation, and an explicit record of uncertainty.",
+      "start": 350.95,
+      "end": 359.0
+    },
+    {
+      "block": 17,
+      "startChar": 233,
+      "endChar": 379,
+      "text": "But a maintained graph can make the unknowns visible earlier—before they appear as migration cost, missing functionality, or operational surprise.",
+      "start": 359.16,
+      "end": 368.985
+    },
+    {
+      "block": 18,
+      "startChar": 0,
+      "endChar": 69,
+      "text": "A new class of coding system is moving comprehension into the product",
+      "start": 369.145,
+      "end": 373.795
+    },
+    {
+      "block": 19,
+      "startChar": 0,
+      "endChar": 66,
+      "text": "Blitzy is one company making this architectural argument publicly.",
+      "start": 374.115,
+      "end": 378.74
+    },
+    {
+      "block": 19,
+      "startChar": 67,
+      "endChar": 375,
+      "text": "Its documentation describes an ingestion process that analyzes an existing codebase for architecture, patterns, and domain terminology; produces a reviewable technical specification; develops an Agent Action Plan showing intended file changes; and performs runtime validation before proposing a pull request.",
+      "start": 378.9,
+      "end": 400.6
+    },
+    {
+      "block": 19,
+      "startChar": 376,
+      "endChar": 511,
+      "text": "The company's founders describe a knowledge graph used to ground long-running, coordinated agents in the codebase and its dependencies.",
+      "start": 400.76,
+      "end": 409.835
+    },
+    {
+      "block": 20,
+      "startChar": 0,
+      "endChar": 177,
+      "text": "Those are company claims, not independent proof that the system will understand a particular federal estate or satisfy a particular mission, security boundary, or authorization.",
+      "start": 409.995,
+      "end": 421.52
+    },
+    {
+      "block": 20,
+      "startChar": 178,
+      "endChar": 239,
+      "text": "They are nevertheless evidence of an important product shift.",
+      "start": 421.68,
+      "end": 425.455
+    },
+    {
+      "block": 20,
+      "startChar": 240,
+      "endChar": 413,
+      "text": "The unit of value is moving from a clever code completion toward an evidence-producing system for understanding, planning, changing, and validating software at estate scale.",
+      "start": 425.615,
+      "end": 436.915
+    },
+    {
+      "block": 21,
+      "startChar": 0,
+      "endChar": 47,
+      "text": "That shift is unusually relevant to government.",
+      "start": 437.075,
+      "end": 440.425
+    },
+    {
+      "block": 21,
+      "startChar": 48,
+      "endChar": 108,
+      "text": "Federal agencies do not suffer only from a shortage of code.",
+      "start": 440.585,
+      "end": 444.835
+    },
+    {
+      "block": 21,
+      "startChar": 109,
+      "endChar": 350,
+      "text": "They suffer from systems whose knowledge has become expensive to recover, modernization plans that cannot see every interdependency, and delivery organizations that must preserve mission continuity while changing the machinery underneath it.",
+      "start": 444.995,
+      "end": 460.12
+    },
+    {
+      "block": 22,
+      "startChar": 0,
+      "endChar": 81,
+      "text": "The immediate opportunity is therefore not “let an agent rewrite the government.”",
+      "start": 460.28,
+      "end": 465.355
+    },
+    {
+      "block": 22,
+      "startChar": 82,
+      "endChar": 227,
+      "text": "It is to use this class of system to reduce the cost of knowing what must be true before a rewrite, refactor, consolidation, or migration begins.",
+      "start": 465.515,
+      "end": 475.515
+    },
+    {
+      "block": 23,
+      "startChar": 0,
+      "endChar": 65,
+      "text": "Kessel Run shows how quickly the front of the process is changing",
+      "start": 475.675,
+      "end": 479.875
+    },
+    {
+      "block": 24,
+      "startChar": 0,
+      "endChar": 68,
+      "text": "The Air Force is already testing what faster development feels like.",
+      "start": 480.195,
+      "end": 484.695
+    },
+    {
+      "block": 24,
+      "startChar": 69,
+      "endChar": 172,
+      "text": "In June, Kessel Run brought Airmen and civilian leaders into a two-day, hands-on AI development course.",
+      "start": 484.855,
+      "end": 492.08
+    },
+    {
+      "block": 24,
+      "startChar": 173,
+      "endChar": 335,
+      "text": "Participants moved from a user story to a deployed application, and instructors compared the result with work that might previously have taken four to six months.",
+      "start": 492.24,
+      "end": 502.415
+    },
+    {
+      "block": 24,
+      "startChar": 336,
+      "endChar": 463,
+      "text": "Kessel Run leadership also emphasized that the training helps acquisition professionals evaluate the timelines vendors propose.",
+      "start": 502.575,
+      "end": 511.1
+    },
+    {
+      "block": 25,
+      "startChar": 0,
+      "endChar": 60,
+      "text": "That is a meaningful change in the economics of a prototype.",
+      "start": 511.26,
+      "end": 515.41
+    },
+    {
+      "block": 25,
+      "startChar": 61,
+      "endChar": 111,
+      "text": "It does not eliminate the economics of production.",
+      "start": 515.57,
+      "end": 518.795
+    },
+    {
+      "block": 26,
+      "startChar": 0,
+      "endChar": 53,
+      "text": "Kessel Run's larger work makes the distinction clear.",
+      "start": 518.955,
+      "end": 522.655
+    },
+    {
+      "block": 26,
+      "startChar": 54,
+      "endChar": 167,
+      "text": "The organization builds resilient command-and-control software intended to create operational decision advantage.",
+      "start": 522.815,
+      "end": 530.665
+    },
+    {
+      "block": 26,
+      "startChar": 168,
+      "endChar": 391,
+      "text": "Its Aerospace Readiness Enterprise System effort is bringing together previously siloed aircrew-management systems, multiple major commands, a proposed common data layer, and an eventual user base of roughly 149,000 Airmen.",
+      "start": 530.825,
+      "end": 546.75
+    },
+    {
+      "block": 26,
+      "startChar": 392,
+      "endChar": 531,
+      "text": "The Air Force has paired competitive prototyping with direct operator feedback while warning that early concepts are not the final product.",
+      "start": 546.91,
+      "end": 555.935
+    },
+    {
+      "block": 27,
+      "startChar": 0,
+      "endChar": 45,
+      "text": "AI is flattening the cost of the first draft.",
+      "start": 556.095,
+      "end": 559.22
+    },
+    {
+      "block": 27,
+      "startChar": 46,
+      "endChar": 286,
+      "text": "The enduring public-sector problem is integrating that draft with a mission, an installed estate, a security model, an acquisition program, an operating organization, and a body of users who cannot stop working while the technology changes.",
+      "start": 559.38,
+      "end": 574.78
+    },
+    {
+      "block": 28,
+      "startChar": 0,
+      "endChar": 89,
+      "text": "Generative coding becomes strategically important when it helps with that second problem.",
+      "start": 574.94,
+      "end": 580.715
+    },
+    {
+      "block": 29,
+      "startChar": 0,
+      "endChar": 48,
+      "text": "What estate-scale comprehension could accomplish",
+      "start": 580.875,
+      "end": 583.925
+    },
+    {
+      "block": 30,
+      "startChar": 0,
+      "endChar": 82,
+      "text": "The most promising public-sector use cases begin before autonomous implementation.",
+      "start": 584.245,
+      "end": 589.97
+    },
+    {
+      "block": 31,
+      "startChar": 0,
+      "endChar": 28,
+      "text": "Recover institutional memory",
+      "start": 590.13,
+      "end": 592.555
+    },
+    {
+      "block": 32,
+      "startChar": 0,
+      "endChar": 151,
+      "text": "A system can map architecture, interfaces, business rules, dependencies, test coverage, ownership, and change history into a navigable technical model.",
+      "start": 592.875,
+      "end": 603.175
+    },
+    {
+      "block": 32,
+      "startChar": 152,
+      "endChar": 322,
+      "text": "Engineers can challenge that model; operators can identify missing behavior; program teams can expose places where the documented system and the practiced system diverge.",
+      "start": 603.335,
+      "end": 614.96
+    },
+    {
+      "block": 33,
+      "startChar": 0,
+      "endChar": 44,
+      "text": "The result is not just better documentation.",
+      "start": 615.12,
+      "end": 618.37
+    },
+    {
+      "block": 33,
+      "startChar": 45,
+      "endChar": 207,
+      "text": "It is a shared object around which developers, cyber professionals, acquisition teams, and mission owners can resolve different understandings of the same estate.",
+      "start": 618.53,
+      "end": 628.68
+    },
+    {
+      "block": 34,
+      "startChar": 0,
+      "endChar": 34,
+      "text": "Improve the modernization estimate",
+      "start": 628.84,
+      "end": 631.54
+    },
+    {
+      "block": 35,
+      "startChar": 0,
+      "endChar": 205,
+      "text": "Before promising a migration schedule, a team can identify high-coupling components, unsupported dependencies, fragile build paths, duplicated capabilities, hidden consumers, and functions with weak tests.",
+      "start": 631.86,
+      "end": 645.435
+    },
+    {
+      "block": 35,
+      "startChar": 206,
+      "endChar": 367,
+      "text": "The first estimate will still be uncertain, but its uncertainty will be attached to named parts of the system rather than buried inside a contingency percentage.",
+      "start": 645.595,
+      "end": 655.77
+    },
+    {
+      "block": 36,
+      "startChar": 0,
+      "endChar": 69,
+      "text": "This is where the connection to the new TMF report becomes practical.",
+      "start": 655.93,
+      "end": 660.78
+    },
+    {
+      "block": 36,
+      "startChar": 70,
+      "endChar": 276,
+      "text": "If higher-than-expected migration costs and removed functionality reduce expected savings, then earlier discovery of dependencies and behavior has economic value even before an agent writes production code.",
+      "start": 660.94,
+      "end": 674.99
+    },
+    {
+      "block": 37,
+      "startChar": 0,
+      "endChar": 22,
+      "text": "Make bulk change safer",
+      "start": 675.15,
+      "end": 677.1
+    },
+    {
+      "block": 38,
+      "startChar": 0,
+      "endChar": 242,
+      "text": "Many public systems carry large backlogs of repetitive but consequential work: framework upgrades, dependency replacement, vulnerability remediation, interface changes, accessibility improvements, policy updates, and technical-debt reduction.",
+      "start": 677.42,
+      "end": 693.995
+    },
+    {
+      "block": 38,
+      "startChar": 243,
+      "endChar": 350,
+      "text": "An estate model can help identify the full change surface and coordinate proposed work across repositories.",
+      "start": 694.155,
+      "end": 701.78
+    },
+    {
+      "block": 39,
+      "startChar": 0,
+      "endChar": 64,
+      "text": "Generation should still terminate in customer-controlled review.",
+      "start": 701.94,
+      "end": 706.24
+    },
+    {
+      "block": 39,
+      "startChar": 65,
+      "endChar": 288,
+      "text": "The National Institute of Standards and Technology Secure Software Development Framework treats secure development as a set of organizational practices across preparation, protection, production, and vulnerability response.",
+      "start": 706.4,
+      "end": 721.0
+    },
+    {
+      "block": 39,
+      "startChar": 289,
+      "endChar": 392,
+      "text": "An agent does not inherit permission to bypass those practices merely because it can produce more code.",
+      "start": 721.16,
+      "end": 728.085
+    },
+    {
+      "block": 40,
+      "startChar": 0,
+      "endChar": 36,
+      "text": "Preserve a usable technical baseline",
+      "start": 728.245,
+      "end": 731.195
+    },
+    {
+      "block": 41,
+      "startChar": 0,
+      "endChar": 74,
+      "text": "Modernization programs often pay repeatedly to rediscover the same estate.",
+      "start": 731.515,
+      "end": 736.99
+    },
+    {
+      "block": 41,
+      "startChar": 75,
+      "endChar": 223,
+      "text": "A maintained technical model can improve onboarding, transition between contractors, incident response, architecture review, and future acquisition.",
+      "start": 737.15,
+      "end": 747.375
+    },
+    {
+      "block": 41,
+      "startChar": 224,
+      "endChar": 326,
+      "text": "It can also reduce dependence on the handful of people who know where the difficult truths are buried.",
+      "start": 747.535,
+      "end": 753.66
+    },
+    {
+      "block": 42,
+      "startChar": 0,
+      "endChar": 53,
+      "text": "That does not make experienced people less important.",
+      "start": 753.82,
+      "end": 757.37
+    },
+    {
+      "block": 42,
+      "startChar": 54,
+      "endChar": 225,
+      "text": "It moves their contribution from answering the same archaeological questions toward correcting the institutional model and making the decisions that automation cannot own.",
+      "start": 757.53,
+      "end": 768.255
+    },
+    {
+      "block": 43,
+      "startChar": 0,
+      "endChar": 41,
+      "text": "The first pilot should test understanding",
+      "start": 768.415,
+      "end": 771.09
+    },
+    {
+      "block": 44,
+      "startChar": 0,
+      "endChar": 98,
+      "text": "Government buyers should resist beginning with the largest possible code-generation demonstration.",
+      "start": 771.41,
+      "end": 777.535
+    },
+    {
+      "block": 44,
+      "startChar": 99,
+      "endChar": 193,
+      "text": "A better evaluation uses graduated autonomy and makes comprehension the first acceptance gate.",
+      "start": 777.695,
+      "end": 784.37
+    },
+    {
+      "block": 45,
+      "startChar": 0,
+      "endChar": 8,
+      "text": "Observe.",
+      "start": 784.53,
+      "end": 786.08
+    },
+    {
+      "block": 45,
+      "startChar": 9,
+      "endChar": 69,
+      "text": "Give the system read-only access to a representative estate.",
+      "start": 786.24,
+      "end": 790.315
+    },
+    {
+      "block": 45,
+      "startChar": 70,
+      "endChar": 186,
+      "text": "Ask it to produce architecture, dependency, dataflow, build, test, and ownership views with source-level provenance.",
+      "start": 790.475,
+      "end": 798.45
+    },
+    {
+      "block": 46,
+      "startChar": 0,
+      "endChar": 12,
+      "text": "Interrogate.",
+      "start": 798.61,
+      "end": 800.21
+    },
+    {
+      "block": 46,
+      "startChar": 13,
+      "endChar": 83,
+      "text": "Use questions that experienced maintainers already know are difficult.",
+      "start": 800.37,
+      "end": 804.945
+    },
+    {
+      "block": 46,
+      "startChar": 84,
+      "endChar": 196,
+      "text": "Measure answer accuracy, evidence quality, uncertainty, access control, and freshness—not merely response speed.",
+      "start": 805.105,
+      "end": 813.005
+    },
+    {
+      "block": 47,
+      "startChar": 0,
+      "endChar": 10,
+      "text": "Recommend.",
+      "start": 813.165,
+      "end": 814.69
+    },
+    {
+      "block": 47,
+      "startChar": 11,
+      "endChar": 124,
+      "text": "Ask for a bounded change plan that names affected components, assumptions, risks, tests, and rollback conditions.",
+      "start": 814.85,
+      "end": 822.525
+    },
+    {
+      "block": 47,
+      "startChar": 125,
+      "endChar": 182,
+      "text": "Let engineers reject or revise the plan before execution.",
+      "start": 822.685,
+      "end": 827.085
+    },
+    {
+      "block": 48,
+      "startChar": 0,
+      "endChar": 8,
+      "text": "Sandbox.",
+      "start": 827.245,
+      "end": 828.845
+    },
+    {
+      "block": 48,
+      "startChar": 9,
+      "endChar": 93,
+      "text": "Execute the approved work in an isolated environment without production credentials.",
+      "start": 829.005,
+      "end": 834.38
+    },
+    {
+      "block": 48,
+      "startChar": 94,
+      "endChar": 216,
+      "text": "Preserve the complete relationship among the request, plan, source version, agent actions, tests, and resulting artifacts.",
+      "start": 834.54,
+      "end": 842.865
+    },
+    {
+      "block": 49,
+      "startChar": 0,
+      "endChar": 8,
+      "text": "Propose.",
+      "start": 843.025,
+      "end": 844.55
+    },
+    {
+      "block": 49,
+      "startChar": 9,
+      "endChar": 192,
+      "text": "Deliver the work through a pull request into customer-owned continuous integration (CI), including withheld tests, security analysis, human review, and the ordinary release authority.",
+      "start": 844.71,
+      "end": 857.435
+    },
+    {
+      "block": 50,
+      "startChar": 0,
+      "endChar": 23,
+      "text": "Integrate deliberately.",
+      "start": 857.595,
+      "end": 859.595
+    },
+    {
+      "block": 50,
+      "startChar": 24,
+      "endChar": 109,
+      "text": "Expand authority only when the evidence shows lower total effort and acceptable risk.",
+      "start": 859.755,
+      "end": 865.68
+    },
+    {
+      "block": 50,
+      "startChar": 110,
+      "endChar": 182,
+      "text": "A successful generation is not yet an operationally accepted capability.",
+      "start": 865.84,
+      "end": 871.165
+    },
+    {
+      "block": 51,
+      "startChar": 0,
+      "endChar": 274,
+      "text": "The scorecard should include time required to answer estate questions, coverage and correctness of the system model, reviewer effort, defects found before and after acceptance, change failure and rollback performance, and the amount of legacy functionality actually retired.",
+      "start": 871.325,
+      "end": 888.625
+    },
+    {
+      "block": 51,
+      "startChar": 275,
+      "endChar": 323,
+      "text": "Generated lines of code are an activity measure.",
+      "start": 888.785,
+      "end": 892.26
+    },
+    {
+      "block": 51,
+      "startChar": 324,
+      "endChar": 357,
+      "text": "They are not the mission outcome.",
+      "start": 892.42,
+      "end": 894.62
+    },
+    {
+      "block": 52,
+      "startChar": 0,
+      "endChar": 31,
+      "text": "Buy the evidence, not the magic",
+      "start": 894.78,
+      "end": 897.13
+    },
+    {
+      "block": 53,
+      "startChar": 0,
+      "endChar": 61,
+      "text": "The acquisition model matters as much as the technical model.",
+      "start": 897.45,
+      "end": 901.7
+    },
+    {
+      "block": 53,
+      "startChar": 62,
+      "endChar": 264,
+      "text": "A federal pilot should require portable outputs: architecture and dependency views, specifications, plans, decision records, source changes, tests, provenance, build instructions, and known limitations.",
+      "start": 901.86,
+      "end": 915.36
+    },
+    {
+      "block": 53,
+      "startChar": 265,
+      "endChar": 364,
+      "text": "The agency should be able to retain and use what it learned even if it does not buy the next phase.",
+      "start": 915.52,
+      "end": 921.82
+    },
+    {
+      "block": 54,
+      "startChar": 0,
+      "endChar": 173,
+      "text": "The Department of Defense Instruction governing the Software Acquisition Pathway calls for iterative delivery, user engagement, cybersecurity, test, and continuous planning.",
+      "start": 921.98,
+      "end": 933.805
+    },
+    {
+      "block": 54,
+      "startChar": 174,
+      "endChar": 268,
+      "text": "Estate-scale AI should strengthen that operating model, not create a parallel route around it.",
+      "start": 933.965,
+      "end": 939.915
+    },
+    {
+      "block": 55,
+      "startChar": 0,
+      "endChar": 110,
+      "text": "The central buying question is not whether an autonomous system can generate an impressive volume of software.",
+      "start": 940.075,
+      "end": 947.1
+    },
+    {
+      "block": 55,
+      "startChar": 111,
+      "endChar": 321,
+      "text": "It is whether the system can make the estate more legible, make a proposed change more reviewable, make evidence easier to preserve, and reduce the combined effort required to reach an accepted mission outcome.",
+      "start": 947.26,
+      "end": 960.085
+    },
+    {
+      "block": 56,
+      "startChar": 0,
+      "endChar": 81,
+      "text": "If it can, the value begins before generation and survives after the agent stops.",
+      "start": 960.245,
+      "end": 966.22
+    },
+    {
+      "block": 57,
+      "startChar": 0,
+      "endChar": 48,
+      "text": "Understanding changes the modernization frontier",
+      "start": 966.38,
+      "end": 969.73
+    },
+    {
+      "block": 58,
+      "startChar": 0,
+      "endChar": 136,
+      "text": "The federal government does not need another promise that old software can be replaced quickly once everyone agrees on the requirements.",
+      "start": 970.05,
+      "end": 978.575
+    },
+    {
+      "block": 58,
+      "startChar": 137,
+      "endChar": 289,
+      "text": "The hard part is that the requirements, dependencies, exceptions, and operational truths are already dispersed across code, people, processes, and time.",
+      "start": 978.735,
+      "end": 988.535
+    },
+    {
+      "block": 59,
+      "startChar": 0,
+      "endChar": 117,
+      "text": "Generative coding will matter most when it can help assemble that picture without pretending the picture is complete.",
+      "start": 988.695,
+      "end": 995.945
+    },
+    {
+      "block": 60,
+      "startChar": 0,
+      "endChar": 70,
+      "text": "The most valuable system may not be the one that writes the most code.",
+      "start": 996.105,
+      "end": 1000.78
+    },
+    {
+      "block": 60,
+      "startChar": 71,
+      "endChar": 223,
+      "text": "It may be the one that helps an agency know what it owns, why it behaves as it does, what can change, what must remain, and how to prove the difference.",
+      "start": 1000.94,
+      "end": 1010.39
+    },
+    {
+      "block": 60,
+      "startChar": 224,
+      "endChar": 298,
+      "text": "Once the estate becomes legible, generation can accelerate implementation.",
+      "start": 1010.55,
+      "end": 1015.8
+    },
+    {
+      "block": 60,
+      "startChar": 299,
+      "endChar": 382,
+      "text": "Without that understanding, speed is simply a faster way to discover old surprises.",
+      "start": 1015.96,
+      "end": 1021.76
+    }
+  ]
+}
