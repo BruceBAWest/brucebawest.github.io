@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-07-23T14:55:37.996888+00:00",
+  "generatedAt": "2026-07-29T15:43:50.321176+00:00",
   "items": [
+    {
+      "title": "The first deliverable from generative coding should be understanding",
+      "description": "Federal modernization will gain more from generative coding systems when they first make legacy estates legible\u2014mapping dependencies, preserving rationale, and exposing risk before proposing change.",
+      "href": "/blog/the-first-deliverable-from-generative-coding-should-be-understanding/",
+      "date": "2026-07-29",
+      "category": "AI Engineering",
+      "readTime": 9
+    },
     {
       "title": "The CMMC suspension is an organizational knowledge test",
       "description": "The CMMC Phase II suspension lowers the immediate pressure of third-party certification, but it does not remove the obligation to protect defense data\u2014or the need to preserve the organizational knowledge built around that work.",
@@ -16,14 +24,6 @@
       "date": "2026-07-15",
       "category": "AI Strategy",
       "readTime": 4
-    },
-    {
-      "title": "Model the builders, not only the models",
-      "description": "Why agent-based modeling could help explain how builder-side review networks, routing policies, and AI-mediated deliberation create\u2014or erode\u2014accountability before deployment.",
-      "href": "/blog/model-the-builders/",
-      "date": "2026-07-15",
-      "category": "Research",
-      "readTime": 6
     }
   ]
 }
