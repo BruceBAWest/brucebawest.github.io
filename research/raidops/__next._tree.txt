@@ -1,3 +1,3 @@
-:HL["/_next/static/chunks/0hsn1om2i5acp.css","style"]
+:HL["/_next/static/chunks/0bdq8kq~70p_e.css","style"]
 :HL["/bruce-west-nav-mark.svg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"research","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"raidops","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"mOf1jPEScfbc0AN0VSJ8f"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"research","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"raidops","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"ooKN6wyQOZZOtG4OO9Fz1"}
