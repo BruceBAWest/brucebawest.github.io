@@ -1,0 +1,1811 @@
+{
+  "version": 1,
+  "slug": "a-follower-is-not-an-audience",
+  "voice": "af_heart",
+  "model": "hexgrad/Kokoro-82M",
+  "duration": 1424.46,
+  "audio": "a-follower-is-not-an-audience.mp3",
+  "contentHash": "ffa35672ad419e74ef67281309d56c0775c99986cd1ac4c75a5709d383f697be",
+  "segments": [
+    {
+      "block": 0,
+      "startChar": 0,
+      "endChar": 29,
+      "text": "A follower is not an audience",
+      "start": 0.0,
+      "end": 2.3
+    },
+    {
+      "block": 1,
+      "startChar": 0,
+      "endChar": 64,
+      "text": "Earlier today I posted something deliberately blunt on LinkedIn.",
+      "start": 2.62,
+      "end": 7.02
+    },
+    {
+      "block": 1,
+      "startChar": 65,
+      "endChar": 345,
+      "text": "I said the feed increasingly felt less like a professional network and more like Facebook: crowded with clickbait, personal-brand theater, and content optimized to provoke a reaction rather than help someone find work, exchange expertise, or make a useful professional connection.",
+      "start": 7.18,
+      "end": 24.905
+    },
+    {
+      "block": 2,
+      "startChar": 0,
+      "endChar": 50,
+      "text": "Three hours later, the post showed 42 impressions.",
+      "start": 25.065,
+      "end": 28.815
+    },
+    {
+      "block": 2,
+      "startChar": 51,
+      "endChar": 91,
+      "text": "My profile has roughly 16,500 followers.",
+      "start": 28.975,
+      "end": 33.25
+    },
+    {
+      "block": 2,
+      "startChar": 92,
+      "endChar": 115,
+      "text": "Two people had reacted.",
+      "start": 33.41,
+      "end": 35.36
+    },
+    {
+      "block": 2,
+      "startChar": 116,
+      "endChar": 177,
+      "text": "Above the post, LinkedIn displayed an invitation to Boost it.",
+      "start": 35.52,
+      "end": 39.695
+    },
+    {
+      "block": 3,
+      "startChar": 0,
+      "endChar": 69,
+      "text": "I took a screenshot because the juxtaposition was almost too perfect.",
+      "start": 39.855,
+      "end": 44.63
+    },
+    {
+      "block": 3,
+      "startChar": 70,
+      "endChar": 221,
+      "text": "A platform had offered me a number suggesting extraordinarily weak organic distribution and, in the same interface, offered to sell me more visibility.",
+      "start": 44.79,
+      "end": 54.89
+    },
+    {
+      "block": 3,
+      "startChar": 222,
+      "endChar": 273,
+      "text": "Then I wrote a second post criticizing that result.",
+      "start": 55.05,
+      "end": 58.675
+    },
+    {
+      "block": 3,
+      "startChar": 274,
+      "endChar": 393,
+      "text": "That complaint reached about 250 impressions in its first hour—roughly six times the number shown on the original post.",
+      "start": 58.835,
+      "end": 67.185
+    },
+    {
+      "block": 4,
+      "startChar": 0,
+      "endChar": 156,
+      "text": "The easiest conclusion is also the most emotionally satisfying: LinkedIn suppressed my post so it could charge me to reach the audience I had already built.",
+      "start": 67.345,
+      "end": 77.27
+    },
+    {
+      "block": 5,
+      "startChar": 0,
+      "endChar": 35,
+      "text": "The screenshot does not prove that.",
+      "start": 77.43,
+      "end": 79.755
+    },
+    {
+      "block": 5,
+      "startChar": 36,
+      "endChar": 174,
+      "text": "It reveals something more defensible, and in some ways more consequential: a follower on a ranked platform is not an addressable audience.",
+      "start": 79.915,
+      "end": 88.815
+    },
+    {
+      "block": 5,
+      "startChar": 175,
+      "endChar": 283,
+      "text": "It is a relationship that the platform may or may not activate, according to objectives the user cannot see.",
+      "start": 88.975,
+      "end": 96.225
+    },
+    {
+      "block": 6,
+      "startChar": 0,
+      "endChar": 47,
+      "text": "That distinction matters on any social network.",
+      "start": 96.385,
+      "end": 99.76
+    },
+    {
+      "block": 6,
+      "startChar": 48,
+      "endChar": 185,
+      "text": "It matters more on a platform that mediates employment, expertise, reputation, recruiting, sales, and access to professional opportunity.",
+      "start": 99.92,
+      "end": 109.545
+    },
+    {
+      "block": 7,
+      "startChar": 0,
+      "endChar": 9,
+      "text": "Figure 1.",
+      "start": 109.705,
+      "end": 111.205
+    },
+    {
+      "block": 7,
+      "startChar": 10,
+      "endChar": 127,
+      "text": "The original post showed two reactions, one comment, 42 impressions, and an invitation to pay for greater visibility.",
+      "start": 111.365,
+      "end": 119.815
+    },
+    {
+      "block": 8,
+      "startChar": 0,
+      "endChar": 9,
+      "text": "Figure 2.",
+      "start": 119.975,
+      "end": 121.55
+    },
+    {
+      "block": 8,
+      "startChar": 10,
+      "endChar": 144,
+      "text": "The follow-up critique reached 250 impressions while preserving the original post and its 42-impression result in the same screenshot.",
+      "start": 121.71,
+      "end": 131.16
+    },
+    {
+      "block": 9,
+      "startChar": 0,
+      "endChar": 50,
+      "text": "Start with what the numbers can and cannot tell us",
+      "start": 131.32,
+      "end": 134.42
+    },
+    {
+      "block": 10,
+      "startChar": 0,
+      "endChar": 58,
+      "text": "Forty-two divided by 16,500 is approximately 0.25 percent.",
+      "start": 134.74,
+      "end": 141.29
+    },
+    {
+      "block": 10,
+      "startChar": 59,
+      "endChar": 101,
+      "text": "It is tempting to call that my reach rate.",
+      "start": 141.45,
+      "end": 144.175
+    },
+    {
+      "block": 10,
+      "startChar": 102,
+      "endChar": 126,
+      "text": "That would be imprecise.",
+      "start": 144.335,
+      "end": 146.21
+    },
+    {
+      "block": 11,
+      "startChar": 0,
+      "endChar": 221,
+      "text": "LinkedIn's current analytics documentation for individual members provides separate impression, in-network, out-of-network, and members-reached measures; it also notes that the author's own views and actions are included.",
+      "start": 146.37,
+      "end": 160.37
+    },
+    {
+      "block": 11,
+      "startChar": 222,
+      "endChar": 474,
+      "text": "LinkedIn's Page analytics documentation distinguishes estimated impressions from distinct members reached and gives the permissive viewability threshold that prompted my reaction: at least half of the content on screen for 300 milliseconds, or a click.",
+      "start": 160.53,
+      "end": 177.38
+    },
+    {
+      "block": 12,
+      "startChar": 0,
+      "endChar": 40,
+      "text": "An impression is therefore not a reader.",
+      "start": 177.54,
+      "end": 180.465
+    },
+    {
+      "block": 12,
+      "startChar": 41,
+      "endChar": 79,
+      "text": "It is not necessarily a unique person.",
+      "start": 180.625,
+      "end": 183.775
+    },
+    {
+      "block": 12,
+      "startChar": 80,
+      "endChar": 159,
+      "text": "It is not evidence of comprehension, professional relevance, or career benefit.",
+      "start": 183.935,
+      "end": 189.26
+    },
+    {
+      "block": 12,
+      "startChar": 160,
+      "endChar": 204,
+      "text": "It is an estimated opportunity for exposure.",
+      "start": 189.42,
+      "end": 192.72
+    },
+    {
+      "block": 13,
+      "startChar": 0,
+      "endChar": 34,
+      "text": "The denominator is also uncertain.",
+      "start": 192.88,
+      "end": 195.505
+    },
+    {
+      "block": 13,
+      "startChar": 35,
+      "endChar": 207,
+      "text": "My follower count includes people who may be inactive, rarely open the feed, follow too many accounts to see everything, or simply have no current interest in what I wrote.",
+      "start": 195.665,
+      "end": 206.29
+    },
+    {
+      "block": 13,
+      "startChar": 208,
+      "endChar": 271,
+      "text": "LinkedIn never promised to deliver each post to every follower.",
+      "start": 206.45,
+      "end": 210.575
+    },
+    {
+      "block": 13,
+      "startChar": 272,
+      "endChar": 316,
+      "text": "A three-hour snapshot may continue changing.",
+      "start": 210.735,
+      "end": 213.885
+    },
+    {
+      "block": 13,
+      "startChar": 317,
+      "endChar": 478,
+      "text": "One post cannot reveal the counterfactual—how the same content would have performed under another ranking policy—and it cannot establish intentional suppression.",
+      "start": 214.045,
+      "end": 224.295
+    },
+    {
+      "block": 14,
+      "startChar": 0,
+      "endChar": 9,
+      "text": "Figure 3.",
+      "start": 224.455,
+      "end": 226.08
+    },
+    {
+      "block": 14,
+      "startChar": 10,
+      "endChar": 77,
+      "text": "A profile snapshot taken the same afternoon shows 16,525 followers.",
+      "start": 226.24,
+      "end": 232.89
+    },
+    {
+      "block": 14,
+      "startChar": 78,
+      "endChar": 201,
+      "text": "The count substantiates the denominator I observed; it does not turn that denominator into a guaranteed or active audience.",
+      "start": 233.05,
+      "end": 241.325
+    },
+    {
+      "block": 15,
+      "startChar": 0,
+      "endChar": 109,
+      "text": "The Boost prompt proves only that LinkedIn offers a paid amplification product beside organic post analytics.",
+      "start": 241.485,
+      "end": 249.06
+    },
+    {
+      "block": 15,
+      "startChar": 110,
+      "endChar": 242,
+      "text": "LinkedIn's own help material says boosting turns a personal post into an advertisement and can carry it beyond the author's network.",
+      "start": 249.22,
+      "end": 257.945
+    },
+    {
+      "block": 15,
+      "startChar": 243,
+      "endChar": 342,
+      "text": "The screenshot does not show that LinkedIn reduced organic distribution in order to make that sale.",
+      "start": 258.105,
+      "end": 264.555
+    },
+    {
+      "block": 16,
+      "startChar": 0,
+      "endChar": 57,
+      "text": "Those qualifications are not concessions to the platform.",
+      "start": 264.715,
+      "end": 268.79
+    },
+    {
+      "block": 16,
+      "startChar": 58,
+      "endChar": 184,
+      "text": "They are the minimum evidence discipline I would demand when evaluating any consequential artificial intelligence (AI) system.",
+      "start": 268.95,
+      "end": 277.35
+    },
+    {
+      "block": 16,
+      "startChar": 185,
+      "endChar": 293,
+      "text": "The episode is useful precisely because the honest answer is not available from the metric LinkedIn gave me.",
+      "start": 277.51,
+      "end": 284.56
+    },
+    {
+      "block": 17,
+      "startChar": 0,
+      "endChar": 56,
+      "text": "The feed is an allocation system, not a delivery service",
+      "start": 284.72,
+      "end": 288.72
+    },
+    {
+      "block": 18,
+      "startChar": 0,
+      "endChar": 170,
+      "text": "LinkedIn says its feed-ranking systems consider hundreds of signals, including the content of a post and information drawn from a member's profile, network, and activity.",
+      "start": 289.04,
+      "end": 300.415
+    },
+    {
+      "block": 18,
+      "startChar": 171,
+      "endChar": 204,
+      "text": "The default feed is personalized.",
+      "start": 300.575,
+      "end": 303.05
+    },
+    {
+      "block": 18,
+      "startChar": 205,
+      "endChar": 303,
+      "text": "Members can choose a more recent-post view, but LinkedIn still describes Top posts as the default.",
+      "start": 303.21,
+      "end": 309.71
+    },
+    {
+      "block": 19,
+      "startChar": 0,
+      "endChar": 169,
+      "text": "In March 2026, LinkedIn described a new generative feed recommender that processes more than a thousand historical interactions to model a member's professional journey.",
+      "start": 309.87,
+      "end": 321.52
+    },
+    {
+      "block": 19,
+      "startChar": 170,
+      "endChar": 294,
+      "text": "The broader architecture retrieves candidate posts from a person's network and from outside it, then ranks those candidates.",
+      "start": 321.68,
+      "end": 329.63
+    },
+    {
+      "block": 19,
+      "startChar": 295,
+      "endChar": 465,
+      "text": "LinkedIn's earlier engineering account describes a multi-objective, multi-task ranking framework that predicts several forms of engagement and combines them into a score.",
+      "start": 329.79,
+      "end": 341.14
+    },
+    {
+      "block": 20,
+      "startChar": 0,
+      "endChar": 49,
+      "text": "From a publisher's perspective, I have followers.",
+      "start": 341.3,
+      "end": 344.6
+    },
+    {
+      "block": 20,
+      "startChar": 50,
+      "endChar": 279,
+      "text": "From the system's perspective, my post is one candidate competing with network updates, suggested content, advertisements, career changes, videos, newsletters, games, comments, and everything else that might occupy the next slot.",
+      "start": 344.76,
+      "end": 359.91
+    },
+    {
+      "block": 21,
+      "startChar": 0,
+      "endChar": 71,
+      "text": "That is the conceptual error behind most arguments about organic reach.",
+      "start": 360.07,
+      "end": 365.12
+    },
+    {
+      "block": 21,
+      "startChar": 72,
+      "endChar": 106,
+      "text": "Following feels like subscription.",
+      "start": 365.28,
+      "end": 367.705
+    },
+    {
+      "block": 21,
+      "startChar": 107,
+      "endChar": 141,
+      "text": "Ranking turns it into eligibility.",
+      "start": 367.865,
+      "end": 370.515
+    },
+    {
+      "block": 22,
+      "startChar": 0,
+      "endChar": 37,
+      "text": "There are reasonable reasons to rank.",
+      "start": 370.675,
+      "end": 373.225
+    },
+    {
+      "block": 22,
+      "startChar": 38,
+      "endChar": 83,
+      "text": "Nobody wants every connection's every update.",
+      "start": 373.385,
+      "end": 376.71
+    },
+    {
+      "block": 22,
+      "startChar": 84,
+      "endChar": 117,
+      "text": "Chronological feeds can be noisy.",
+      "start": 376.87,
+      "end": 379.52
+    },
+    {
+      "block": 22,
+      "startChar": 118,
+      "endChar": 205,
+      "text": "Spam, repetition, low-quality automation, and coordinated engagement all need controls.",
+      "start": 379.68,
+      "end": 385.955
+    },
+    {
+      "block": 22,
+      "startChar": 206,
+      "endChar": 248,
+      "text": "Relevance can make a large network usable.",
+      "start": 386.115,
+      "end": 389.19
+    },
+    {
+      "block": 23,
+      "startChar": 0,
+      "endChar": 40,
+      "text": "But ranking is not neutral housekeeping.",
+      "start": 389.35,
+      "end": 392.075
+    },
+    {
+      "block": 23,
+      "startChar": 41,
+      "endChar": 94,
+      "text": "It is the allocation of a scarce resource: attention.",
+      "start": 392.235,
+      "end": 396.11
+    },
+    {
+      "block": 23,
+      "startChar": 95,
+      "endChar": 294,
+      "text": "The objective function decides whose knowledge travels, which job seeker remains visible, which professional identity accumulates authority, and which behaviors are rewarded with future distribution.",
+      "start": 396.27,
+      "end": 408.72
+    },
+    {
+      "block": 24,
+      "startChar": 0,
+      "endChar": 62,
+      "text": "An impression is a platform metric, not a professional outcome",
+      "start": 408.88,
+      "end": 413.18
+    },
+    {
+      "block": 25,
+      "startChar": 0,
+      "endChar": 94,
+      "text": "I am not the only person troubled by the gap between the word impression and what it measures.",
+      "start": 413.5,
+      "end": 419.225
+    },
+    {
+      "block": 25,
+      "startChar": 95,
+      "endChar": 219,
+      "text": "Reuven Cohen wrote that LinkedIn impressions made little sense and sparked a discussion about the 300-millisecond threshold.",
+      "start": 419.385,
+      "end": 427.76
+    },
+    {
+      "block": 25,
+      "startChar": 220,
+      "endChar": 321,
+      "text": "Paul Trau similarly explained why learning the definition made him less impressed by his impressions.",
+      "start": 427.92,
+      "end": 434.47
+    },
+    {
+      "block": 25,
+      "startChar": 322,
+      "endChar": 474,
+      "text": "More recently, Will Colthup argued that a thousand impressions may mean a post encountered a thousand scrolling thumbs, not a thousand attentive people.",
+      "start": 434.63,
+      "end": 444.43
+    },
+    {
+      "block": 26,
+      "startChar": 0,
+      "endChar": 50,
+      "text": "These posts are anecdotes, not controlled studies.",
+      "start": 444.59,
+      "end": 447.94
+    },
+    {
+      "block": 26,
+      "startChar": 51,
+      "endChar": 113,
+      "text": "Their value is that they expose a persistent semantic problem.",
+      "start": 448.1,
+      "end": 452.175
+    },
+    {
+      "block": 26,
+      "startChar": 114,
+      "endChar": 143,
+      "text": "The platform says impression.",
+      "start": 452.335,
+      "end": 454.51
+    },
+    {
+      "block": 26,
+      "startChar": 144,
+      "endChar": 180,
+      "text": "Users hear someone saw what I wrote.",
+      "start": 454.67,
+      "end": 457.195
+    },
+    {
+      "block": 26,
+      "startChar": 181,
+      "endChar": 244,
+      "text": "The measurement actually sits much earlier in the causal chain:",
+      "start": 457.355,
+      "end": 461.455
+    },
+    {
+      "block": 27,
+      "startChar": 0,
+      "endChar": 125,
+      "text": "rendered on screen → noticed → read → understood → trusted → remembered → acted upon → produced a useful professional outcome",
+      "start": 461.615,
+      "end": 472.815
+    },
+    {
+      "block": 28,
+      "startChar": 0,
+      "endChar": 104,
+      "text": "LinkedIn measures the first event and offers some additional engagement and profile-activity statistics.",
+      "start": 472.975,
+      "end": 479.625
+    },
+    {
+      "block": 28,
+      "startChar": 105,
+      "endChar": 141,
+      "text": "Most of the chain remains invisible.",
+      "start": 479.785,
+      "end": 482.685
+    },
+    {
+      "block": 29,
+      "startChar": 0,
+      "endChar": 86,
+      "text": "That makes the ratio of two likes to 42 impressions interesting but not interpretable.",
+      "start": 482.845,
+      "end": 488.97
+    },
+    {
+      "block": 29,
+      "startChar": 87,
+      "endChar": 151,
+      "text": "The denominator is small, estimated, and potentially non-unique.",
+      "start": 489.13,
+      "end": 493.655
+    },
+    {
+      "block": 29,
+      "startChar": 152,
+      "endChar": 247,
+      "text": "The two reactions might reflect careful reading; the other 40 displays might have been ignored.",
+      "start": 493.815,
+      "end": 499.89
+    },
+    {
+      "block": 29,
+      "startChar": 248,
+      "endChar": 312,
+      "text": "Or the post may have been read by people who chose not to react.",
+      "start": 500.05,
+      "end": 504.225
+    },
+    {
+      "block": 29,
+      "startChar": 313,
+      "endChar": 360,
+      "text": "The metric cannot distinguish those conditions.",
+      "start": 504.385,
+      "end": 507.46
+    },
+    {
+      "block": 30,
+      "startChar": 0,
+      "endChar": 136,
+      "text": "This is a familiar failure in analytics: an available proxy gradually takes the place of the thing the system is supposed to accomplish.",
+      "start": 507.62,
+      "end": 516.42
+    },
+    {
+      "block": 30,
+      "startChar": 137,
+      "endChar": 296,
+      "text": "A professional network should ultimately help produce trusted exchange, useful introductions, informed hiring decisions, learning, collaboration, and mobility.",
+      "start": 516.58,
+      "end": 527.255
+    },
+    {
+      "block": 30,
+      "startChar": 297,
+      "endChar": 347,
+      "text": "Impressions are merely one technical precondition.",
+      "start": 527.415,
+      "end": 531.115
+    },
+    {
+      "block": 31,
+      "startChar": 0,
+      "endChar": 46,
+      "text": "The reach decline is larger than my screenshot",
+      "start": 531.275,
+      "end": 534.3
+    },
+    {
+      "block": 32,
+      "startChar": 0,
+      "endChar": 102,
+      "text": "Individual creators and marketing analysts have been reporting declining LinkedIn reach for some time.",
+      "start": 534.62,
+      "end": 541.42
+    },
+    {
+      "block": 32,
+      "startChar": 103,
+      "endChar": 179,
+      "text": "The strongest public evidence I found is directional rather than definitive.",
+      "start": 541.58,
+      "end": 546.655
+    },
+    {
+      "block": 33,
+      "startChar": 0,
+      "endChar": 109,
+      "text": "In July 2025, AuthoredUp reported an analysis of three million posts from more than 30,000 personal profiles.",
+      "start": 546.815,
+      "end": 555.465
+    },
+    {
+      "block": 33,
+      "startChar": 110,
+      "endChar": 252,
+      "text": "It said median reach fell from 1,211 in June 2024 to 636 in May 2025, and that 95 percent of the members in its dataset experienced a decline.",
+      "start": 555.625,
+      "end": 569.9
+    },
+    {
+      "block": 33,
+      "startChar": 253,
+      "endChar": 378,
+      "text": "Richard van der Blom's 2025 practitioner report, based on 1.8 million posts, claimed organic reach had fallen by nearly half.",
+      "start": 570.06,
+      "end": 580.11
+    },
+    {
+      "block": 34,
+      "startChar": 0,
+      "endChar": 52,
+      "text": "Neither source is a peer-reviewed audit of LinkedIn.",
+      "start": 580.27,
+      "end": 583.695
+    },
+    {
+      "block": 34,
+      "startChar": 53,
+      "endChar": 127,
+      "text": "Both come from businesses that help people perform better on the platform.",
+      "start": 583.855,
+      "end": 588.555
+    },
+    {
+      "block": 34,
+      "startChar": 128,
+      "endChar": 256,
+      "text": "Their samples may overrepresent active creators, customers, particular geographies, or accounts using connected analytics tools.",
+      "start": 588.715,
+      "end": 597.715
+    },
+    {
+      "block": 34,
+      "startChar": 257,
+      "endChar": 443,
+      "text": "They cannot tell us whether changes came from ranking, rising content supply, measurement revisions, user behavior, content quality, competition from advertisements, or some combination.",
+      "start": 597.875,
+      "end": 610.5
+    },
+    {
+      "block": 35,
+      "startChar": 0,
+      "endChar": 109,
+      "text": "They do, however, show that my experience is not an isolated complaint invented after one disappointing post.",
+      "start": 610.66,
+      "end": 618.26
+    },
+    {
+      "block": 35,
+      "startChar": 110,
+      "endChar": 246,
+      "text": "Large observational datasets and many creators point toward the same phenomenon: organic visibility has become harder and more variable.",
+      "start": 618.42,
+      "end": 628.045
+    },
+    {
+      "block": 36,
+      "startChar": 0,
+      "endChar": 52,
+      "text": "There is a second trend increasing that competition.",
+      "start": 628.205,
+      "end": 631.755
+    },
+    {
+      "block": 36,
+      "startChar": 53,
+      "endChar": 214,
+      "text": "In 2024, WIRED reported that an AI-detection vendor classified more than half of a sample of 8,795 longer English-language LinkedIn posts as likely AI-generated.",
+      "start": 631.915,
+      "end": 645.865
+    },
+    {
+      "block": 36,
+      "startChar": 215,
+      "endChar": 308,
+      "text": "Detector results are not ground truth, and LinkedIn said it does not track the number itself.",
+      "start": 646.025,
+      "end": 651.75
+    },
+    {
+      "block": 36,
+      "startChar": 309,
+      "endChar": 504,
+      "text": "The finding is still consistent with what users can observe: generative tools have lowered the cost of producing professional-sounding content at exactly the moment feed space has become scarcer.",
+      "start": 651.91,
+      "end": 664.685
+    },
+    {
+      "block": 37,
+      "startChar": 0,
+      "endChar": 31,
+      "text": "More content enters the system.",
+      "start": 664.845,
+      "end": 667.245
+    },
+    {
+      "block": 37,
+      "startChar": 32,
+      "endChar": 63,
+      "text": "Ranking becomes more selective.",
+      "start": 667.405,
+      "end": 669.83
+    },
+    {
+      "block": 37,
+      "startChar": 64,
+      "endChar": 104,
+      "text": "Creators study what the ranking rewards.",
+      "start": 669.99,
+      "end": 672.84
+    },
+    {
+      "block": 37,
+      "startChar": 105,
+      "endChar": 136,
+      "text": "Content becomes more formulaic.",
+      "start": 673.0,
+      "end": 675.525
+    },
+    {
+      "block": 37,
+      "startChar": 137,
+      "endChar": 200,
+      "text": "Generative tools make the winning formula cheaper to reproduce.",
+      "start": 675.685,
+      "end": 679.96
+    },
+    {
+      "block": 37,
+      "startChar": 201,
+      "endChar": 281,
+      "text": "The feed then needs stronger ranking to manage the volume it helped incentivize.",
+      "start": 680.12,
+      "end": 685.52
+    },
+    {
+      "block": 38,
+      "startChar": 0,
+      "endChar": 64,
+      "text": "That is a feedback loop, not a morality play about lazy writers.",
+      "start": 685.68,
+      "end": 690.205
+    },
+    {
+      "block": 39,
+      "startChar": 0,
+      "endChar": 55,
+      "text": "The professional network has become an attention market",
+      "start": 690.365,
+      "end": 694.04
+    },
+    {
+      "block": 40,
+      "startChar": 0,
+      "endChar": 83,
+      "text": "Microsoft's 2025 annual report makes LinkedIn's economic structure unusually clear.",
+      "start": 694.36,
+      "end": 701.31
+    },
+    {
+      "block": 40,
+      "startChar": 84,
+      "endChar": 194,
+      "text": "LinkedIn earns revenue from Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions.",
+      "start": 701.47,
+      "end": 709.095
+    },
+    {
+      "block": 40,
+      "startChar": 195,
+      "endChar": 330,
+      "text": "Microsoft says growth depends in part on increasing member engagement and delivering sponsored content that drives Marketing Solutions.",
+      "start": 709.255,
+      "end": 718.205
+    },
+    {
+      "block": 40,
+      "startChar": 331,
+      "endChar": 404,
+      "text": "LinkedIn revenue grew by $1.4 billion, or 9 percent, in that fiscal year.",
+      "start": 718.365,
+      "end": 724.715
+    },
+    {
+      "block": 41,
+      "startChar": 0,
+      "endChar": 48,
+      "text": "There is nothing inherently improper about this.",
+      "start": 724.875,
+      "end": 728.0
+    },
+    {
+      "block": 41,
+      "startChar": 49,
+      "endChar": 178,
+      "text": "A platform with global infrastructure, fraud prevention, moderation, search, messaging, and recommendation systems needs revenue.",
+      "start": 728.16,
+      "end": 736.985
+    },
+    {
+      "block": 41,
+      "startChar": 179,
+      "endChar": 267,
+      "text": "Recruiters, advertisers, sellers, and professionals receive real value from the network.",
+      "start": 737.145,
+      "end": 743.195
+    },
+    {
+      "block": 42,
+      "startChar": 0,
+      "endChar": 67,
+      "text": "The tension appears when several roles collapse into one interface.",
+      "start": 743.355,
+      "end": 747.755
+    },
+    {
+      "block": 43,
+      "startChar": 0,
+      "endChar": 34,
+      "text": "I am the author supplying content.",
+      "start": 747.915,
+      "end": 750.415
+    },
+    {
+      "block": 43,
+      "startChar": 35,
+      "endChar": 93,
+      "text": "I am the audience supplying attention and behavioral data.",
+      "start": 750.575,
+      "end": 754.675
+    },
+    {
+      "block": 43,
+      "startChar": 94,
+      "endChar": 120,
+      "text": "I am a Premium subscriber.",
+      "start": 754.835,
+      "end": 757.01
+    },
+    {
+      "block": 43,
+      "startChar": 121,
+      "endChar": 193,
+      "text": "I may be a job candidate, buyer, seller, recruiter, or research subject.",
+      "start": 757.17,
+      "end": 762.07
+    },
+    {
+      "block": 43,
+      "startChar": 194,
+      "endChar": 365,
+      "text": "And when organic distribution disappoints me, I can become the advertiser purchasing access to other users—including, potentially, people who already chose to \"follow\" me.",
+      "start": 762.23,
+      "end": 773.305
+    },
+    {
+      "block": 44,
+      "startChar": 0,
+      "endChar": 46,
+      "text": "The Boost prompt is not proof of manipulation.",
+      "start": 773.465,
+      "end": 776.69
+    },
+    {
+      "block": 44,
+      "startChar": 47,
+      "endChar": 116,
+      "text": "It is evidence of a conversion funnel built around scarce visibility.",
+      "start": 776.85,
+      "end": 781.6
+    },
+    {
+      "block": 44,
+      "startChar": 117,
+      "endChar": 196,
+      "text": "LinkedIn explicitly markets member boosting as a way to increase reach quickly.",
+      "start": 781.76,
+      "end": 787.085
+    },
+    {
+      "block": 44,
+      "startChar": 197,
+      "endChar": 344,
+      "text": "The platform controls the ranking system, defines the metric that reports the result, and sells the mechanism that can improve the reported result.",
+      "start": 787.245,
+      "end": 796.67
+    },
+    {
+      "block": 45,
+      "startChar": 0,
+      "endChar": 61,
+      "text": "That concentration of roles creates an information asymmetry.",
+      "start": 796.83,
+      "end": 800.955
+    },
+    {
+      "block": 45,
+      "startChar": 62,
+      "endChar": 211,
+      "text": "LinkedIn can observe the candidate pool, ranking decisions, experiments, member activity, inventory pressure, paid placement, and estimated outcomes.",
+      "start": 801.115,
+      "end": 811.34
+    },
+    {
+      "block": 45,
+      "startChar": 212,
+      "endChar": 231,
+      "text": "I can observe \"42.\"",
+      "start": 811.5,
+      "end": 813.675
+    },
+    {
+      "block": 46,
+      "startChar": 0,
+      "endChar": 45,
+      "text": "Visibility games change professional behavior",
+      "start": 813.835,
+      "end": 817.26
+    },
+    {
+      "block": 47,
+      "startChar": 0,
+      "endChar": 69,
+      "text": "Researchers have studied this pattern on other algorithmic platforms.",
+      "start": 817.58,
+      "end": 822.08
+    },
+    {
+      "block": 47,
+      "startChar": 70,
+      "endChar": 266,
+      "text": "Taina Bucher described the \"threat of invisibility\": when visibility is governed by an uncertain algorithm, users become conscious of the possibility that they may disappear from the social field.",
+      "start": 822.24,
+      "end": 834.815
+    },
+    {
+      "block": 47,
+      "startChar": 267,
+      "endChar": 425,
+      "text": "Kelley Cotter later described influencers as playing a \"visibility game\", piecing together theories about platform rules and adjusting their work accordingly.",
+      "start": 834.975,
+      "end": 845.075
+    },
+    {
+      "block": 48,
+      "startChar": 0,
+      "endChar": 52,
+      "text": "LinkedIn has developed its own version of that game.",
+      "start": 845.235,
+      "end": 848.885
+    },
+    {
+      "block": 48,
+      "startChar": 53,
+      "endChar": 98,
+      "text": "Users learn to write an arresting first line.",
+      "start": 849.045,
+      "end": 852.22
+    },
+    {
+      "block": 48,
+      "startChar": 99,
+      "endChar": 157,
+      "text": "They break ordinary prose into single-sentence paragraphs.",
+      "start": 852.38,
+      "end": 856.53
+    },
+    {
+      "block": 48,
+      "startChar": 158,
+      "endChar": 383,
+      "text": "They avoid external links, post at prescribed times, manufacture suspense, solicit comments, cultivate engagement pods, and turn layoffs, grief, hiring, management lessons, or mundane encounters into templated morality tales.",
+      "start": 856.69,
+      "end": 872.115
+    },
+    {
+      "block": 49,
+      "startChar": 0,
+      "endChar": 140,
+      "text": "Axios documented the rise of \"commenting for reach\", including formulaic comments placed under layoff and hiring posts to gain distribution.",
+      "start": 872.275,
+      "end": 881.925
+    },
+    {
+      "block": 49,
+      "startChar": 141,
+      "endChar": 244,
+      "text": "WIRED described LinkedIn in 2022 as increasingly merging work life with ordinary social-media behavior.",
+      "start": 882.085,
+      "end": 890.21
+    },
+    {
+      "block": 49,
+      "startChar": 245,
+      "endChar": 364,
+      "text": "By 2025, even LinkedIn's puzzle games were being described as a successful reason to return daily and maintain streaks.",
+      "start": 890.37,
+      "end": 899.195
+    },
+    {
+      "block": 50,
+      "startChar": 0,
+      "endChar": 91,
+      "text": "This does not mean personal stories, games, humor, or emotional honesty are unprofessional.",
+      "start": 899.355,
+      "end": 905.78
+    },
+    {
+      "block": 50,
+      "startChar": 92,
+      "endChar": 175,
+      "text": "Work is part of human life; sterile corporate speech is not a higher form of truth.",
+      "start": 905.94,
+      "end": 911.365
+    },
+    {
+      "block": 50,
+      "startChar": 176,
+      "endChar": 261,
+      "text": "The problem is the incentive to package every experience for algorithmic performance.",
+      "start": 911.525,
+      "end": 916.85
+    },
+    {
+      "block": 51,
+      "startChar": 0,
+      "endChar": 71,
+      "text": "When people cannot see the rules, they imitate whatever appears to win.",
+      "start": 917.01,
+      "end": 921.46
+    },
+    {
+      "block": 51,
+      "startChar": 72,
+      "endChar": 149,
+      "text": "The visible culture becomes the training data for the next round of creators.",
+      "start": 921.62,
+      "end": 926.445
+    },
+    {
+      "block": 51,
+      "startChar": 150,
+      "endChar": 278,
+      "text": "A feed may sincerely claim to reward professional relevance while producing a population trained to maximize engagement proxies.",
+      "start": 926.605,
+      "end": 935.23
+    },
+    {
+      "block": 52,
+      "startChar": 0,
+      "endChar": 85,
+      "text": "The system's objective is expressed not only in code, but in the behavior it teaches.",
+      "start": 935.39,
+      "end": 940.965
+    },
+    {
+      "block": 53,
+      "startChar": 0,
+      "endChar": 58,
+      "text": "Why this matters more than ordinary social-media annoyance",
+      "start": 941.125,
+      "end": 944.9
+    },
+    {
+      "block": 54,
+      "startChar": 0,
+      "endChar": 59,
+      "text": "LinkedIn is not merely an entertainment feed wearing a tie.",
+      "start": 945.22,
+      "end": 949.22
+    },
+    {
+      "block": 54,
+      "startChar": 60,
+      "endChar": 108,
+      "text": "It is labor-market and knowledge infrastructure.",
+      "start": 949.38,
+      "end": 952.655
+    },
+    {
+      "block": 55,
+      "startChar": 0,
+      "endChar": 194,
+      "text": "A 2022 study published in Science analyzed large randomized experiments on LinkedIn's connection-recommendation system and found that moderately weak social ties causally increased job mobility.",
+      "start": 952.815,
+      "end": 966.865
+    },
+    {
+      "block": 55,
+      "startChar": 195,
+      "endChar": 345,
+      "text": "The study concerned connection recommendations, not feed impressions, so it does not prove that my post's ranking changed anyone's employment outcome.",
+      "start": 967.025,
+      "end": 976.675
+    },
+    {
+      "block": 55,
+      "startChar": 346,
+      "endChar": 485,
+      "text": "It establishes the larger point: choices inside a professional network can change the formation of relationships through which jobs travel.",
+      "start": 976.835,
+      "end": 986.035
+    },
+    {
+      "block": 56,
+      "startChar": 0,
+      "endChar": 50,
+      "text": "That raises the standard the platform should meet.",
+      "start": 986.195,
+      "end": 989.37
+    },
+    {
+      "block": 57,
+      "startChar": 0,
+      "endChar": 91,
+      "text": "For an influencer promoting a consumer product, reduced reach is a marketing inconvenience.",
+      "start": 989.53,
+      "end": 995.605
+    },
+    {
+      "block": 57,
+      "startChar": 92,
+      "endChar": 228,
+      "text": "For a laid-off worker trying to tell a network that help is needed, visibility can affect who learns about the situation in time to act.",
+      "start": 995.765,
+      "end": 1004.365
+    },
+    {
+      "block": 57,
+      "startChar": 229,
+      "endChar": 370,
+      "text": "For a researcher or engineer sharing hard-won knowledge, ranking determines whether that knowledge reaches the people positioned to reuse it.",
+      "start": 1004.525,
+      "end": 1012.9
+    },
+    {
+      "block": 57,
+      "startChar": 371,
+      "endChar": 481,
+      "text": "For an organization recruiting scarce talent, the feed helps decide which candidates and ideas become legible.",
+      "start": 1013.06,
+      "end": 1020.21
+    },
+    {
+      "block": 58,
+      "startChar": 0,
+      "endChar": 66,
+      "text": "The follower graph looks like a map of professional relationships.",
+      "start": 1020.37,
+      "end": 1024.545
+    },
+    {
+      "block": 58,
+      "startChar": 67,
+      "endChar": 119,
+      "text": "The recommender system decides which roads are open.",
+      "start": 1024.705,
+      "end": 1028.43
+    },
+    {
+      "block": 59,
+      "startChar": 0,
+      "endChar": 61,
+      "text": "This connects directly to my work on AI and knowledge systems",
+      "start": 1028.59,
+      "end": 1032.665
+    },
+    {
+      "block": 60,
+      "startChar": 0,
+      "endChar": 147,
+      "text": "My work and research sit at the intersection of AI engineering, knowledge infrastructure, human–AI collaboration, and accountable decision support.",
+      "start": 1032.985,
+      "end": 1042.835
+    },
+    {
+      "block": 60,
+      "startChar": 148,
+      "endChar": 300,
+      "text": "I am interested in a basic question: how do we build computational systems that improve human judgment without hiding the choices that shape the result?",
+      "start": 1042.995,
+      "end": 1052.945
+    },
+    {
+      "block": 61,
+      "startChar": 0,
+      "endChar": 102,
+      "text": "LinkedIn's feed is a useful case because it is an AI-enabled decision system operating in plain sight.",
+      "start": 1053.105,
+      "end": 1060.355
+    },
+    {
+      "block": 61,
+      "startChar": 103,
+      "endChar": 202,
+      "text": "Every ranking decision answers a policy question: which information should this person receive now?",
+      "start": 1060.515,
+      "end": 1066.84
+    },
+    {
+      "block": 61,
+      "startChar": 203,
+      "endChar": 396,
+      "text": "The answer is produced through data, learned models, business rules, product objectives, experiments, safety controls, and commercial constraints. \"The algorithm\" is not one mysterious machine.",
+      "start": 1067.0,
+      "end": 1079.325
+    },
+    {
+      "block": 61,
+      "startChar": 397,
+      "endChar": 461,
+      "text": "It is an organizational decision embodied in a technical system.",
+      "start": 1079.485,
+      "end": 1084.235
+    },
+    {
+      "block": 62,
+      "startChar": 0,
+      "endChar": 56,
+      "text": "My knowledge-graph research creates a second connection.",
+      "start": 1084.395,
+      "end": 1088.02
+    },
+    {
+      "block": 62,
+      "startChar": 57,
+      "endChar": 102,
+      "text": "A graph can say that 16,500 people follow me.",
+      "start": 1088.18,
+      "end": 1092.505
+    },
+    {
+      "block": 62,
+      "startChar": 103,
+      "endChar": 201,
+      "text": "That relationship has no operational consequence until retrieval and ranking policies traverse it.",
+      "start": 1092.665,
+      "end": 1099.49
+    },
+    {
+      "block": 62,
+      "startChar": 202,
+      "endChar": 231,
+      "text": "Representation is not access.",
+      "start": 1099.65,
+      "end": 1102.35
+    },
+    {
+      "block": 62,
+      "startChar": 232,
+      "endChar": 353,
+      "text": "A richly connected graph can coexist with practical invisibility if the system controlling its activation remains opaque.",
+      "start": 1102.51,
+      "end": 1111.16
+    },
+    {
+      "block": 63,
+      "startChar": 0,
+      "endChar": 283,
+      "text": "My research on networked accountability asks us to look beyond a model's output and trace the surrounding system: who selected the objective, what evidence informed the decision, who can inspect it, how affected people can challenge it, and whether feedback changes future operation.",
+      "start": 1111.32,
+      "end": 1129.295
+    },
+    {
+      "block": 63,
+      "startChar": 284,
+      "endChar": 424,
+      "text": "Those questions apply to national-security decision support, enterprise AI, hiring systems, and professional feeds in different proportions.",
+      "start": 1129.455,
+      "end": 1138.78
+    },
+    {
+      "block": 63,
+      "startChar": 425,
+      "endChar": 451,
+      "text": "The principle is the same.",
+      "start": 1138.94,
+      "end": 1140.915
+    },
+    {
+      "block": 64,
+      "startChar": 0,
+      "endChar": 218,
+      "text": "The National Institute of Standards and Technology AI Risk Management Framework emphasizes context-appropriate measurement, transparent documentation, input from affected people, and mechanisms for feedback and appeal.",
+      "start": 1141.075,
+      "end": 1155.725
+    },
+    {
+      "block": 64,
+      "startChar": 219,
+      "endChar": 450,
+      "text": "Applied here, that means asking whether impressions are an appropriate measure for the professional outcome users believe they are pursuing—and whether users have enough information and control to understand a disappointing result.",
+      "start": 1155.885,
+      "end": 1169.71
+    },
+    {
+      "block": 65,
+      "startChar": 0,
+      "endChar": 63,
+      "text": "This is also a lesson for public-sector and defense technology.",
+      "start": 1169.87,
+      "end": 1174.32
+    },
+    {
+      "block": 65,
+      "startChar": 64,
+      "endChar": 130,
+      "text": "An alert displayed for 300 milliseconds is not decision advantage.",
+      "start": 1174.48,
+      "end": 1179.58
+    },
+    {
+      "block": 65,
+      "startChar": 131,
+      "endChar": 193,
+      "text": "A generated recommendation is not an accepted mission outcome.",
+      "start": 1179.74,
+      "end": 1184.265
+    },
+    {
+      "block": 65,
+      "startChar": 194,
+      "endChar": 321,
+      "text": "A system can optimize its measurable proxy, report technical success, and still fail the purpose that justified its deployment.",
+      "start": 1184.425,
+      "end": 1192.875
+    },
+    {
+      "block": 65,
+      "startChar": 322,
+      "endChar": 354,
+      "text": "Metric design is mission design.",
+      "start": 1193.035,
+      "end": 1195.785
+    },
+    {
+      "block": 66,
+      "startChar": 0,
+      "endChar": 47,
+      "text": "What a professional network should make visible",
+      "start": 1195.945,
+      "end": 1198.52
+    },
+    {
+      "block": 67,
+      "startChar": 0,
+      "endChar": 63,
+      "text": "I do not want LinkedIn to deliver every post to every follower.",
+      "start": 1198.84,
+      "end": 1202.915
+    },
+    {
+      "block": 67,
+      "startChar": 64,
+      "endChar": 111,
+      "text": "That would replace one bad system with another.",
+      "start": 1203.075,
+      "end": 1206.175
+    },
+    {
+      "block": 67,
+      "startChar": 112,
+      "endChar": 219,
+      "text": "I want the platform to treat professional visibility as a governed outcome rather than a mysterious reward.",
+      "start": 1206.335,
+      "end": 1213.26
+    },
+    {
+      "block": 68,
+      "startChar": 0,
+      "endChar": 63,
+      "text": "A more accountable design would expose the distribution funnel:",
+      "start": 1213.42,
+      "end": 1217.77
+    },
+    {
+      "block": 69,
+      "startChar": 0,
+      "endChar": 18,
+      "text": "Eligible audience.",
+      "start": 1217.93,
+      "end": 1219.805
+    },
+    {
+      "block": 69,
+      "startChar": 19,
+      "endChar": 133,
+      "text": "How many followers could receive the post under its visibility, safety, language, geography, and account settings?",
+      "start": 1219.965,
+      "end": 1227.19
+    },
+    {
+      "block": 70,
+      "startChar": 0,
+      "endChar": 16,
+      "text": "Active audience.",
+      "start": 1227.35,
+      "end": 1229.125
+    },
+    {
+      "block": 70,
+      "startChar": 17,
+      "endChar": 99,
+      "text": "How many of those members used the relevant surface during the measurement window?",
+      "start": 1229.285,
+      "end": 1234.31
+    },
+    {
+      "block": 71,
+      "startChar": 0,
+      "endChar": 20,
+      "text": "Candidate retrieval.",
+      "start": 1234.47,
+      "end": 1236.345
+    },
+    {
+      "block": 71,
+      "startChar": 21,
+      "endChar": 73,
+      "text": "How often did the post enter a feed's candidate set?",
+      "start": 1236.505,
+      "end": 1240.03
+    },
+    {
+      "block": 72,
+      "startChar": 0,
+      "endChar": 8,
+      "text": "Ranking.",
+      "start": 1240.19,
+      "end": 1241.715
+    },
+    {
+      "block": 72,
+      "startChar": 9,
+      "endChar": 116,
+      "text": "How often was it withheld because other content scored higher, and which broad classes of factors mattered?",
+      "start": 1241.875,
+      "end": 1248.6
+    },
+    {
+      "block": 73,
+      "startChar": 0,
+      "endChar": 9,
+      "text": "Delivery.",
+      "start": 1248.76,
+      "end": 1250.26
+    },
+    {
+      "block": 73,
+      "startChar": 10,
+      "endChar": 101,
+      "text": "How many distinct members received a qualifying display, separated from repeat impressions?",
+      "start": 1250.42,
+      "end": 1256.37
+    },
+    {
+      "block": 74,
+      "startChar": 0,
+      "endChar": 10,
+      "text": "Attention.",
+      "start": 1256.53,
+      "end": 1258.105
+    },
+    {
+      "block": 74,
+      "startChar": 11,
+      "endChar": 107,
+      "text": "What aggregate dwell, expansion, save, click, profile visit, or meaningful interaction followed?",
+      "start": 1258.265,
+      "end": 1264.49
+    },
+    {
+      "block": 75,
+      "startChar": 0,
+      "endChar": 21,
+      "text": "Professional outcome.",
+      "start": 1264.65,
+      "end": 1266.5
+    },
+    {
+      "block": 75,
+      "startChar": 22,
+      "endChar": 167,
+      "text": "Which user-selected objective—conversation, introduction, application, recruiter response, lead, learning, or collaboration—did the post support?",
+      "start": 1266.66,
+      "end": 1276.785
+    },
+    {
+      "block": 76,
+      "startChar": 0,
+      "endChar": 86,
+      "text": "The platform need not reveal proprietary model weights or provide a recipe for gaming.",
+      "start": 1276.945,
+      "end": 1282.745
+    },
+    {
+      "block": 76,
+      "startChar": 87,
+      "endChar": 228,
+      "text": "It can provide meaningful reason codes, uncertainty, comparisons with the author's own history, and honest limits on what the analytics show.",
+      "start": 1282.905,
+      "end": 1292.08
+    },
+    {
+      "block": 77,
+      "startChar": 0,
+      "endChar": 37,
+      "text": "Users should also have clearer modes.",
+      "start": 1292.24,
+      "end": 1294.89
+    },
+    {
+      "block": 77,
+      "startChar": 38,
+      "endChar": 172,
+      "text": "A Following feed should mean what ordinary language implies: updates from chosen people, under user-controlled ordering and frequency.",
+      "start": 1295.05,
+      "end": 1303.85
+    },
+    {
+      "block": 77,
+      "startChar": 173,
+      "endChar": 246,
+      "text": "A separate Discover feed can optimize recommendations beyond the network.",
+      "start": 1304.01,
+      "end": 1309.135
+    },
+    {
+      "block": 77,
+      "startChar": 247,
+      "endChar": 381,
+      "text": "A Career signal could let a job seeker ask consenting contacts to receive a time-sensitive update without purchasing an advertisement.",
+      "start": 1309.295,
+      "end": 1318.045
+    },
+    {
+      "block": 77,
+      "startChar": 382,
+      "endChar": 525,
+      "text": "Paid amplification should remain clearly separated from organic diagnostics, with an explanation of the organic result before the sales prompt.",
+      "start": 1318.205,
+      "end": 1327.98
+    },
+    {
+      "block": 78,
+      "startChar": 0,
+      "endChar": 80,
+      "text": "Most importantly, LinkedIn should measure what makes it professionally distinct.",
+      "start": 1328.14,
+      "end": 1333.115
+    },
+    {
+      "block": 78,
+      "startChar": 81,
+      "endChar": 265,
+      "text": "Useful introductions, trusted replies, qualified conversations, job mobility, knowledge reuse, and durable network health matter more than raw display volume or time spent in the feed.",
+      "start": 1333.275,
+      "end": 1345.9
+    },
+    {
+      "block": 79,
+      "startChar": 0,
+      "endChar": 56,
+      "text": "The anger was real; the stronger argument comes after it",
+      "start": 1346.06,
+      "end": 1350.06
+    },
+    {
+      "block": 80,
+      "startChar": 0,
+      "endChar": 76,
+      "text": "My original post told LinkedIn, in less measured language, to delete itself.",
+      "start": 1350.38,
+      "end": 1355.505
+    },
+    {
+      "block": 80,
+      "startChar": 77,
+      "endChar": 142,
+      "text": "I am not deleting the criticism, but I can improve the diagnosis.",
+      "start": 1355.665,
+      "end": 1360.29
+    },
+    {
+      "block": 81,
+      "startChar": 0,
+      "endChar": 57,
+      "text": "LinkedIn still contains extraordinary professional value.",
+      "start": 1360.45,
+      "end": 1364.25
+    },
+    {
+      "block": 81,
+      "startChar": 58,
+      "endChar": 152,
+      "text": "Its own randomized experiments demonstrate that network design can help people move into jobs.",
+      "start": 1364.41,
+      "end": 1371.185
+    },
+    {
+      "block": 81,
+      "startChar": 153,
+      "endChar": 299,
+      "text": "I have met collaborators, learned from experts, found opportunities, and maintained relationships there that I would not have preserved elsewhere.",
+      "start": 1371.345,
+      "end": 1380.22
+    },
+    {
+      "block": 81,
+      "startChar": 300,
+      "endChar": 390,
+      "text": "That value is exactly why the platform deserves more scrutiny than an ordinary social app.",
+      "start": 1380.38,
+      "end": 1386.58
+    },
+    {
+      "block": 82,
+      "startChar": 0,
+      "endChar": 88,
+      "text": "The central problem is not that my 16,500 followers failed to behave like an email list.",
+      "start": 1386.74,
+      "end": 1393.84
+    },
+    {
+      "block": 82,
+      "startChar": 89,
+      "endChar": 109,
+      "text": "They never were one.",
+      "start": 1394.0,
+      "end": 1395.825
+    },
+    {
+      "block": 82,
+      "startChar": 110,
+      "endChar": 357,
+      "text": "The problem is that LinkedIn presents the social proof of a large professional audience while reserving the operational meaning of that audience for an opaque recommender—and then offers paid visibility as the most legible way to alter the result.",
+      "start": 1395.985,
+      "end": 1411.185
+    },
+    {
+      "block": 83,
+      "startChar": 0,
+      "endChar": 30,
+      "text": "A follower is not an audience.",
+      "start": 1411.345,
+      "end": 1413.67
+    },
+    {
+      "block": 83,
+      "startChar": 31,
+      "endChar": 62,
+      "text": "An impression is not attention.",
+      "start": 1413.83,
+      "end": 1416.305
+    },
+    {
+      "block": 83,
+      "startChar": 63,
+      "endChar": 100,
+      "text": "Engagement is not professional value.",
+      "start": 1416.465,
+      "end": 1419.415
+    },
+    {
+      "block": 84,
+      "startChar": 0,
+      "endChar": 76,
+      "text": "Any platform that mediates careers should be able to explain the difference.",
+      "start": 1419.575,
+      "end": 1424.3
+    }
+  ]
+}

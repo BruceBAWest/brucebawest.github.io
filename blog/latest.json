@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-08-01T14:36:22.977798+00:00",
+  "generatedAt": "2026-08-03T23:19:50.155233+00:00",
   "items": [
+    {
+      "title": "A follower is not an audience",
+      "description": "A LinkedIn post received 42 impressions from a profile with roughly 16,500 followers while the platform offered paid amplification. The episode exposes a larger problem: professional visibility has become an opaque market for attention.",
+      "href": "/blog/a-follower-is-not-an-audience/",
+      "date": "2026-08-03",
+      "category": "Human-Centered AI",
+      "readTime": 13
+    },
     {
       "title": "The first deliverable from generative coding should be understanding",
       "description": "Federal modernization will gain more from generative coding systems when they first make legacy estates legible\u2014mapping dependencies, preserving rationale, and exposing risk before proposing change.",
@@ -16,14 +24,6 @@
       "date": "2026-07-17",
       "category": "Cybersecurity",
       "readTime": 13
-    },
-    {
-      "title": "From signals to strategic options",
-      "description": "How agentic AI can help turn scattered external change into evidence-backed innovation options without replacing strategic judgment.",
-      "href": "/blog/from-signals-to-strategic-options/",
-      "date": "2026-07-15",
-      "category": "AI Strategy",
-      "readTime": 4
     }
   ]
 }
