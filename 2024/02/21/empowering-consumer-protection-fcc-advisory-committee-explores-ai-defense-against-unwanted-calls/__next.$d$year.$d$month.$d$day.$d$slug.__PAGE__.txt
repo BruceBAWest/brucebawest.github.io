@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[92388,["/_next/static/chunks/11q-3mtsn6em~.js","/_next/static/chunks/00dwf3xlex0q5.js","/_next/static/chunks/0au.pw41erehq.js"],"LegacyRedirect"]
+2:I[92388,["/_next/static/chunks/11q-3mtsn6em~.js","/_next/static/chunks/00dwf3xlex0q5.js","/_next/static/chunks/0y7~w~z5vo53d.js"],"LegacyRedirect"]
 3:I[25326,["/_next/static/chunks/11q-3mtsn6em~.js","/_next/static/chunks/00dwf3xlex0q5.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"destination":"https://brucebawest.com/blog/empowering-consumer-protection-fcc-advisory-committee-explores-ai-defense-against-unwanted-calls/","label":"the recovered Field Notes article"}],[["$","script","script-0",{"src":"/_next/static/chunks/0au.pw41erehq.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"tpjRAJbbK5iTbrIgxEc5C"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"destination":"https://brucebawest.com/blog/empowering-consumer-protection-fcc-advisory-committee-explores-ai-defense-against-unwanted-calls/","label":"the recovered Field Notes article"}],[["$","script","script-0",{"src":"/_next/static/chunks/0y7~w~z5vo53d.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"jl1LCa0pv_6vlEY1Q1_wT"}
 5:null
