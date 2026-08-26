@@ -1,0 +1,1579 @@
+{
+  "version": 1,
+  "slug": "multi-agent-systems-need-a-shared-world",
+  "voice": "af_heart",
+  "model": "hexgrad/Kokoro-82M",
+  "duration": 1343.245,
+  "audio": "multi-agent-systems-need-a-shared-world.mp3",
+  "contentHash": "5a32dffedc283485786a4c9ac9f2ed0bdfe16d89e803d22fde5f4e2518b788ba",
+  "segments": [
+    {
+      "block": 0,
+      "startChar": 0,
+      "endChar": 65,
+      "text": "Multi-agent systems need a shared world, not just shared messages",
+      "start": 0.0,
+      "end": 4.6
+    },
+    {
+      "block": 1,
+      "startChar": 0,
+      "endChar": 172,
+      "text": "The proposal window for the Defense Advanced Research Projects Agency's (DARPA) Decentralized Artificial Intelligence through Controlled Emergence program closed yesterday.",
+      "start": 4.92,
+      "end": 16.545
+    },
+    {
+      "block": 1,
+      "startChar": 173,
+      "endChar": 432,
+      "text": "DICE asks a difficult systems question: can heterogeneous artificial intelligence agents coordinate through peer-to-peer interaction, adapt when individual agents fail or become compromised, and still remain aligned with commander's intent over long missions?",
+      "start": 16.705,
+      "end": 33.955
+    },
+    {
+      "block": 2,
+      "startChar": 0,
+      "endChar": 113,
+      "text": "Two days earlier, researchers released a preprint describing an “ontology as a kernel” for language-model agents.",
+      "start": 34.115,
+      "end": 41.815
+    },
+    {
+      "block": 2,
+      "startChar": 114,
+      "endChar": 304,
+      "text": "The proposed system makes domain concepts, relationships, evidence, and permissible reasoning operations explicit instead of leaving all of them implicit in prompts and unstructured context.",
+      "start": 41.975,
+      "end": 54.7
+    },
+    {
+      "block": 3,
+      "startChar": 0,
+      "endChar": 105,
+      "text": "Those developments come from different research communities, and neither proves the other's architecture.",
+      "start": 54.86,
+      "end": 60.76
+    },
+    {
+      "block": 3,
+      "startChar": 106,
+      "endChar": 250,
+      "text": "Together, they expose the same design boundary: a collection of agents does not become a system merely because the agents can exchange messages.",
+      "start": 60.92,
+      "end": 70.67
+    },
+    {
+      "block": 3,
+      "startChar": 251,
+      "endChar": 371,
+      "text": "It becomes a system when they can coordinate around a shared, inspectable, and governed model of the world and the work.",
+      "start": 70.83,
+      "end": 78.28
+    },
+    {
+      "block": 4,
+      "startChar": 0,
+      "endChar": 35,
+      "text": "That is a semantic-systems problem.",
+      "start": 78.44,
+      "end": 81.14
+    },
+    {
+      "block": 5,
+      "startChar": 0,
+      "endChar": 58,
+      "text": "More agents do not automatically produce more intelligence",
+      "start": 81.3,
+      "end": 85.25
+    },
+    {
+      "block": 6,
+      "startChar": 0,
+      "endChar": 52,
+      "text": "Multi-agent designs are attractive for good reasons.",
+      "start": 85.57,
+      "end": 89.295
+    },
+    {
+      "block": 6,
+      "startChar": 53,
+      "endChar": 221,
+      "text": "Separate agents can explore independent lines of inquiry, protect their own context windows, use specialized tools, challenge one another, and perform work in parallel.",
+      "start": 89.455,
+      "end": 100.405
+    },
+    {
+      "block": 6,
+      "startChar": 222,
+      "endChar": 384,
+      "text": "Anthropic's account of its multi-agent research system reports substantial gains on breadth-first research tasks that can be decomposed into independent searches.",
+      "start": 100.565,
+      "end": 111.34
+    },
+    {
+      "block": 7,
+      "startChar": 0,
+      "endChar": 65,
+      "text": "The same engineering account provides an important qualification.",
+      "start": 111.5,
+      "end": 115.95
+    },
+    {
+      "block": 7,
+      "startChar": 66,
+      "endChar": 226,
+      "text": "Its multi-agent system uses far more tokens than ordinary chat, and tasks with tightly coupled dependencies or a need for shared context may be poor candidates.",
+      "start": 116.11,
+      "end": 127.535
+    },
+    {
+      "block": 7,
+      "startChar": 227,
+      "endChar": 314,
+      "text": "Multi-agent coding, planning, or operations can become a very expensive telephone game.",
+      "start": 127.695,
+      "end": 134.12
+    },
+    {
+      "block": 8,
+      "startChar": 0,
+      "endChar": 40,
+      "text": "Recent research reinforces that caution.",
+      "start": 134.28,
+      "end": 137.48
+    },
+    {
+      "block": 8,
+      "startChar": 41,
+      "endChar": 287,
+      "text": "A Nature Machine Intelligence study of 260 controlled single- and multi-agent configurations found that the value of collaboration depends on the relationship among model capability, task structure, coordination overhead, and error amplification.",
+      "start": 137.64,
+      "end": 154.865
+    },
+    {
+      "block": 8,
+      "startChar": 288,
+      "endChar": 333,
+      "text": "No one agent topology dominated every domain.",
+      "start": 155.025,
+      "end": 158.875
+    },
+    {
+      "block": 8,
+      "startChar": 334,
+      "endChar": 416,
+      "text": "More capable models could even outgrow the benefit of collaboration on some tasks.",
+      "start": 159.035,
+      "end": 164.61
+    },
+    {
+      "block": 9,
+      "startChar": 0,
+      "endChar": 188,
+      "text": "A separate study of seven multi-agent frameworks identified 14 recurring failure modes across specification and system design, inter-agent alignment, and task verification and termination.",
+      "start": 164.77,
+      "end": 178.095
+    },
+    {
+      "block": 9,
+      "startChar": 189,
+      "endChar": 399,
+      "text": "Another team examined failure logs from 127 systems and found that its best method could identify the responsible agent only 53.5 percent of the time and the decisive failure step only 14.2 percent of the time.",
+      "start": 178.255,
+      "end": 194.755
+    },
+    {
+      "block": 10,
+      "startChar": 0,
+      "endChar": 29,
+      "text": "This is the coordination tax.",
+      "start": 194.915,
+      "end": 197.365
+    },
+    {
+      "block": 10,
+      "startChar": 30,
+      "endChar": 295,
+      "text": "Each new agent adds capability, but it also adds another boundary at which intent can be compressed, terminology can drift, evidence can lose provenance, stale state can propagate, authority can be misunderstood, and responsibility can become harder to reconstruct.",
+      "start": 197.525,
+      "end": 214.95
+    },
+    {
+      "block": 11,
+      "startChar": 0,
+      "endChar": 95,
+      "text": "The first multi-agent design question should therefore not be, “How many agents should we use?”",
+      "start": 215.11,
+      "end": 220.985
+    },
+    {
+      "block": 11,
+      "startChar": 96,
+      "endChar": 242,
+      "text": "It should be, “Which parts of this work are genuinely separable, and what must remain true when responsibility crosses the boundary between them?”",
+      "start": 221.145,
+      "end": 229.82
+    },
+    {
+      "block": 12,
+      "startChar": 0,
+      "endChar": 58,
+      "text": "Protocol interoperability is not semantic interoperability",
+      "start": 229.98,
+      "end": 234.555
+    },
+    {
+      "block": 13,
+      "startChar": 0,
+      "endChar": 58,
+      "text": "The agent ecosystem has made rapid progress on connection.",
+      "start": 234.875,
+      "end": 239.15
+    },
+    {
+      "block": 13,
+      "startChar": 59,
+      "endChar": 168,
+      "text": "The Linux Foundation says the Agent-to-Agent (A2A) protocol now has support from more than 150 organizations.",
+      "start": 239.31,
+      "end": 247.785
+    },
+    {
+      "block": 13,
+      "startChar": 169,
+      "endChar": 269,
+      "text": "A2A provides conventions for agent discovery, communication, tasks, and artifacts across frameworks.",
+      "start": 247.945,
+      "end": 255.295
+    },
+    {
+      "block": 13,
+      "startChar": 270,
+      "endChar": 378,
+      "text": "The Model Context Protocol (MCP) standardizes a different boundary: how an agent connects to tools and data.",
+      "start": 255.455,
+      "end": 263.555
+    },
+    {
+      "block": 14,
+      "startChar": 0,
+      "endChar": 27,
+      "text": "These are important layers.",
+      "start": 263.715,
+      "end": 265.865
+    },
+    {
+      "block": 14,
+      "startChar": 28,
+      "endChar": 166,
+      "text": "In an earlier note, I argued that open protocols also need durable stewardship, conformance tests, migration rules, and security response.",
+      "start": 266.025,
+      "end": 275.375
+    },
+    {
+      "block": 14,
+      "startChar": 167,
+      "endChar": 228,
+      "text": "Yet even a perfectly conformant message can be misunderstood.",
+      "start": 275.535,
+      "end": 279.885
+    },
+    {
+      "block": 15,
+      "startChar": 0,
+      "endChar": 159,
+      "text": "The National Institute of Standards and Technology (NIST) has framed interoperability and security as linked problems in its new AI Agent Standards Initiative.",
+      "start": 280.045,
+      "end": 291.445
+    },
+    {
+      "block": 15,
+      "startChar": 160,
+      "endChar": 283,
+      "text": "Its research agenda includes authentication and identity infrastructure for secure human-agent and multi-agent interaction.",
+      "start": 291.605,
+      "end": 300.33
+    },
+    {
+      "block": 15,
+      "startChar": 284,
+      "endChar": 352,
+      "text": "Identity can establish who sent a message and under whose authority.",
+      "start": 300.49,
+      "end": 305.04
+    },
+    {
+      "block": 15,
+      "startChar": 353,
+      "endChar": 427,
+      "text": "A shared domain model is still needed to establish what the message means.",
+      "start": 305.2,
+      "end": 309.925
+    },
+    {
+      "block": 16,
+      "startChar": 0,
+      "endChar": 61,
+      "text": "Suppose one agent reports that a software change is complete.",
+      "start": 310.085,
+      "end": 314.235
+    },
+    {
+      "block": 16,
+      "startChar": 62,
+      "endChar": 99,
+      "text": "Does complete mean the code compiles?",
+      "start": 314.395,
+      "end": 316.845
+    },
+    {
+      "block": 16,
+      "startChar": 100,
+      "endChar": 123,
+      "text": "The visible tests pass?",
+      "start": 317.005,
+      "end": 319.03
+    },
+    {
+      "block": 16,
+      "startChar": 124,
+      "endChar": 157,
+      "text": "Independent security checks pass?",
+      "start": 319.19,
+      "end": 321.715
+    },
+    {
+      "block": 16,
+      "startChar": 158,
+      "endChar": 190,
+      "text": "The customer accepts the result?",
+      "start": 321.875,
+      "end": 324.225
+    },
+    {
+      "block": 16,
+      "startChar": 191,
+      "endChar": 233,
+      "text": "The release authority approves deployment?",
+      "start": 324.385,
+      "end": 327.035
+    },
+    {
+      "block": 16,
+      "startChar": 234,
+      "endChar": 285,
+      "text": "The change is operating successfully in production?",
+      "start": 327.195,
+      "end": 330.595
+    },
+    {
+      "block": 17,
+      "startChar": 0,
+      "endChar": 81,
+      "text": "The message may be syntactically valid while the workflow is semantically broken.",
+      "start": 330.755,
+      "end": 335.98
+    },
+    {
+      "block": 18,
+      "startChar": 0,
+      "endChar": 57,
+      "text": "The same problem appears in ordinary enterprise language:",
+      "start": 336.14,
+      "end": 340.115
+    },
+    {
+      "block": 19,
+      "startChar": 0,
+      "endChar": 125,
+      "text": "A system owner may mean a product manager, a data steward, a mission owner, or an official with authorization responsibility.",
+      "start": 340.275,
+      "end": 348.7
+    },
+    {
+      "block": 20,
+      "startChar": 0,
+      "endChar": 130,
+      "text": "An approved model may be approved for experimentation, for one data class, for one cloud boundary, or for an operational decision.",
+      "start": 348.86,
+      "end": 357.535
+    },
+    {
+      "block": 21,
+      "startChar": 0,
+      "endChar": 119,
+      "text": "A threat may be an observed indicator, an analyst hypothesis, a validated finding, or a formal intelligence assessment.",
+      "start": 357.695,
+      "end": 366.12
+    },
+    {
+      "block": 22,
+      "startChar": 0,
+      "endChar": 97,
+      "text": "A requirement may be proposed, funded, baselined, implemented, verified, accepted, or superseded.",
+      "start": 366.28,
+      "end": 373.305
+    },
+    {
+      "block": 23,
+      "startChar": 0,
+      "endChar": 125,
+      "text": "Natural language absorbs this ambiguity because people use institutional knowledge, professional judgment, and clarification.",
+      "start": 373.465,
+      "end": 381.915
+    },
+    {
+      "block": 23,
+      "startChar": 126,
+      "endChar": 206,
+      "text": "Agents can generate fluent agreement while operating from incompatible meanings.",
+      "start": 382.075,
+      "end": 387.3
+    },
+    {
+      "block": 24,
+      "startChar": 0,
+      "endChar": 50,
+      "text": "Transport answers, “Can these agents communicate?”",
+      "start": 387.46,
+      "end": 391.035
+    },
+    {
+      "block": 24,
+      "startChar": 51,
+      "endChar": 164,
+      "text": "Semantics answers, “Are they referring to the same thing, under the same conditions, with the same consequences?”",
+      "start": 391.195,
+      "end": 398.195
+    },
+    {
+      "block": 25,
+      "startChar": 0,
+      "endChar": 93,
+      "text": "The answer is not one universal enterprise ontology negotiated before any useful work begins.",
+      "start": 398.355,
+      "end": 405.43
+    },
+    {
+      "block": 25,
+      "startChar": 94,
+      "endChar": 260,
+      "text": "Large organizations contain legitimate bounded contexts: a term can carry different meanings in acquisition, operations, cybersecurity, intelligence, and engineering.",
+      "start": 405.59,
+      "end": 417.19
+    },
+    {
+      "block": 25,
+      "startChar": 261,
+      "endChar": 425,
+      "text": "The system needs explicit namespaces, mappings, ownership, and translation rules so those differences become manageable data rather than invisible prompt ambiguity.",
+      "start": 417.35,
+      "end": 428.825
+    },
+    {
+      "block": 26,
+      "startChar": 0,
+      "endChar": 47,
+      "text": "The shared world needs more than a vector store",
+      "start": 428.985,
+      "end": 432.16
+    },
+    {
+      "block": 27,
+      "startChar": 0,
+      "endChar": 77,
+      "text": "Embeddings are useful for finding material that appears semantically similar.",
+      "start": 432.48,
+      "end": 437.68
+    },
+    {
+      "block": 27,
+      "startChar": 78,
+      "endChar": 131,
+      "text": "Retrieval can provide an agent with relevant context.",
+      "start": 437.84,
+      "end": 441.765
+    },
+    {
+      "block": 27,
+      "startChar": 132,
+      "endChar": 221,
+      "text": "Neither mechanism establishes what the retrieved material means for the present decision.",
+      "start": 441.925,
+      "end": 447.725
+    },
+    {
+      "block": 28,
+      "startChar": 0,
+      "endChar": 112,
+      "text": "A working semantic substrate for multi-agent workflows should make at least seven kinds of information explicit:",
+      "start": 447.885,
+      "end": 454.935
+    },
+    {
+      "block": 29,
+      "startChar": 0,
+      "endChar": 23,
+      "text": "The word claim matters.",
+      "start": 455.095,
+      "end": 457.02
+    },
+    {
+      "block": 29,
+      "startChar": 24,
+      "endChar": 133,
+      "text": "An agent output should not enter shared memory as truth merely because another agent produced it confidently.",
+      "start": 457.18,
+      "end": 464.555
+    },
+    {
+      "block": 29,
+      "startChar": 134,
+      "endChar": 250,
+      "text": "It should enter as an attributable assertion with evidence, scope, status, and a route for validation or correction.",
+      "start": 464.715,
+      "end": 472.44
+    },
+    {
+      "block": 30,
+      "startChar": 0,
+      "endChar": 85,
+      "text": "This extends the argument I made in Stateful agents make memory a governance problem.",
+      "start": 472.6,
+      "end": 478.475
+    },
+    {
+      "block": 30,
+      "startChar": 86,
+      "endChar": 134,
+      "text": "Persistence is not yet organizational knowledge.",
+      "start": 478.635,
+      "end": 482.21
+    },
+    {
+      "block": 30,
+      "startChar": 135,
+      "endChar": 268,
+      "text": "In a multi-agent workflow, ungoverned persistence can turn one agent's provisional inference into every other agent's hidden premise.",
+      "start": 482.37,
+      "end": 491.37
+    },
+    {
+      "block": 31,
+      "startChar": 0,
+      "endChar": 64,
+      "text": "A knowledge graph can become an operational coordination surface",
+      "start": 491.53,
+      "end": 495.905
+    },
+    {
+      "block": 32,
+      "startChar": 0,
+      "endChar": 177,
+      "text": "Knowledge graphs and ontologies are useful here because they can represent named entities, typed relationships, constraints, provenance, and multiple views of a changing domain.",
+      "start": 496.225,
+      "end": 507.625
+    },
+    {
+      "block": 32,
+      "startChar": 178,
+      "endChar": 275,
+      "text": "They can let an agent traverse an explicit chain rather than rely only on similarity across text.",
+      "start": 507.785,
+      "end": 514.46
+    },
+    {
+      "block": 33,
+      "startChar": 0,
+      "endChar": 123,
+      "text": "The new OaK preprint is interesting because it treats the ontology not as a passive glossary but as a computational kernel.",
+      "start": 514.62,
+      "end": 523.22
+    },
+    {
+      "block": 33,
+      "startChar": 124,
+      "endChar": 325,
+      "text": "The framework constructs a task-oriented schema, instantiates a knowledge graph from task data, and generates typed functions for retrieval, filtering, traversal, aggregation, and multi-step reasoning.",
+      "start": 523.38,
+      "end": 536.705
+    },
+    {
+      "block": 33,
+      "startChar": 326,
+      "endChar": 452,
+      "text": "A language-model agent selects among those bounded functions rather than inventing every reasoning path in free-form language.",
+      "start": 536.865,
+      "end": 545.34
+    },
+    {
+      "block": 33,
+      "startChar": 453,
+      "endChar": 537,
+      "text": "The authors report consistent gains across three benchmarks and two model backbones.",
+      "start": 545.5,
+      "end": 551.175
+    },
+    {
+      "block": 34,
+      "startChar": 0,
+      "endChar": 62,
+      "text": "That is early research, not proof of a universal architecture.",
+      "start": 551.335,
+      "end": 555.685
+    },
+    {
+      "block": 34,
+      "startChar": 63,
+      "endChar": 329,
+      "text": "The ontology is automatically constructed and refined for benchmark tasks; production organizations would still need domain review, security boundaries, lifecycle management, adversarial testing, and evidence that the representation survives real operational change.",
+      "start": 555.845,
+      "end": 573.52
+    },
+    {
+      "block": 35,
+      "startChar": 0,
+      "endChar": 62,
+      "text": "Another August preprint offers a more domain-specific example.",
+      "start": 573.68,
+      "end": 578.13
+    },
+    {
+      "block": 35,
+      "startChar": 63,
+      "endChar": 357,
+      "text": "Researchers working on biomedical data integration describe an AI-semantics workflow that combines a multi-agent curation system grounded in biological ontologies, an embedding service that maps terminology across databases, and a knowledge graph exposed through MCP for cross-database queries.",
+      "start": 578.29,
+      "end": 598.315
+    },
+    {
+      "block": 35,
+      "startChar": 358,
+      "endChar": 410,
+      "text": "The design does not ask one method to do everything.",
+      "start": 598.475,
+      "end": 602.15
+    },
+    {
+      "block": 35,
+      "startChar": 411,
+      "endChar": 610,
+      "text": "Ontologies provide controlled domain meaning; embeddings help align heterogeneous terminology; the graph preserves relationships; and the protocol gives agents a consistent way to use the capability.",
+      "start": 602.31,
+      "end": 615.71
+    },
+    {
+      "block": 35,
+      "startChar": 611,
+      "endChar": 769,
+      "text": "The authors also warn that ontology grounding does not establish biological correctness, especially when agents participate in developing the ontology itself.",
+      "start": 615.87,
+      "end": 626.645
+    },
+    {
+      "block": 36,
+      "startChar": 0,
+      "endChar": 147,
+      "text": "That layered design is more instructive than the familiar argument about whether knowledge graphs are “better” than retrieval-augmented generation.",
+      "start": 626.805,
+      "end": 636.03
+    },
+    {
+      "block": 36,
+      "startChar": 148,
+      "endChar": 281,
+      "text": "A mature semantic system will often need documents, search, embeddings, graph traversal, rules, event histories, and human expertise.",
+      "start": 636.19,
+      "end": 645.215
+    },
+    {
+      "block": 36,
+      "startChar": 282,
+      "endChar": 360,
+      "text": "The architecture should assign each mechanism the job it can actually perform.",
+      "start": 645.375,
+      "end": 650.45
+    },
+    {
+      "block": 37,
+      "startChar": 0,
+      "endChar": 59,
+      "text": "Not every team needs RDF, OWL, SPARQL, or a graph database.",
+      "start": 650.61,
+      "end": 656.01
+    },
+    {
+      "block": 37,
+      "startChar": 60,
+      "endChar": 204,
+      "text": "A carefully governed relational model, typed event schema, state machine, and policy engine can provide shared semantics for a bounded workflow.",
+      "start": 656.17,
+      "end": 665.67
+    },
+    {
+      "block": 37,
+      "startChar": 205,
+      "endChar": 415,
+      "text": "The design principle is more important than the storage brand: agents need stable identifiers, defined relationships, validated state transitions, and inspectable evidence outside their private context windows.",
+      "start": 665.83,
+      "end": 680.23
+    },
+    {
+      "block": 38,
+      "startChar": 0,
+      "endChar": 46,
+      "text": "Treat each handoff as a typed state transition",
+      "start": 680.39,
+      "end": 683.565
+    },
+    {
+      "block": 39,
+      "startChar": 0,
+      "endChar": 122,
+      "text": "Many multi-agent diagrams show boxes labeled planner, researcher, coder, reviewer, and operator, with arrows between them.",
+      "start": 683.885,
+      "end": 692.085
+    },
+    {
+      "block": 39,
+      "startChar": 123,
+      "endChar": 179,
+      "text": "The arrows deserve more design attention than the boxes.",
+      "start": 692.245,
+      "end": 696.02
+    },
+    {
+      "block": 40,
+      "startChar": 0,
+      "endChar": 34,
+      "text": "A reliable handoff should specify:",
+      "start": 696.18,
+      "end": 698.855
+    },
+    {
+      "block": 41,
+      "startChar": 0,
+      "endChar": 19,
+      "text": "The object of work.",
+      "start": 699.015,
+      "end": 700.815
+    },
+    {
+      "block": 41,
+      "startChar": 20,
+      "endChar": 138,
+      "text": "A stable identifier points to the same case, requirement, code change, finding, or mission task for every participant.",
+      "start": 700.975,
+      "end": 709.3
+    },
+    {
+      "block": 42,
+      "startChar": 0,
+      "endChar": 18,
+      "text": "The current state.",
+      "start": 709.46,
+      "end": 711.085
+    },
+    {
+      "block": 42,
+      "startChar": 19,
+      "endChar": 120,
+      "text": "The receiving agent knows what has been observed, attempted, rejected, approved, and left unresolved.",
+      "start": 711.245,
+      "end": 717.97
+    },
+    {
+      "block": 43,
+      "startChar": 0,
+      "endChar": 13,
+      "text": "The evidence.",
+      "start": 718.13,
+      "end": 719.705
+    },
+    {
+      "block": 43,
+      "startChar": 14,
+      "endChar": 126,
+      "text": "Important claims remain linked to sources, versions, tool results, and the agent or person responsible for them.",
+      "start": 719.865,
+      "end": 727.665
+    },
+    {
+      "block": 44,
+      "startChar": 0,
+      "endChar": 13,
+      "text": "The contract.",
+      "start": 727.825,
+      "end": 729.4
+    },
+    {
+      "block": 44,
+      "startChar": 14,
+      "endChar": 117,
+      "text": "Required fields, preconditions, invariants, and acceptance tests are machine-checkable where practical.",
+      "start": 729.56,
+      "end": 736.31
+    },
+    {
+      "block": 45,
+      "startChar": 0,
+      "endChar": 23,
+      "text": "The authority envelope.",
+      "start": 736.47,
+      "end": 738.37
+    },
+    {
+      "block": 45,
+      "startChar": 24,
+      "endChar": 131,
+      "text": "The next agent receives only the tools, data, resources, and actions required for its part of the workflow.",
+      "start": 738.53,
+      "end": 745.93
+    },
+    {
+      "block": 46,
+      "startChar": 0,
+      "endChar": 18,
+      "text": "The failure route.",
+      "start": 746.09,
+      "end": 747.84
+    },
+    {
+      "block": 46,
+      "startChar": 19,
+      "endChar": 158,
+      "text": "Ambiguity, conflict, missing evidence, policy denial, or low confidence creates a defined escalation rather than a plausible improvisation.",
+      "start": 748.0,
+      "end": 757.9
+    },
+    {
+      "block": 47,
+      "startChar": 0,
+      "endChar": 103,
+      "text": "The World Wide Web Consortium's (W3C) standards offer mature building blocks for this kind of thinking.",
+      "start": 758.06,
+      "end": 765.41
+    },
+    {
+      "block": 47,
+      "startChar": 104,
+      "endChar": 158,
+      "text": "OWL 2 defines formally meaningful domain vocabularies.",
+      "start": 765.57,
+      "end": 769.82
+    },
+    {
+      "block": 47,
+      "startChar": 159,
+      "endChar": 238,
+      "text": "PROV-O represents entities, activities, agents, derivation, and responsibility.",
+      "start": 769.98,
+      "end": 776.28
+    },
+    {
+      "block": 47,
+      "startChar": 239,
+      "endChar": 301,
+      "text": "SHACL validates graph structures against explicit constraints.",
+      "start": 776.44,
+      "end": 781.465
+    },
+    {
+      "block": 47,
+      "startChar": 302,
+      "endChar": 513,
+      "text": "A new SHACL 1.2 working draft, published this month, explicitly describes uses that include validating data, modeling domains, generating ontologies to inform other agents, generating code, and integrating data.",
+      "start": 781.625,
+      "end": 797.925
+    },
+    {
+      "block": 48,
+      "startChar": 0,
+      "endChar": 61,
+      "text": "These standards will not make a language model deterministic.",
+      "start": 798.085,
+      "end": 802.31
+    },
+    {
+      "block": 48,
+      "startChar": 62,
+      "endChar": 196,
+      "text": "They can move important assumptions out of prompts and into artifacts that ordinary software can inspect, validate, version, and test.",
+      "start": 802.47,
+      "end": 810.945
+    },
+    {
+      "block": 49,
+      "startChar": 0,
+      "endChar": 64,
+      "text": "Keep shared semantic state separate from private working context",
+      "start": 811.105,
+      "end": 815.28
+    },
+    {
+      "block": 50,
+      "startChar": 0,
+      "endChar": 83,
+      "text": "Agents do not need to share every token of their reasoning or every item in memory.",
+      "start": 815.6,
+      "end": 821.1
+    },
+    {
+      "block": 50,
+      "startChar": 84,
+      "endChar": 231,
+      "text": "Doing so would increase cost, leak unnecessary data, entangle contexts, and allow one compromised participant to contaminate the entire collective.",
+      "start": 821.26,
+      "end": 831.885
+    },
+    {
+      "block": 51,
+      "startChar": 0,
+      "endChar": 42,
+      "text": "A stronger pattern separates three layers:",
+      "start": 832.045,
+      "end": 835.045
+    },
+    {
+      "block": 52,
+      "startChar": 0,
+      "endChar": 118,
+      "text": "Private working context: temporary notes, exploration, model-specific reasoning, and tool results needed by one agent.",
+      "start": 835.205,
+      "end": 843.605
+    },
+    {
+      "block": 53,
+      "startChar": 0,
+      "endChar": 161,
+      "text": "Shared semantic state: versioned claims, entities, task status, decisions, evidence, constraints, and unresolved conflicts that other participants may rely upon.",
+      "start": 843.765,
+      "end": 855.14
+    },
+    {
+      "block": 54,
+      "startChar": 0,
+      "endChar": 147,
+      "text": "Authoritative record: human- or system-approved requirements, policy, configuration, accepted artifacts, and decisions that govern external action.",
+      "start": 855.3,
+      "end": 865.525
+    },
+    {
+      "block": 55,
+      "startChar": 0,
+      "endChar": 51,
+      "text": "Movement between those layers should be deliberate.",
+      "start": 865.685,
+      "end": 869.035
+    },
+    {
+      "block": 55,
+      "startChar": 52,
+      "endChar": 126,
+      "text": "An agent may propose a new relationship or correction to the shared graph.",
+      "start": 869.195,
+      "end": 874.22
+    },
+    {
+      "block": 55,
+      "startChar": 127,
+      "endChar": 169,
+      "text": "Validation can check structure and policy.",
+      "start": 874.38,
+      "end": 877.455
+    },
+    {
+      "block": 55,
+      "startChar": 170,
+      "endChar": 244,
+      "text": "A responsible person or trusted process can approve consequential changes.",
+      "start": 877.615,
+      "end": 883.115
+    },
+    {
+      "block": 55,
+      "startChar": 245,
+      "endChar": 352,
+      "text": "The authoritative record should not be writable merely because an agent possesses a persuasive explanation.",
+      "start": 883.275,
+      "end": 890.325
+    },
+    {
+      "block": 56,
+      "startChar": 0,
+      "endChar": 70,
+      "text": "This is also where agent jurisdiction becomes part of semantic design.",
+      "start": 890.485,
+      "end": 895.51
+    },
+    {
+      "block": 56,
+      "startChar": 71,
+      "endChar": 129,
+      "text": "Authorization is not only a token attached to an API call.",
+      "start": 895.67,
+      "end": 899.995
+    },
+    {
+      "block": 56,
+      "startChar": 130,
+      "endChar": 319,
+      "text": "The system needs to understand the relationship among the acting agent, the delegating human, the purpose, the resource, the permitted operation, the time window, and the state of the work.",
+      "start": 900.155,
+      "end": 911.68
+    },
+    {
+      "block": 57,
+      "startChar": 0,
+      "endChar": 68,
+      "text": "Multi-agent observability must reconstruct meaning, not just traffic",
+      "start": 911.84,
+      "end": 916.69
+    },
+    {
+      "block": 58,
+      "startChar": 0,
+      "endChar": 105,
+      "text": "Traditional distributed tracing can show that service A called service B and service B returned an error.",
+      "start": 917.01,
+      "end": 924.26
+    },
+    {
+      "block": 58,
+      "startChar": 106,
+      "endChar": 150,
+      "text": "An agent trace must answer harder questions:",
+      "start": 924.42,
+      "end": 927.67
+    },
+    {
+      "block": 59,
+      "startChar": 0,
+      "endChar": 45,
+      "text": "Which goal and approved plan caused the call?",
+      "start": 927.83,
+      "end": 930.58
+    },
+    {
+      "block": 60,
+      "startChar": 0,
+      "endChar": 52,
+      "text": "Which version of the domain model did the agent use?",
+      "start": 930.74,
+      "end": 934.29
+    },
+    {
+      "block": 61,
+      "startChar": 0,
+      "endChar": 49,
+      "text": "Which claims and sources influenced the decision?",
+      "start": 934.45,
+      "end": 937.575
+    },
+    {
+      "block": 62,
+      "startChar": 0,
+      "endChar": 57,
+      "text": "What did the sending agent mean by the task it delegated?",
+      "start": 937.735,
+      "end": 941.56
+    },
+    {
+      "block": 63,
+      "startChar": 0,
+      "endChar": 60,
+      "text": "What authority did the receiving agent believe it possessed?",
+      "start": 941.72,
+      "end": 945.445
+    },
+    {
+      "block": 64,
+      "startChar": 0,
+      "endChar": 49,
+      "text": "Which constraint passed, failed, or was bypassed?",
+      "start": 945.605,
+      "end": 948.905
+    },
+    {
+      "block": 65,
+      "startChar": 0,
+      "endChar": 55,
+      "text": "Where did an incorrect belief first enter shared state?",
+      "start": 949.065,
+      "end": 952.69
+    },
+    {
+      "block": 66,
+      "startChar": 0,
+      "endChar": 54,
+      "text": "Which later outputs and actions inherited that belief?",
+      "start": 952.85,
+      "end": 956.6
+    },
+    {
+      "block": 67,
+      "startChar": 0,
+      "endChar": 102,
+      "text": "Without semantic lineage, operators can collect enormous traces and still fail to explain the outcome.",
+      "start": 956.76,
+      "end": 963.81
+    },
+    {
+      "block": 67,
+      "startChar": 103,
+      "endChar": 285,
+      "text": "That is one reason the low failure-attribution results matter: debugging a multi-agent trajectory after the fact is not a problem we should assume a stronger model will solve for us.",
+      "start": 963.97,
+      "end": 975.77
+    },
+    {
+      "block": 68,
+      "startChar": 0,
+      "endChar": 55,
+      "text": "Design the evidence chain while designing the workflow.",
+      "start": 975.93,
+      "end": 979.505
+    },
+    {
+      "block": 68,
+      "startChar": 56,
+      "endChar": 173,
+      "text": "Give each campaign, task, artifact, claim, policy decision, tool action, test result, and approval a stable identity.",
+      "start": 979.665,
+      "end": 987.99
+    },
+    {
+      "block": 68,
+      "startChar": 174,
+      "endChar": 197,
+      "text": "Record how they relate.",
+      "start": 988.15,
+      "end": 990.1
+    },
+    {
+      "block": 68,
+      "startChar": 198,
+      "endChar": 324,
+      "text": "Keep the control plane outside the agents' reach, and let that plane preserve the account of what the collective actually did.",
+      "start": 990.26,
+      "end": 997.76
+    },
+    {
+      "block": 68,
+      "startChar": 325,
+      "endChar": 514,
+      "text": "As I argued in Long-horizon agents need short feedback loops, oversight must arrive while intervention is still useful—not after semantic drift has propagated through the entire trajectory.",
+      "start": 997.92,
+      "end": 1010.695
+    },
+    {
+      "block": 69,
+      "startChar": 0,
+      "endChar": 45,
+      "text": "The public-sector case is especially semantic",
+      "start": 1010.855,
+      "end": 1014.23
+    },
+    {
+      "block": 70,
+      "startChar": 0,
+      "endChar": 332,
+      "text": "Public-sector and defense environments combine exactly the conditions that make semantic drift dangerous: multiple organizations, specialized vocabularies, legacy systems, contractual definitions, formal authorities, changing mission context, access restrictions, and consequences that extend beyond an application's immediate user.",
+      "start": 1014.55,
+      "end": 1036.675
+    },
+    {
+      "block": 71,
+      "startChar": 0,
+      "endChar": 70,
+      "text": "DARPA's DICE program makes the challenge visible at a demanding scale.",
+      "start": 1036.835,
+      "end": 1041.635
+    },
+    {
+      "block": 71,
+      "startChar": 71,
+      "endChar": 219,
+      "text": "It seeks decentralized coordination, long-horizon role coherence, resilience to failure or compromise, and behavior aligned with commander's intent.",
+      "start": 1041.795,
+      "end": 1052.095
+    },
+    {
+      "block": 71,
+      "startChar": 220,
+      "endChar": 393,
+      "text": "Its public material does not prescribe a knowledge graph or ontology, and a semantic layer would not by itself solve consensus, adversarial control, or distributed planning.",
+      "start": 1052.255,
+      "end": 1063.955
+    },
+    {
+      "block": 72,
+      "startChar": 0,
+      "endChar": 80,
+      "text": "It would, however, help make the collective's operating assumptions inspectable:",
+      "start": 1064.115,
+      "end": 1069.265
+    },
+    {
+      "block": 73,
+      "startChar": 0,
+      "endChar": 94,
+      "text": "What mission, doctrine, constraint, and commander's intent does each agent believe is current?",
+      "start": 1069.425,
+      "end": 1075.375
+    },
+    {
+      "block": 74,
+      "startChar": 0,
+      "endChar": 56,
+      "text": "Which object or target does a local identifier refer to?",
+      "start": 1075.535,
+      "end": 1079.76
+    },
+    {
+      "block": 75,
+      "startChar": 0,
+      "endChar": 70,
+      "text": "Which observation is direct, which is inferred, and which is disputed?",
+      "start": 1079.92,
+      "end": 1084.695
+    },
+    {
+      "block": 76,
+      "startChar": 0,
+      "endChar": 66,
+      "text": "Which agent role may act on which resource under which conditions?",
+      "start": 1084.855,
+      "end": 1089.005
+    },
+    {
+      "block": 77,
+      "startChar": 0,
+      "endChar": 70,
+      "text": "How does a correction propagate without erasing the historical record?",
+      "start": 1089.165,
+      "end": 1093.64
+    },
+    {
+      "block": 78,
+      "startChar": 0,
+      "endChar": 71,
+      "text": "What does mission completion mean, and who has authority to declare it?",
+      "start": 1093.8,
+      "end": 1098.125
+    },
+    {
+      "block": 79,
+      "startChar": 0,
+      "endChar": 63,
+      "text": "The same pattern applies to less dramatic government workflows.",
+      "start": 1098.285,
+      "end": 1102.385
+    },
+    {
+      "block": 79,
+      "startChar": 64,
+      "endChar": 270,
+      "text": "In a software factory, a planning agent, coding agent, security agent, test agent, and release agent need a shared definition of the requirement, affected system, acceptance evidence, and release authority.",
+      "start": 1102.545,
+      "end": 1116.37
+    },
+    {
+      "block": 79,
+      "startChar": 271,
+      "endChar": 480,
+      "text": "They also need a trustworthy representation of the existing technology estate; the first deliverable from generative coding should be understanding before agents begin changing systems they cannot yet explain.",
+      "start": 1116.53,
+      "end": 1130.005
+    },
+    {
+      "block": 79,
+      "startChar": 481,
+      "endChar": 735,
+      "text": "In grants administration, case management, logistics, regulatory review, or scientific research, specialized agents need to preserve source authority, data rights, records obligations, and the difference between a recommendation and an official decision.",
+      "start": 1130.165,
+      "end": 1147.165
+    },
+    {
+      "block": 80,
+      "startChar": 0,
+      "endChar": 58,
+      "text": "This is why knowledge infrastructure is AI infrastructure.",
+      "start": 1147.325,
+      "end": 1151.425
+    },
+    {
+      "block": 80,
+      "startChar": 59,
+      "endChar": 208,
+      "text": "Multi-agent systems inherit not only the organization's documents but also its unresolved definitions, invisible exceptions, and fractured authority.",
+      "start": 1151.585,
+      "end": 1162.11
+    },
+    {
+      "block": 80,
+      "startChar": 209,
+      "endChar": 274,
+      "text": "More agents can make that institutional ambiguity execute faster.",
+      "start": 1162.27,
+      "end": 1166.995
+    },
+    {
+      "block": 81,
+      "startChar": 0,
+      "endChar": 51,
+      "text": "A practical minimum for semantic multi-agent design",
+      "start": 1167.155,
+      "end": 1170.53
+    },
+    {
+      "block": 82,
+      "startChar": 0,
+      "endChar": 83,
+      "text": "Before building a committee of agents, I would want a team to answer ten questions:",
+      "start": 1170.85,
+      "end": 1175.825
+    },
+    {
+      "block": 83,
+      "startChar": 0,
+      "endChar": 90,
+      "text": "What valuable work is genuinely parallel or specialized enough to justify multiple agents?",
+      "start": 1175.985,
+      "end": 1182.41
+    },
+    {
+      "block": 84,
+      "startChar": 0,
+      "endChar": 111,
+      "text": "What are the stable identities for the people, agents, resources, tasks, claims, and artifacts in the workflow?",
+      "start": 1182.57,
+      "end": 1189.895
+    },
+    {
+      "block": 85,
+      "startChar": 0,
+      "endChar": 91,
+      "text": "Which domain terms require formal definitions because misunderstanding changes the outcome?",
+      "start": 1190.055,
+      "end": 1196.33
+    },
+    {
+      "block": 86,
+      "startChar": 0,
+      "endChar": 71,
+      "text": "What state machine describes the work from proposal through acceptance?",
+      "start": 1196.49,
+      "end": 1200.94
+    },
+    {
+      "block": 87,
+      "startChar": 0,
+      "endChar": 72,
+      "text": "What evidence and provenance must travel with every consequential claim?",
+      "start": 1201.1,
+      "end": 1205.775
+    },
+    {
+      "block": 88,
+      "startChar": 0,
+      "endChar": 104,
+      "text": "Which information is shared, which remains private, and which becomes authoritative only after approval?",
+      "start": 1205.935,
+      "end": 1212.56
+    },
+    {
+      "block": 89,
+      "startChar": 0,
+      "endChar": 91,
+      "text": "What authority is delegated to each agent for each task, resource, action, and time period?",
+      "start": 1212.72,
+      "end": 1219.02
+    },
+    {
+      "block": 90,
+      "startChar": 0,
+      "endChar": 105,
+      "text": "Which constraints can ordinary deterministic software validate before another agent relies on the result?",
+      "start": 1219.18,
+      "end": 1226.28
+    },
+    {
+      "block": 91,
+      "startChar": 0,
+      "endChar": 86,
+      "text": "How are disagreement, uncertainty, correction, supersession, and rollback represented?",
+      "start": 1226.44,
+      "end": 1232.165
+    },
+    {
+      "block": 92,
+      "startChar": 0,
+      "endChar": 108,
+      "text": "Can an operator reconstruct why the collective acted and contain every downstream result of a bad assertion?",
+      "start": 1232.325,
+      "end": 1239.75
+    },
+    {
+      "block": 93,
+      "startChar": 0,
+      "endChar": 59,
+      "text": "Those answers form a minimum viable semantic control plane.",
+      "start": 1239.91,
+      "end": 1244.11
+    },
+    {
+      "block": 93,
+      "startChar": 60,
+      "endChar": 306,
+      "text": "The implementation may include a schema registry, ontology service, entity-resolution pipeline, knowledge or property graph, event store, provenance ledger, policy decision point, constraint validator, workflow engine, and observability platform.",
+      "start": 1244.27,
+      "end": 1260.57
+    },
+    {
+      "block": 93,
+      "startChar": 307,
+      "endChar": 333,
+      "text": "It may start much smaller.",
+      "start": 1260.73,
+      "end": 1262.73
+    },
+    {
+      "block": 94,
+      "startChar": 0,
+      "endChar": 85,
+      "text": "What matters is that the meaning of the work does not live only inside model context.",
+      "start": 1262.89,
+      "end": 1268.465
+    },
+    {
+      "block": 95,
+      "startChar": 0,
+      "endChar": 49,
+      "text": "The mature design will look less like a chat room",
+      "start": 1268.625,
+      "end": 1271.725
+    },
+    {
+      "block": 96,
+      "startChar": 0,
+      "endChar": 153,
+      "text": "The current visual metaphor for multi-agent AI is often a group conversation: several artificial personas discuss a problem until one produces an answer.",
+      "start": 1272.045,
+      "end": 1282.82
+    },
+    {
+      "block": 96,
+      "startChar": 154,
+      "endChar": 189,
+      "text": "That can be useful for exploration.",
+      "start": 1282.98,
+      "end": 1285.555
+    },
+    {
+      "block": 96,
+      "startChar": 190,
+      "endChar": 237,
+      "text": "It is a weak foundation for consequential work.",
+      "start": 1285.715,
+      "end": 1288.99
+    },
+    {
+      "block": 97,
+      "startChar": 0,
+      "endChar": 101,
+      "text": "Real multi-agent systems will look more like distributed systems organized around governed knowledge.",
+      "start": 1289.15,
+      "end": 1295.925
+    },
+    {
+      "block": 97,
+      "startChar": 102,
+      "endChar": 133,
+      "text": "Agents will have bounded roles.",
+      "start": 1296.085,
+      "end": 1298.435
+    },
+    {
+      "block": 97,
+      "startChar": 134,
+      "endChar": 170,
+      "text": "Handoffs will carry typed artifacts.",
+      "start": 1298.595,
+      "end": 1301.245
+    },
+    {
+      "block": 97,
+      "startChar": 171,
+      "endChar": 201,
+      "text": "Claims will retain provenance.",
+      "start": 1301.405,
+      "end": 1303.655
+    },
+    {
+      "block": 97,
+      "startChar": 202,
+      "endChar": 258,
+      "text": "Shared state will distinguish hypothesis from authority.",
+      "start": 1303.815,
+      "end": 1307.49
+    },
+    {
+      "block": 97,
+      "startChar": 259,
+      "endChar": 290,
+      "text": "Constraints will be executable.",
+      "start": 1307.65,
+      "end": 1310.05
+    },
+    {
+      "block": 97,
+      "startChar": 291,
+      "endChar": 323,
+      "text": "Human decisions will be visible.",
+      "start": 1310.21,
+      "end": 1312.61
+    },
+    {
+      "block": 97,
+      "startChar": 324,
+      "endChar": 377,
+      "text": "Corrections will propagate without rewriting history.",
+      "start": 1312.77,
+      "end": 1316.27
+    },
+    {
+      "block": 97,
+      "startChar": 378,
+      "endChar": 529,
+      "text": "The system will be evaluated not only on final answers but on coordination cost, error containment, failure attribution, and accepted mission outcomes.",
+      "start": 1316.43,
+      "end": 1326.705
+    },
+    {
+      "block": 98,
+      "startChar": 0,
+      "endChar": 51,
+      "text": "Protocols are making it easier for agents to speak.",
+      "start": 1326.865,
+      "end": 1330.315
+    },
+    {
+      "block": 98,
+      "startChar": 52,
+      "endChar": 107,
+      "text": "Better models are making each participant more capable.",
+      "start": 1330.475,
+      "end": 1334.225
+    },
+    {
+      "block": 98,
+      "startChar": 108,
+      "endChar": 246,
+      "text": "The next engineering task is giving the collective a world it can share without pretending that shared language guarantees shared meaning.",
+      "start": 1334.385,
+      "end": 1343.085
+    }
+  ]
+}

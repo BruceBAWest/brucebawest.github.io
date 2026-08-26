@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-08-03T23:19:50.155233+00:00",
+  "generatedAt": "2026-08-26T21:41:28.166249+00:00",
   "items": [
+    {
+      "title": "Multi-agent systems need a shared world, not just shared messages",
+      "description": "Multi-agent AI will not become dependable merely by connecting more capable models. Agents need shared semantics for the world, the work, the evidence, and the authority under which they act.",
+      "href": "/blog/multi-agent-systems-need-a-shared-world/",
+      "date": "2026-08-26",
+      "category": "Agentic AI",
+      "readTime": 12
+    },
     {
       "title": "A follower is not an audience",
       "description": "A LinkedIn post received 42 impressions from a profile with roughly 16,500 followers while the platform offered paid amplification. The episode exposes a larger problem: professional visibility has become an opaque market for attention.",
@@ -16,14 +24,6 @@
       "date": "2026-07-29",
       "category": "AI Engineering",
       "readTime": 9
-    },
-    {
-      "title": "The CMMC suspension is an organizational knowledge test",
-      "description": "The CMMC Phase II suspension lowers the immediate pressure of third-party certification, but it does not remove the obligation to protect defense data\u2014or the need to preserve the organizational knowledge built around that work.",
-      "href": "/blog/the-cmmc-pause-is-an-organizational-knowledge-test/",
-      "date": "2026-07-17",
-      "category": "Cybersecurity",
-      "readTime": 13
     }
   ]
 }
