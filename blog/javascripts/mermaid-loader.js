@@ -93,6 +93,10 @@
     const svg = element.querySelector("svg");
     if (!svg) return;
     const title = svg.querySelector("title")?.textContent?.trim() || "Field Notes diagram";
+    const intrinsicWidth = svg.viewBox?.baseVal?.width;
+    if (Number.isFinite(intrinsicWidth) && intrinsicWidth > 0) {
+      element.style.setProperty("--bw-mermaid-width", `${intrinsicWidth}px`);
+    }
     svg.setAttribute("focusable", "false");
     svg.setAttribute("preserveAspectRatio", "xMidYMid meet");
     element.setAttribute("role", "group");

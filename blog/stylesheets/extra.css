@@ -1064,8 +1064,8 @@ body {
 
 .md-typeset .bw-mermaid-source svg {
   display: block;
-  width: 100% !important;
-  min-width: 38rem;
+  width: var(--bw-mermaid-width, auto) !important;
+  min-width: 0;
   max-width: none !important;
   height: auto !important;
   margin: 0 auto;
