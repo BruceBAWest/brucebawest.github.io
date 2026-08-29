@@ -3,9 +3,9 @@
   "slug": "why-i-am-writing-raidops",
   "voice": "af_heart",
   "model": "hexgrad/Kokoro-82M",
-  "duration": 1976.595,
+  "duration": 1976.32,
   "audio": "why-i-am-writing-raidops.mp3",
-  "contentHash": "66ba21acde3ddf3a6a169fc8c1d5a265f0820fc4141a5df1f25d9d170e5a22a3",
+  "contentHash": "3dec041cfe4140724695cf8ca9eeacae6ef9d3ba1a9f16ba258268580ad17ae4",
   "segments": [
     {
       "block": 0,
@@ -2077,391 +2077,391 @@
       "endChar": 140,
       "text": "No. MLOps is a vital adjacent discipline, and strong implementations already include governance, monitoring, documentation, and human roles.",
       "start": 1658.67,
-      "end": 1668.97
+      "end": 1668.795
     },
     {
       "block": 114,
       "startChar": 141,
       "endChar": 306,
       "text": "RAIDops asks a different integrative question: how do technical, organizational, policy, assurance, and human-work evidence meet at a bounded consequential decision?",
-      "start": 1669.13,
-      "end": 1680.63
+      "start": 1668.955,
+      "end": 1680.455
     },
     {
       "block": 114,
       "startChar": 307,
       "endChar": 398,
       "text": "It should strengthen existing pipelines, not build a ceremonial parallel route around them.",
-      "start": 1680.79,
-      "end": 1686.615
+      "start": 1680.615,
+      "end": 1686.44
     },
     {
       "block": 115,
       "startChar": 0,
       "endChar": 34,
       "text": "Will this create more bureaucracy?",
-      "start": 1686.775,
-      "end": 1689.15
+      "start": 1686.6,
+      "end": 1688.975
     },
     {
       "block": 116,
       "startChar": 0,
       "endChar": 9,
       "text": "It could.",
-      "start": 1689.47,
-      "end": 1690.92
+      "start": 1689.295,
+      "end": 1690.745
     },
     {
       "block": 116,
       "startChar": 10,
       "endChar": 43,
       "text": "Any framework can become theater.",
-      "start": 1691.08,
-      "end": 1693.58
+      "start": 1690.905,
+      "end": 1693.405
     },
     {
       "block": 116,
       "startChar": 44,
       "endChar": 125,
       "text": "Documents can multiply while authority remains vague and tests remain irrelevant.",
-      "start": 1693.74,
-      "end": 1699.44
+      "start": 1693.565,
+      "end": 1699.265
     },
     {
       "block": 116,
       "startChar": 126,
       "endChar": 331,
       "text": "RAIDops should be evaluated partly by whether it reduces rediscovery, makes handoffs less lossy, automates determinate controls, exposes decision debt earlier, and helps people intervene before commitment.",
-      "start": 1699.6,
-      "end": 1713.325
+      "start": 1699.425,
+      "end": 1713.15
     },
     {
       "block": 116,
       "startChar": 332,
       "endChar": 387,
       "text": "If it merely adds forms, it has failed its own purpose.",
-      "start": 1713.485,
-      "end": 1717.21
+      "start": 1713.31,
+      "end": 1717.035
     },
     {
       "block": 117,
       "startChar": 0,
       "endChar": 28,
       "text": "Is an assurance case enough?",
-      "start": 1717.37,
-      "end": 1719.545
+      "start": 1717.195,
+      "end": 1719.37
     },
     {
       "block": 118,
       "startChar": 0,
       "endChar": 122,
       "text": "No. Evidence is not an argument; an argument is not a decision; confidence is not approval; and approval is not permanent.",
-      "start": 1719.865,
-      "end": 1728.415
+      "start": 1719.69,
+      "end": 1728.19
     },
     {
       "block": 118,
       "startChar": 123,
       "endChar": 176,
       "text": "An assurance case can make the reasoning inspectable.",
-      "start": 1728.575,
-      "end": 1732.225
+      "start": 1728.35,
+      "end": 1732.0
     },
     {
       "block": 118,
       "startChar": 177,
       "endChar": 330,
       "text": "Competent people still have to judge the evidence, consider alternatives and affected parties, own the disposition, and revisit it after material change.",
-      "start": 1732.385,
-      "end": 1742.535
+      "start": 1732.16,
+      "end": 1742.31
     },
     {
       "block": 119,
       "startChar": 0,
       "endChar": 48,
       "text": "Does RAIDops prove that a system is trustworthy?",
-      "start": 1742.695,
-      "end": 1745.92
+      "start": 1742.47,
+      "end": 1745.695
     },
     {
       "block": 120,
       "startChar": 0,
       "endChar": 137,
       "text": "No. RAIDops is a proposed framework, not a certification scheme, compliance regime, calibrated maturity scale, or validated intervention.",
-      "start": 1746.24,
-      "end": 1756.015
+      "start": 1746.015,
+      "end": 1755.74
     },
     {
       "block": 120,
       "startChar": 138,
       "endChar": 289,
       "text": "Its architecture is grounded in established research and practice, but the integrated framework and its proposed patterns require empirical evaluation.",
-      "start": 1756.175,
-      "end": 1766.275
+      "start": 1755.9,
+      "end": 1766.0
     },
     {
       "block": 120,
       "startChar": 290,
       "endChar": 319,
       "text": "Derivation is not validation.",
-      "start": 1766.435,
-      "end": 1769.135
+      "start": 1766.16,
+      "end": 1768.86
     },
     {
       "block": 121,
       "startChar": 0,
       "endChar": 68,
       "text": "Why call it an invention if the constituent practices already exist?",
-      "start": 1769.295,
-      "end": 1774.045
+      "start": 1769.02,
+      "end": 1773.77
     },
     {
       "block": 122,
       "startChar": 0,
       "endChar": 124,
       "text": "Because the original contribution is the synthesis and operating architecture, not a claim to have invented its ingredients.",
-      "start": 1774.365,
-      "end": 1782.44
+      "start": 1774.09,
+      "end": 1782.165
     },
     {
       "block": 122,
       "startChar": 125,
       "endChar": 299,
       "text": "RAIDops connects established bodies of work around an unresolved builder-side problem and proposes an integrated architecture that can be examined, challenged, and evaluated.",
-      "start": 1782.6,
-      "end": 1794.25
+      "start": 1782.325,
+      "end": 1793.975
     },
     {
       "block": 123,
       "startChar": 0,
       "endChar": 82,
       "text": "That contribution is explicit enough to examine—and bounded enough to prove wrong.",
-      "start": 1794.41,
-      "end": 1799.785
+      "start": 1794.135,
+      "end": 1799.51
     },
     {
       "block": 124,
       "startChar": 0,
       "endChar": 50,
       "text": "The research is becoming more rigorous as it grows",
-      "start": 1799.945,
-      "end": 1803.52
+      "start": 1799.67,
+      "end": 1803.245
     },
     {
       "block": 125,
       "startChar": 0,
       "endChar": 96,
       "text": "The initial literature review gave RAIDops its question and much of its intellectual provenance.",
-      "start": 1803.84,
-      "end": 1810.015
+      "start": 1803.565,
+      "end": 1809.74
     },
     {
       "block": 125,
       "startChar": 97,
       "endChar": 163,
       "text": "It should not be used circularly as proof that RAIDops is correct.",
-      "start": 1810.175,
-      "end": 1814.6
+      "start": 1809.9,
+      "end": 1814.325
     },
     {
       "block": 125,
       "startChar": 164,
       "endChar": 535,
       "text": "As the project grew, I separated two workstreams: the framework and monograph continue as an author-directed interdisciplinary synthesis; separately, the surviving evidence record of the original review is being reconstructed, and a prospective de novo systematic scoping-review protocol has been designed—but not yet executed—for reporting with PRISMA-ScR and PRISMA-S.3",
-      "start": 1814.76,
-      "end": 1839.91
+      "start": 1814.485,
+      "end": 1839.635
     },
     {
       "block": 126,
       "startChar": 0,
       "endChar": 24,
       "text": "That separation matters.",
-      "start": 1840.07,
-      "end": 1842.195
+      "start": 1839.795,
+      "end": 1841.92
     },
     {
       "block": 126,
       "startChar": 25,
       "endChar": 134,
       "text": "A framework should not predetermine the coding or conclusions of the review that may later test its premises.",
-      "start": 1842.355,
-      "end": 1849.13
+      "start": 1842.08,
+      "end": 1848.855
     },
     {
       "block": 126,
       "startChar": 135,
       "endChar": 208,
       "text": "The current RAIDops patterns and assessment instruments remain proposals.",
-      "start": 1849.29,
-      "end": 1853.99
+      "start": 1849.015,
+      "end": 1853.715
     },
     {
       "block": 126,
       "startChar": 209,
       "endChar": 318,
       "text": "Existing responsible-AI pattern work provides a useful precedent for naming reusable interventions (Lu et al.",
-      "start": 1854.15,
-      "end": 1862.15
+      "start": 1853.875,
+      "end": 1861.875
     },
     {
       "block": 126,
       "startChar": 319,
       "endChar": 392,
       "text": "2024); it does not validate RAIDops's selection, arrangement, or effects.",
-      "start": 1862.31,
-      "end": 1868.085
+      "start": 1862.035,
+      "end": 1867.81
     },
     {
       "block": 126,
       "startChar": 393,
       "endChar": 426,
       "text": "Those remain empirical questions.",
-      "start": 1868.245,
-      "end": 1870.845
+      "start": 1867.97,
+      "end": 1870.57
     },
     {
       "block": 127,
       "startChar": 0,
       "endChar": 59,
       "text": "This is also why I feel compelled to publish something now.",
-      "start": 1871.005,
-      "end": 1874.855
+      "start": 1870.73,
+      "end": 1874.58
     },
     {
       "block": 127,
       "startChar": 60,
       "endChar": 147,
       "text": "An unfinished monograph should not be insulated from the communities it hopes to serve.",
-      "start": 1875.015,
-      "end": 1880.465
+      "start": 1874.74,
+      "end": 1880.19
     },
     {
       "block": 127,
       "startChar": 148,
       "endChar": 217,
       "text": "Scholars can challenge the conceptual boundaries and research design.",
-      "start": 1880.625,
-      "end": 1885.175
+      "start": 1880.35,
+      "end": 1884.9
     },
     {
       "block": 127,
       "startChar": 218,
       "endChar": 356,
       "text": "Practitioners can identify where the operating model conflicts with actual authority, delivery pressure, acquisition, or field conditions.",
-      "start": 1885.335,
-      "end": 1894.435
+      "start": 1885.06,
+      "end": 1894.16
     },
     {
       "block": 127,
       "startChar": 357,
       "endChar": 454,
       "text": "Leaders can ask whether the framework improves decisions or merely describes them more elegantly.",
-      "start": 1894.595,
-      "end": 1900.695
+      "start": 1894.32,
+      "end": 1900.42
     },
     {
       "block": 128,
       "startChar": 0,
       "endChar": 39,
       "text": "The public essay is not the whole book.",
-      "start": 1900.855,
-      "end": 1903.555
+      "start": 1900.58,
+      "end": 1903.28
     },
     {
       "block": 128,
       "startChar": 40,
       "endChar": 93,
       "text": "It is an invitation to interrogate the central claim.",
-      "start": 1903.715,
-      "end": 1907.565
+      "start": 1903.44,
+      "end": 1907.29
     },
     {
       "block": 129,
       "startChar": 0,
       "endChar": 50,
       "text": "Trustworthy AI has to be reproduced through change",
-      "start": 1907.725,
-      "end": 1911.1
+      "start": 1907.45,
+      "end": 1910.825
     },
     {
       "block": 130,
       "startChar": 0,
       "endChar": 67,
       "text": "The durable problem is not getting an AI system through one review.",
-      "start": 1911.42,
-      "end": 1915.92
+      "start": 1911.145,
+      "end": 1915.645
     },
     {
       "block": 130,
       "startChar": 68,
       "endChar": 206,
       "text": "It is preserving the basis of a consequential decision while the system changes jobs, versions, users, suppliers, environments, and hands.",
-      "start": 1916.08,
-      "end": 1925.555
+      "start": 1915.805,
+      "end": 1925.28
     },
     {
       "block": 131,
       "startChar": 0,
       "endChar": 79,
       "text": "An organization may have excellent principles and still lose them at a handoff.",
-      "start": 1925.715,
-      "end": 1930.99
+      "start": 1925.44,
+      "end": 1930.715
     },
     {
       "block": 131,
       "startChar": 80,
       "endChar": 140,
       "text": "It may have a green pipeline and still test the wrong claim.",
-      "start": 1931.15,
-      "end": 1935.0
+      "start": 1930.875,
+      "end": 1934.725
     },
     {
       "block": 131,
       "startChar": 141,
       "endChar": 293,
       "text": "It may retain a human “in the loop” while the interface, workload, and institutional incentives have already narrowed that person's practical authority.",
-      "start": 1935.16,
-      "end": 1944.935
+      "start": 1934.885,
+      "end": 1944.66
     },
     {
       "block": 131,
       "startChar": 294,
       "endChar": 366,
       "text": "It may record dissent without allowing dissent to alter the disposition.",
-      "start": 1945.095,
-      "end": 1949.92
+      "start": 1944.82,
+      "end": 1949.645
     },
     {
       "block": 131,
       "startChar": 367,
       "endChar": 466,
       "text": "It may deploy responsibly once and then allow success itself to expand the use beyond the evidence.",
-      "start": 1950.08,
-      "end": 1957.005
+      "start": 1949.805,
+      "end": 1956.73
     },
     {
       "block": 132,
       "startChar": 0,
       "endChar": 109,
       "text": "RAIDops is my attempt to make those failures harder to hide and the responsible alternatives easier to enact.",
-      "start": 1957.165,
-      "end": 1964.515
+      "start": 1956.89,
+      "end": 1964.24
     },
     {
       "block": 133,
       "startChar": 0,
       "endChar": 77,
       "text": "The standard should not be whether a framework helps an organization say yes.",
-      "start": 1964.675,
-      "end": 1969.2
+      "start": 1964.4,
+      "end": 1968.925
     },
     {
       "block": 133,
       "startChar": 78,
       "endChar": 179,
       "text": "The test of RAIDops is whether the organization can know—and show—when the responsible answer is no.1",
-      "start": 1969.36,
-      "end": 1976.435
+      "start": 1969.085,
+      "end": 1976.16
     }
   ]
 }
