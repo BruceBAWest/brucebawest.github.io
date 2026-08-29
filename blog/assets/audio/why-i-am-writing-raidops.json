@@ -1,0 +1,2467 @@
+{
+  "version": 1,
+  "slug": "why-i-am-writing-raidops",
+  "voice": "af_heart",
+  "model": "hexgrad/Kokoro-82M",
+  "duration": 1978.245,
+  "audio": "why-i-am-writing-raidops.mp3",
+  "contentHash": "927a1ae248e75a2ef14b8388c54809f96ce40061304f50de408332bb4ec7fc76",
+  "segments": [
+    {
+      "block": 0,
+      "startChar": 0,
+      "endChar": 60,
+      "text": "Principles do not field themselves: why I am writing RAIDops",
+      "start": 0.0,
+      "end": 4.125
+    },
+    {
+      "block": 1,
+      "startChar": 0,
+      "endChar": 34,
+      "text": "I did not set out to write a book.",
+      "start": 4.445,
+      "end": 6.72
+    },
+    {
+      "block": 2,
+      "startChar": 0,
+      "endChar": 116,
+      "text": "RAIDops began during my Master of Science studies in Columbia University's Information & Knowledge Strategy program.",
+      "start": 6.88,
+      "end": 15.105
+    },
+    {
+      "block": 2,
+      "startChar": 117,
+      "endChar": 157,
+      "text": "An independent study, guided by Blake M.",
+      "start": 15.265,
+      "end": 18.465
+    },
+    {
+      "block": 2,
+      "startChar": 158,
+      "endChar": 224,
+      "text": "DiCosola III and strengthened by the advice and input of Edward J.",
+      "start": 18.625,
+      "end": 23.85
+    },
+    {
+      "block": 2,
+      "startChar": 225,
+      "endChar": 324,
+      "text": "Hoffman, started as a literature review of trustworthy artificial intelligence in national defense.",
+      "start": 24.01,
+      "end": 30.56
+    },
+    {
+      "block": 2,
+      "startChar": 325,
+      "endChar": 422,
+      "text": "Blake and Ed are both IKNS faculty; Ed previously served as NASA's first Chief Knowledge Officer.",
+      "start": 30.72,
+      "end": 38.02
+    },
+    {
+      "block": 3,
+      "startChar": 0,
+      "endChar": 34,
+      "text": "The review grew into a long paper.",
+      "start": 38.18,
+      "end": 40.805
+    },
+    {
+      "block": 3,
+      "startChar": 35,
+      "endChar": 100,
+      "text": "The paper kept returning to an unresolved organizational problem.",
+      "start": 40.965,
+      "end": 45.49
+    },
+    {
+      "block": 3,
+      "startChar": 101,
+      "endChar": 143,
+      "text": "Eventually, the problem outgrew the paper.",
+      "start": 45.65,
+      "end": 48.65
+    },
+    {
+      "block": 4,
+      "startChar": 0,
+      "endChar": 123,
+      "text": "I invented RAIDops and coined the name Responsible AI Development Operations for the framework that emerged from that work.",
+      "start": 48.81,
+      "end": 56.91
+    },
+    {
+      "block": 4,
+      "startChar": 124,
+      "endChar": 346,
+      "text": "The working monograph is coauthored with Blake and Ed, whose substantive intellectual contributions, guidance, editing, and mentorship have materially shaped it.1 Their collaboration has made the work substantially better.",
+      "start": 57.07,
+      "end": 71.07
+    },
+    {
+      "block": 5,
+      "startChar": 0,
+      "endChar": 121,
+      "text": "I have hesitated to write publicly about RAIDops because the research program is active and the manuscript is unfinished.",
+      "start": 71.23,
+      "end": 79.43
+    },
+    {
+      "block": 5,
+      "startChar": 122,
+      "endChar": 249,
+      "text": "I am not going to reproduce the complete pattern catalog, assessment instruments, or the book's full analytical machinery here.",
+      "start": 79.59,
+      "end": 87.44
+    },
+    {
+      "block": 5,
+      "startChar": 250,
+      "endChar": 327,
+      "text": "But a framework concerned with reviewability should itself be open to review.",
+      "start": 87.6,
+      "end": 92.45
+    },
+    {
+      "block": 5,
+      "startChar": 328,
+      "endChar": 546,
+      "text": "This essay offers the public argument: enough to explain and defend RAIDops, while preserving the monograph as the place where the complete derivation, architecture, patterns, evidence controls, and limitations belong.",
+      "start": 92.61,
+      "end": 107.135
+    },
+    {
+      "block": 6,
+      "startChar": 0,
+      "endChar": 90,
+      "text": "The thesis is straightforward: trustworthy AI is not merely a property to test in a model.",
+      "start": 107.295,
+      "end": 113.47
+    },
+    {
+      "block": 6,
+      "startChar": 91,
+      "endChar": 217,
+      "text": "It is an operating achievement that an organization must repeatedly produce, challenge, bound, preserve, and sometimes revoke.",
+      "start": 113.63,
+      "end": 121.905
+    },
+    {
+      "block": 7,
+      "startChar": 0,
+      "endChar": 35,
+      "text": "That problem is not abstract to me.",
+      "start": 122.065,
+      "end": 124.715
+    },
+    {
+      "block": 7,
+      "startChar": 36,
+      "endChar": 190,
+      "text": "It recurs across my work in enterprise AI engineering, knowledge systems, and public-sector technology: building a capable system is only part of the job.",
+      "start": 124.875,
+      "end": 135.6
+    },
+    {
+      "block": 7,
+      "startChar": 191,
+      "endChar": 352,
+      "text": "The institution must also keep the purpose, evidence, authority, and means of intervention intact as the system crosses teams, contracts, environments, and time.",
+      "start": 135.76,
+      "end": 146.36
+    },
+    {
+      "block": 8,
+      "startChar": 0,
+      "endChar": 49,
+      "text": "The evidence gap is becoming an operating problem",
+      "start": 146.52,
+      "end": 150.095
+    },
+    {
+      "block": 9,
+      "startChar": 0,
+      "endChar": 49,
+      "text": "Two recent federal reports make the need visible.",
+      "start": 150.415,
+      "end": 154.015
+    },
+    {
+      "block": 10,
+      "startChar": 0,
+      "endChar": 150,
+      "text": "In April 2026, the U.S. Government Accountability Office reported that federal agencies had more than doubled their reported AI use from 2023 to 2024.",
+      "start": 154.175,
+      "end": 166.85
+    },
+    {
+      "block": 10,
+      "startChar": 151,
+      "endChar": 481,
+      "text": "In reviewing selected AI acquisitions, GAO identified six recurring challenge areas: access to technical experts; protection of government data and intellectual-property rights; conventional acquisition approaches and timelines; requirements and contract terms; early testing and continuous evaluation; and pricing and total cost.",
+      "start": 167.01,
+      "end": 189.76
+    },
+    {
+      "block": 10,
+      "startChar": 482,
+      "endChar": 696,
+      "text": "It also found that the Department of Defense, Department of Homeland Security, General Services Administration, and Department of Veterans Affairs were not systematically collecting and sharing acquisition lessons.",
+      "start": 189.92,
+      "end": 203.47
+    },
+    {
+      "block": 11,
+      "startChar": 0,
+      "endChar": 68,
+      "text": "That is not one problem for procurement and another for engineering.",
+      "start": 203.63,
+      "end": 207.98
+    },
+    {
+      "block": 11,
+      "startChar": 69,
+      "endChar": 121,
+      "text": "The requirements determine what the supplier builds.",
+      "start": 208.14,
+      "end": 211.54
+    },
+    {
+      "block": 11,
+      "startChar": 122,
+      "endChar": 233,
+      "text": "Data and intellectual-property terms determine what the government can inspect, reproduce, improve, and retain.",
+      "start": 211.7,
+      "end": 219.075
+    },
+    {
+      "block": 11,
+      "startChar": 234,
+      "endChar": 290,
+      "text": "Test provisions determine which claims can be evaluated.",
+      "start": 219.235,
+      "end": 223.11
+    },
+    {
+      "block": 11,
+      "startChar": 291,
+      "endChar": 359,
+      "text": "Monitoring terms determine whether evidence continues after release.",
+      "start": 223.27,
+      "end": 228.07
+    },
+    {
+      "block": 11,
+      "startChar": 360,
+      "endChar": 456,
+      "text": "Knowledge-transfer requirements determine whether one program's experience can improve the next.",
+      "start": 228.23,
+      "end": 234.255
+    },
+    {
+      "block": 11,
+      "startChar": 457,
+      "endChar": 694,
+      "text": "OMB Memorandum M-25-22 already treats cross-functional engagement, performance monitoring, competition, data rights, and knowledge sharing as acquisition concerns; GAO's findings show why those concerns have to become operating practice.",
+      "start": 234.415,
+      "end": 251.715
+    },
+    {
+      "block": 12,
+      "startChar": 0,
+      "endChar": 175,
+      "text": "In March 2026, the National Institute of Standards and Technology (NIST) published Challenges to the Monitoring of Deployed AI Systems: Center for AI Standards and Innovation.",
+      "start": 251.875,
+      "end": 265.15
+    },
+    {
+      "block": 12,
+      "startChar": 176,
+      "endChar": 321,
+      "text": "Its scope extends beyond conventional model telemetry to functionality, operations, human factors, security, compliance, and large-scale impacts.",
+      "start": 265.31,
+      "end": 275.685
+    },
+    {
+      "block": 12,
+      "startChar": 322,
+      "endChar": 500,
+      "text": "NIST's central warning is appropriately restrained: common terminology, validated methodologies, and best practices for postdeployment AI monitoring remain nascent and scattered.",
+      "start": 275.845,
+      "end": 288.695
+    },
+    {
+      "block": 13,
+      "startChar": 0,
+      "endChar": 60,
+      "text": "Together, those reports describe an institutional condition.",
+      "start": 288.855,
+      "end": 292.955
+    },
+    {
+      "block": 13,
+      "startChar": 61,
+      "endChar": 290,
+      "text": "Organizations can acquire models, build pipelines, convene review boards, and publish principles while still failing to preserve the relationship among a system's purpose, evidence, authority, operating context, and consequences.",
+      "start": 293.115,
+      "end": 308.64
+    },
+    {
+      "block": 14,
+      "startChar": 0,
+      "endChar": 42,
+      "text": "That relationship is where RAIDops begins.",
+      "start": 308.8,
+      "end": 311.95
+    },
+    {
+      "block": 15,
+      "startChar": 0,
+      "endChar": 35,
+      "text": "The gap is not a lack of principles",
+      "start": 312.11,
+      "end": 314.66
+    },
+    {
+      "block": 16,
+      "startChar": 0,
+      "endChar": 55,
+      "text": "Responsible AI has no shortage of normative frameworks.",
+      "start": 314.98,
+      "end": 319.28
+    },
+    {
+      "block": 16,
+      "startChar": 56,
+      "endChar": 158,
+      "text": "NIST's AI Risk Management Framework organizes continuous work across Govern, Map, Measure, and Manage.",
+      "start": 319.44,
+      "end": 327.215
+    },
+    {
+      "block": 16,
+      "startChar": 159,
+      "endChar": 291,
+      "text": "ISO/IEC 42001 specifies requirements for establishing, implementing, maintaining, and continually improving an AI management system.",
+      "start": 327.375,
+      "end": 338.55
+    },
+    {
+      "block": 16,
+      "startChar": 292,
+      "endChar": 456,
+      "text": "The Department of Defense's Responsible AI Strategy and Implementation Pathway connects governance, acquisition, product lifecycle, workforce, and warfighter trust.",
+      "start": 338.71,
+      "end": 349.885
+    },
+    {
+      "block": 16,
+      "startChar": 457,
+      "endChar": 591,
+      "text": "Other fields contribute model-risk management, safety cases, human-centered design, impact assessment, audit, and professional duties.",
+      "start": 350.045,
+      "end": 359.245
+    },
+    {
+      "block": 17,
+      "startChar": 0,
+      "endChar": 24,
+      "text": "Those frameworks matter.",
+      "start": 359.405,
+      "end": 361.38
+    },
+    {
+      "block": 17,
+      "startChar": 25,
+      "endChar": 99,
+      "text": "RAIDops is not an argument that the field forgot to define responsibility.",
+      "start": 361.54,
+      "end": 366.715
+    },
+    {
+      "block": 18,
+      "startChar": 0,
+      "endChar": 62,
+      "text": "The harder problem is that principles do not enact themselves.",
+      "start": 366.875,
+      "end": 370.95
+    },
+    {
+      "block": 18,
+      "startChar": 63,
+      "endChar": 163,
+      "text": "Brent Mittelstadt's critique that principles alone cannot guarantee ethical AI remains foundational.",
+      "start": 371.11,
+      "end": 378.135
+    },
+    {
+      "block": 18,
+      "startChar": 164,
+      "endChar": 274,
+      "text": "Morley and colleagues found a persistent gap between the ethical what and the practical how of AI development.",
+      "start": 378.295,
+      "end": 385.52
+    },
+    {
+      "block": 18,
+      "startChar": 275,
+      "endChar": 514,
+      "text": "Field research has since shown how responsible-AI work collides with organizational incentives, fragmented authority, insufficient resources, and the individualization of risk among people expected to make ethics operational (Rakova et al.",
+      "start": 385.68,
+      "end": 401.905
+    },
+    {
+      "block": 18,
+      "startChar": 515,
+      "endChar": 531,
+      "text": "2021; Ali et al.",
+      "start": 402.065,
+      "end": 404.665
+    },
+    {
+      "block": 18,
+      "startChar": 532,
+      "endChar": 538,
+      "text": "2023).",
+      "start": 404.825,
+      "end": 406.65
+    },
+    {
+      "block": 19,
+      "startChar": 0,
+      "endChar": 93,
+      "text": "I made a related argument in an earlier Field Note: responsible AI needs an operating system.",
+      "start": 406.81,
+      "end": 413.535
+    },
+    {
+      "block": 19,
+      "startChar": 94,
+      "endChar": 155,
+      "text": "RAIDops is the larger research program behind that intuition.",
+      "start": 413.695,
+      "end": 418.295
+    },
+    {
+      "block": 19,
+      "startChar": 156,
+      "endChar": 426,
+      "text": "It asks what the operating model must connect when AI work is distributed across product teams, acquisition offices, suppliers, data owners, lawyers, security engineers, independent evaluators, human-factors specialists, executives, operators, and affected institutions.",
+      "start": 418.455,
+      "end": 436.98
+    },
+    {
+      "block": 20,
+      "startChar": 0,
+      "endChar": 66,
+      "text": "The missing layer is not another set of values above those people.",
+      "start": 437.14,
+      "end": 441.465
+    },
+    {
+      "block": 20,
+      "startChar": 67,
+      "endChar": 243,
+      "text": "It is a way to keep their evidence, judgment, authority, and responsibility attached to the same consequential decision while the technology and context change underneath them.",
+      "start": 441.625,
+      "end": 452.7
+    },
+    {
+      "block": 21,
+      "startChar": 0,
+      "endChar": 22,
+      "text": "What I mean by RAIDops",
+      "start": 452.86,
+      "end": 454.81
+    },
+    {
+      "block": 22,
+      "startChar": 0,
+      "endChar": 230,
+      "text": "On the public RAIDops research page, I define Responsible AI Development Operations as a builder-side, lifecycle-wide socio-technical framework for turning responsible-AI commitments into ordinary development and operational work.",
+      "start": 455.13,
+      "end": 470.655
+    },
+    {
+      "block": 23,
+      "startChar": 0,
+      "endChar": 52,
+      "text": "Builder-side does not mean software engineers alone.",
+      "start": 470.815,
+      "end": 474.315
+    },
+    {
+      "block": 23,
+      "startChar": 53,
+      "endChar": 260,
+      "text": "It includes the people and organizations that conceive, acquire, fund, specify, supply, design, integrate, evaluate, approve, release, monitor, modify, transfer, suspend, and retire an AI-enabled capability.",
+      "start": 474.475,
+      "end": 489.525
+    },
+    {
+      "block": 24,
+      "startChar": 0,
+      "endChar": 93,
+      "text": "Lifecycle-wide means responsibility begins before code exists and continues after deployment.",
+      "start": 489.685,
+      "end": 496.485
+    },
+    {
+      "block": 24,
+      "startChar": 94,
+      "endChar": 152,
+      "text": "Problem formulation determines what will count as success.",
+      "start": 496.645,
+      "end": 500.67
+    },
+    {
+      "block": 24,
+      "startChar": 153,
+      "endChar": 210,
+      "text": "Contract design distributes inspection rights and duties.",
+      "start": 500.83,
+      "end": 504.855
+    },
+    {
+      "block": 24,
+      "startChar": 211,
+      "endChar": 265,
+      "text": "Data work determines whose experience becomes visible.",
+      "start": 505.015,
+      "end": 508.99
+    },
+    {
+      "block": 24,
+      "startChar": 266,
+      "endChar": 330,
+      "text": "Interface design changes what a user can understand and contest.",
+      "start": 509.15,
+      "end": 513.925
+    },
+    {
+      "block": 24,
+      "startChar": 331,
+      "endChar": 373,
+      "text": "Release binds evidence to a configuration.",
+      "start": 514.085,
+      "end": 517.11
+    },
+    {
+      "block": 24,
+      "startChar": 374,
+      "endChar": 449,
+      "text": "Monitoring tests whether the conditions supporting the decision still hold.",
+      "start": 517.27,
+      "end": 522.07
+    },
+    {
+      "block": 24,
+      "startChar": 450,
+      "endChar": 532,
+      "text": "Retirement determines whether the organization can actually stop when they do not.",
+      "start": 522.23,
+      "end": 527.505
+    },
+    {
+      "block": 25,
+      "startChar": 0,
+      "endChar": 72,
+      "text": "Socio-technical means the relevant object is not the model in isolation.",
+      "start": 527.665,
+      "end": 533.215
+    },
+    {
+      "block": 25,
+      "startChar": 73,
+      "endChar": 224,
+      "text": "It is the configured decision system: model, data, dependencies, interface, workflow, users, incentives, policy, authority, intervention, and recourse.",
+      "start": 533.375,
+      "end": 543.9
+    },
+    {
+      "block": 26,
+      "startChar": 0,
+      "endChar": 44,
+      "text": "The simplified architecture looks like this:",
+      "start": 544.06,
+      "end": 546.885
+    },
+    {
+      "block": 27,
+      "startChar": 0,
+      "endChar": 17,
+      "text": "Diagram in words.",
+      "start": 547.045,
+      "end": 548.895
+    },
+    {
+      "block": 27,
+      "startChar": 18,
+      "endChar": 136,
+      "text": "RAIDops translates principles, law, professional duties, and mission intent into purpose- and context-specific claims.",
+      "start": 549.055,
+      "end": 557.155
+    },
+    {
+      "block": 27,
+      "startChar": 137,
+      "endChar": 345,
+      "text": "Five mutually dependent builder layers inform a bounded lifecycle decision; operational evidence, incidents, and changed conditions then reopen the claims rather than allowing an approval to become permanent.",
+      "start": 557.315,
+      "end": 571.015
+    },
+    {
+      "block": 28,
+      "startChar": 0,
+      "endChar": 9,
+      "text": "Figure 1.",
+      "start": 571.175,
+      "end": 572.675
+    },
+    {
+      "block": 28,
+      "startChar": 10,
+      "endChar": 43,
+      "text": "A conceptual overview of RAIDops.",
+      "start": 572.835,
+      "end": 575.51
+    },
+    {
+      "block": 28,
+      "startChar": 44,
+      "endChar": 132,
+      "text": "The five builder layers are mutually dependent operating domains, not sequential phases.",
+      "start": 575.67,
+      "end": 581.795
+    },
+    {
+      "block": 28,
+      "startChar": 133,
+      "endChar": 210,
+      "text": "Operational evidence and material change reopen earlier claims and decisions.",
+      "start": 581.955,
+      "end": 587.355
+    },
+    {
+      "block": 29,
+      "startChar": 0,
+      "endChar": 137,
+      "text": "RAIDops does not replace MLOps, DevSecOps, systems engineering, safety engineering, law, governance, assurance, or human-centered design.",
+      "start": 587.515,
+      "end": 597.34
+    },
+    {
+      "block": 29,
+      "startChar": 138,
+      "endChar": 174,
+      "text": "It works through and alongside them.",
+      "start": 597.5,
+      "end": 599.925
+    },
+    {
+      "block": 29,
+      "startChar": 175,
+      "endChar": 281,
+      "text": "Its contribution is the operating architecture that asks how their outputs meet at an answerable decision.",
+      "start": 600.085,
+      "end": 607.21
+    },
+    {
+      "block": 30,
+      "startChar": 0,
+      "endChar": 31,
+      "text": "That is the invention boundary.",
+      "start": 607.37,
+      "end": 609.845
+    },
+    {
+      "block": 30,
+      "startChar": 32,
+      "endChar": 102,
+      "text": "I did not invent the constituent disciplines, practices, or artifacts.",
+      "start": 610.005,
+      "end": 614.78
+    },
+    {
+      "block": 30,
+      "startChar": 103,
+      "endChar": 390,
+      "text": "I developed RAIDops as a synthesis and operating architecture for connecting them around a specific problem: keeping responsibility, evidence, credible challenge, and authority attached to consequential AI decisions as systems are defined, built, transferred, changed, used, and retired.",
+      "start": 614.94,
+      "end": 633.89
+    },
+    {
+      "block": 31,
+      "startChar": 0,
+      "endChar": 69,
+      "text": "Across those boundaries, RAIDops returns to five recurring questions:",
+      "start": 634.05,
+      "end": 639.0
+    },
+    {
+      "block": 32,
+      "startChar": 0,
+      "endChar": 23,
+      "text": "Who owns this decision?",
+      "start": 639.16,
+      "end": 641.235
+    },
+    {
+      "block": 33,
+      "startChar": 0,
+      "endChar": 26,
+      "text": "What evidence supports it?",
+      "start": 641.395,
+      "end": 643.37
+    },
+    {
+      "block": 34,
+      "startChar": 0,
+      "endChar": 30,
+      "text": "Who can credibly challenge it?",
+      "start": 643.53,
+      "end": 645.655
+    },
+    {
+      "block": 35,
+      "startChar": 0,
+      "endChar": 36,
+      "text": "What conditions would invalidate it?",
+      "start": 645.815,
+      "end": 648.265
+    },
+    {
+      "block": 36,
+      "startChar": 0,
+      "endChar": 88,
+      "text": "What context, constraints, and accountability must travel when the system changes hands?",
+      "start": 648.425,
+      "end": 654.275
+    },
+    {
+      "block": 37,
+      "startChar": 0,
+      "endChar": 45,
+      "text": "These questions are not a certification test.",
+      "start": 654.435,
+      "end": 657.685
+    },
+    {
+      "block": 37,
+      "startChar": 46,
+      "endChar": 147,
+      "text": "They are a way to discover whether an apparently complete process still contains an unowned decision.",
+      "start": 657.845,
+      "end": 664.22
+    },
+    {
+      "block": 38,
+      "startChar": 0,
+      "endChar": 73,
+      "text": "Imagine a contractor-developed model evaluated for one advisory workflow.",
+      "start": 664.38,
+      "end": 669.93
+    },
+    {
+      "block": 38,
+      "startChar": 74,
+      "endChar": 267,
+      "text": "The receiving organization preserves the weights and model card but connects a new data feed, compresses uncertainty in the interface, and gives the recommendation a different operational role.",
+      "start": 670.09,
+      "end": 682.19
+    },
+    {
+      "block": 38,
+      "startChar": 268,
+      "endChar": 334,
+      "text": "The build remains reproducible and every encoded test stays green.",
+      "start": 682.35,
+      "end": 687.25
+    },
+    {
+      "block": 38,
+      "startChar": 335,
+      "endChar": 470,
+      "text": "Yet the evidence no longer describes the complete system in use, and no one has explicitly accepted the changed authority relationship.",
+      "start": 687.41,
+      "end": 696.035
+    },
+    {
+      "block": 38,
+      "startChar": 471,
+      "endChar": 565,
+      "text": "Every team may have completed its local task while the whole decision has become indefensible.",
+      "start": 696.195,
+      "end": 702.295
+    },
+    {
+      "block": 39,
+      "startChar": 0,
+      "endChar": 63,
+      "text": "Product evidence and builder capability are different questions",
+      "start": 702.455,
+      "end": 706.555
+    },
+    {
+      "block": 40,
+      "startChar": 0,
+      "endChar": 73,
+      "text": "One of RAIDops's most important distinctions is also one of its simplest.",
+      "start": 706.875,
+      "end": 712.425
+    },
+    {
+      "block": 41,
+      "startChar": 0,
+      "endChar": 112,
+      "text": "The field has already developed substantial accounts of what a trustworthy AI product should be able to support.",
+      "start": 712.585,
+      "end": 719.485
+    },
+    {
+      "block": 41,
+      "startChar": 113,
+      "endChar": 166,
+      "text": "RAIDops groups those claims into four broad families:",
+      "start": 719.645,
+      "end": 723.47
+    },
+    {
+      "block": 42,
+      "startChar": 0,
+      "endChar": 29,
+      "text": "Governance and Accountability",
+      "start": 723.63,
+      "end": 725.98
+    },
+    {
+      "block": 43,
+      "startChar": 0,
+      "endChar": 33,
+      "text": "Ethical and Legal Risk Management",
+      "start": 726.14,
+      "end": 728.715
+    },
+    {
+      "block": 44,
+      "startChar": 0,
+      "endChar": 30,
+      "text": "Technical Design and Assurance",
+      "start": 728.875,
+      "end": 731.2
+    },
+    {
+      "block": 45,
+      "startChar": 0,
+      "endChar": 23,
+      "text": "Human Factors and Trust",
+      "start": 731.36,
+      "end": 733.485
+    },
+    {
+      "block": 46,
+      "startChar": 0,
+      "endChar": 38,
+      "text": "RAIDops is not a fifth product pillar.",
+      "start": 733.645,
+      "end": 736.47
+    },
+    {
+      "block": 46,
+      "startChar": 39,
+      "endChar": 198,
+      "text": "It organizes the builder-side capabilities through which an organization produces, judges, preserves, challenges, and reopens the evidence behind those claims.",
+      "start": 736.63,
+      "end": 746.93
+    },
+    {
+      "block": 46,
+      "startChar": 199,
+      "endChar": 256,
+      "text": "Those capabilities sit in five mutually dependent layers:",
+      "start": 747.09,
+      "end": 751.115
+    },
+    {
+      "block": 47,
+      "startChar": 0,
+      "endChar": 14,
+      "text": "Organizational",
+      "start": 751.275,
+      "end": 753.05
+    },
+    {
+      "block": 48,
+      "startChar": 0,
+      "endChar": 21,
+      "text": "Policy and Governance",
+      "start": 753.21,
+      "end": 755.185
+    },
+    {
+      "block": 49,
+      "startChar": 0,
+      "endChar": 23,
+      "text": "Pipeline and Automation",
+      "start": 755.345,
+      "end": 757.42
+    },
+    {
+      "block": 50,
+      "startChar": 0,
+      "endChar": 24,
+      "text": "Assurance and Monitoring",
+      "start": 757.58,
+      "end": 759.555
+    },
+    {
+      "block": 51,
+      "startChar": 0,
+      "endChar": 27,
+      "text": "Socio-Technical Integration",
+      "start": 759.715,
+      "end": 762.09
+    },
+    {
+      "block": 52,
+      "startChar": 0,
+      "endChar": 113,
+      "text": "Collapsing those dimensions into one maturity or trust score would erase the decision RAIDops is meant to expose.",
+      "start": 762.25,
+      "end": 769.7
+    },
+    {
+      "block": 53,
+      "startChar": 0,
+      "endChar": 8,
+      "text": "Table 1.",
+      "start": 769.86,
+      "end": 771.385
+    },
+    {
+      "block": 53,
+      "startChar": 9,
+      "endChar": 76,
+      "text": "Product evidence and builder capability answer different questions.",
+      "start": 771.545,
+      "end": 776.07
+    },
+    {
+      "block": 53,
+      "startChar": 77,
+      "endChar": 121,
+      "text": "Neither dimension substitutes for the other.",
+      "start": 776.23,
+      "end": 779.38
+    },
+    {
+      "block": 54,
+      "startChar": 0,
+      "endChar": 77,
+      "text": "A sophisticated builder can responsibly discover that the product case fails.",
+      "start": 779.54,
+      "end": 784.94
+    },
+    {
+      "block": 54,
+      "startChar": 78,
+      "endChar": 277,
+      "text": "In fact, the ability to hold, narrow, redesign, reject, suspend, or retire a use may be stronger evidence of institutional capability than an operating model that converts every review into approval.",
+      "start": 785.1,
+      "end": 799.175
+    },
+    {
+      "block": 55,
+      "startChar": 0,
+      "endChar": 72,
+      "text": "This is why RAIDops is not designed to make every AI program deployable.",
+      "start": 799.335,
+      "end": 804.71
+    },
+    {
+      "block": 55,
+      "startChar": 73,
+      "endChar": 172,
+      "text": "It is designed to make consequential decisions more visible, challengeable, bounded, and revisable.",
+      "start": 804.87,
+      "end": 811.47
+    },
+    {
+      "block": 56,
+      "startChar": 0,
+      "endChar": 45,
+      "text": "A green pipeline is not an assurance judgment",
+      "start": 811.63,
+      "end": 814.805
+    },
+    {
+      "block": 57,
+      "startChar": 0,
+      "endChar": 67,
+      "text": "Modern AI engineering already has powerful operational disciplines.",
+      "start": 815.125,
+      "end": 820.05
+    },
+    {
+      "block": 57,
+      "startChar": 68,
+      "endChar": 151,
+      "text": "MLOps connects development, deployment, monitoring, data, and model lifecycle work.",
+      "start": 820.21,
+      "end": 826.135
+    },
+    {
+      "block": 57,
+      "startChar": 152,
+      "endChar": 203,
+      "text": "DevSecOps makes security part of ordinary delivery.",
+      "start": 826.295,
+      "end": 830.245
+    },
+    {
+      "block": 57,
+      "startChar": 204,
+      "endChar": 360,
+      "text": "NIST's Secure Software Development Framework gives producers and acquirers a common vocabulary for integrating secure practices into the software lifecycle.",
+      "start": 830.405,
+      "end": 841.78
+    },
+    {
+      "block": 57,
+      "startChar": 361,
+      "endChar": 508,
+      "text": "The Department of Defense's Enterprise DevSecOps Fundamentals provides a rich platform, pipeline, evidence, and continuous-authorization substrate.",
+      "start": 841.94,
+      "end": 851.99
+    },
+    {
+      "block": 58,
+      "startChar": 0,
+      "endChar": 38,
+      "text": "RAIDops should reuse those mechanisms.",
+      "start": 852.15,
+      "end": 855.125
+    },
+    {
+      "block": 58,
+      "startChar": 39,
+      "endChar": 265,
+      "text": "A delivery system can verify that a release candidate has a stable identity, uses an approved data version, passed a named test, meets an encoded threshold, carries a required approval, and is permitted to enter a destination.",
+      "start": 855.285,
+      "end": 870.385
+    },
+    {
+      "block": 58,
+      "startChar": 266,
+      "endChar": 320,
+      "text": "This is the beginning of an executable evidence chain.",
+      "start": 870.545,
+      "end": 874.27
+    },
+    {
+      "block": 59,
+      "startChar": 0,
+      "endChar": 49,
+      "text": "But executable is not synonymous with sufficient.",
+      "start": 874.43,
+      "end": 878.03
+    },
+    {
+      "block": 60,
+      "startChar": 0,
+      "endChar": 278,
+      "text": "A pipeline cannot determine, by itself, whether the selected outcome was legitimate, the affected population was properly represented, the metric captured the relevant harm, the threshold was normatively defensible, the reviewer was independent, or residual risk was acceptable.",
+      "start": 878.19,
+      "end": 896.09
+    },
+    {
+      "block": 60,
+      "startChar": 279,
+      "endChar": 319,
+      "text": "It can prove that encoded checks passed.",
+      "start": 896.25,
+      "end": 899.05
+    },
+    {
+      "block": 60,
+      "startChar": 320,
+      "endChar": 385,
+      "text": "It cannot prove that the organization encoded the right judgment.",
+      "start": 899.21,
+      "end": 903.51
+    },
+    {
+      "block": 61,
+      "startChar": 0,
+      "endChar": 47,
+      "text": "Assurance research makes a similar distinction.",
+      "start": 903.67,
+      "end": 906.945
+    },
+    {
+      "block": 61,
+      "startChar": 48,
+      "endChar": 255,
+      "text": "Ashmore, Calinescu, and Paterson describe assurance as the lifecycle production of evidence that a machine-learning component is sufficiently safe for its intended use—not a synonym for test accuracy (2021).",
+      "start": 907.105,
+      "end": 921.455
+    },
+    {
+      "block": 61,
+      "startChar": 256,
+      "endChar": 415,
+      "text": "End-to-end audit research similarly connects organizational processes, documentation, testing, and accountability across the development lifecycle (Raji et al.",
+      "start": 921.615,
+      "end": 932.915
+    },
+    {
+      "block": 61,
+      "startChar": 416,
+      "endChar": 422,
+      "text": "2020).",
+      "start": 933.075,
+      "end": 934.775
+    },
+    {
+      "block": 61,
+      "startChar": 423,
+      "endChar": 522,
+      "text": "Claims, arguments, context, assumptions, and evidence can be made explicit through assurance cases.",
+      "start": 934.935,
+      "end": 941.71
+    },
+    {
+      "block": 61,
+      "startChar": 523,
+      "endChar": 589,
+      "text": "The notation does not make the evidence true or the judgment wise.",
+      "start": 941.87,
+      "end": 946.145
+    },
+    {
+      "block": 62,
+      "startChar": 0,
+      "endChar": 82,
+      "text": "The design target is therefore neither governance as prose nor governance as code.",
+      "start": 946.305,
+      "end": 951.93
+    },
+    {
+      "block": 62,
+      "startChar": 83,
+      "endChar": 278,
+      "text": "It is a reviewable relationship among claims, evidence, authority, conditions, and technical state, with automation where propositions are determinate and accountable judgment where they are not.",
+      "start": 952.09,
+      "end": 964.715
+    },
+    {
+      "block": 63,
+      "startChar": 0,
+      "endChar": 55,
+      "text": "Agentic systems make the operating gap harder to ignore",
+      "start": 964.875,
+      "end": 969.075
+    },
+    {
+      "block": 64,
+      "startChar": 0,
+      "endChar": 129,
+      "text": "Agentic and multi-agent systems distribute analysis and action across planners, retrievers, evaluators, and tool-using delegates.",
+      "start": 969.395,
+      "end": 978.545
+    },
+    {
+      "block": 64,
+      "startChar": 130,
+      "endChar": 318,
+      "text": "A semantic layer or knowledge graph can give those actors a shared representation of the operating domain: purposes, entities, relationships, policies, evidence, decisions, and provenance.",
+      "start": 978.705,
+      "end": 991.505
+    },
+    {
+      "block": 64,
+      "startChar": 319,
+      "endChar": 377,
+      "text": "That shared world can make coordinated work more coherent.",
+      "start": 991.665,
+      "end": 995.615
+    },
+    {
+      "block": 64,
+      "startChar": 378,
+      "endChar": 485,
+      "text": "It does not make the representation complete, the retrieved claim true, or the resulting action authorized.",
+      "start": 995.775,
+      "end": 1002.575
+    },
+    {
+      "block": 65,
+      "startChar": 0,
+      "endChar": 88,
+      "text": "I have written that multi-agent systems need a shared world, not merely shared messages.",
+      "start": 1002.735,
+      "end": 1008.46
+    },
+    {
+      "block": 65,
+      "startChar": 89,
+      "endChar": 140,
+      "text": "RAIDops adds the institutional half of the problem.",
+      "start": 1008.62,
+      "end": 1012.245
+    },
+    {
+      "block": 65,
+      "startChar": 141,
+      "endChar": 188,
+      "text": "Which human or organization delegated the work?",
+      "start": 1012.405,
+      "end": 1015.805
+    },
+    {
+      "block": 65,
+      "startChar": 189,
+      "endChar": 244,
+      "text": "Which version of the shared representation informed it?",
+      "start": 1015.965,
+      "end": 1019.515
+    },
+    {
+      "block": 65,
+      "startChar": 245,
+      "endChar": 276,
+      "text": "Which policy bounded the tools?",
+      "start": 1019.675,
+      "end": 1022.0
+    },
+    {
+      "block": 65,
+      "startChar": 277,
+      "endChar": 343,
+      "text": "Which evidence was produced outside the agents' ability to revise?",
+      "start": 1022.16,
+      "end": 1026.435
+    },
+    {
+      "block": 65,
+      "startChar": 344,
+      "endChar": 364,
+      "text": "Who owns acceptance?",
+      "start": 1026.595,
+      "end": 1028.52
+    },
+    {
+      "block": 65,
+      "startChar": 365,
+      "endChar": 419,
+      "text": "Which event revokes authority or reopens the decision?",
+      "start": 1028.68,
+      "end": 1032.38
+    },
+    {
+      "block": 66,
+      "startChar": 0,
+      "endChar": 200,
+      "text": "As agents become more capable of interpreting evidence, proposing plans, invoking tools, and coordinating other agents, the consequential question is no longer merely whether they can complete a task.",
+      "start": 1032.54,
+      "end": 1045.79
+    },
+    {
+      "block": 66,
+      "startChar": 201,
+      "endChar": 385,
+      "text": "It is whether the organization can preserve delegated authority, independent evaluation, traceable context, explicit intervention rights, and responsibility for the resulting decision.",
+      "start": 1045.95,
+      "end": 1058.2
+    },
+    {
+      "block": 66,
+      "startChar": 386,
+      "endChar": 441,
+      "text": "Those controls are not friction around the “real” work.",
+      "start": 1058.36,
+      "end": 1061.81
+    },
+    {
+      "block": 66,
+      "startChar": 442,
+      "endChar": 518,
+      "text": "They are part of the operating design that makes autonomous work answerable.",
+      "start": 1061.97,
+      "end": 1066.87
+    },
+    {
+      "block": 67,
+      "startChar": 0,
+      "endChar": 36,
+      "text": "Evidence must travel with the system",
+      "start": 1067.03,
+      "end": 1069.53
+    },
+    {
+      "block": 68,
+      "startChar": 0,
+      "endChar": 77,
+      "text": "AI systems rarely remain inside the boundary where they were first evaluated.",
+      "start": 1069.85,
+      "end": 1075.45
+    },
+    {
+      "block": 68,
+      "startChar": 78,
+      "endChar": 289,
+      "text": "A model is incorporated into a product, delivered by a contractor, connected to new data, placed behind a different interface, moved to another mission, or used by people with a different authority and workload.",
+      "start": 1075.61,
+      "end": 1089.235
+    },
+    {
+      "block": 69,
+      "startChar": 0,
+      "endChar": 78,
+      "text": "The artifact may look technically continuous while its job changes completely.",
+      "start": 1089.395,
+      "end": 1094.52
+    },
+    {
+      "block": 70,
+      "startChar": 0,
+      "endChar": 72,
+      "text": "RAIDops calls the resulting requirement accountability-bearing transfer.",
+      "start": 1094.68,
+      "end": 1099.58
+    },
+    {
+      "block": 70,
+      "startChar": 73,
+      "endChar": 153,
+      "text": "The idea is not that one party can hand responsibility to another in a document.",
+      "start": 1099.74,
+      "end": 1105.415
+    },
+    {
+      "block": 70,
+      "startChar": 154,
+      "endChar": 272,
+      "text": "Responsibilities may branch among the supplier, integrator, acquirer, operator, product owner, and decision authority.",
+      "start": 1105.575,
+      "end": 1113.825
+    },
+    {
+      "block": 70,
+      "startChar": 273,
+      "endChar": 398,
+      "text": "The requirement is that enough context and evidence travel for the receiving organization to make its next decision honestly.",
+      "start": 1113.985,
+      "end": 1121.91
+    },
+    {
+      "block": 71,
+      "startChar": 0,
+      "endChar": 17,
+      "text": "Diagram in words.",
+      "start": 1122.07,
+      "end": 1123.92
+    },
+    {
+      "block": 71,
+      "startChar": 18,
+      "endChar": 219,
+      "text": "A transfer package carries permitted and prohibited uses, technical provenance, supporting evidence, uncertainty, unresolved dissent, operating conditions, stop triggers, and retained responsibilities.",
+      "start": 1124.08,
+      "end": 1137.53
+    },
+    {
+      "block": 71,
+      "startChar": 220,
+      "endChar": 352,
+      "text": "The receiving organization must use that context to make a new bounded decision rather than treating delivery as inherited approval.",
+      "start": 1137.69,
+      "end": 1146.615
+    },
+    {
+      "block": 72,
+      "startChar": 0,
+      "endChar": 9,
+      "text": "Figure 2.",
+      "start": 1146.775,
+      "end": 1148.35
+    },
+    {
+      "block": 72,
+      "startChar": 10,
+      "endChar": 88,
+      "text": "Accountability-bearing transfer is a new reviewable decision, not a file copy.",
+      "start": 1148.51,
+      "end": 1154.135
+    },
+    {
+      "block": 72,
+      "startChar": 89,
+      "endChar": 199,
+      "text": "Technical continuity does not establish continuity of purpose, evidence, authority, or acceptable consequence.",
+      "start": 1154.295,
+      "end": 1161.97
+    },
+    {
+      "block": 73,
+      "startChar": 0,
+      "endChar": 112,
+      "text": "This is closely related to decision provenance and to research on dislocated accountability in AI supply chains.",
+      "start": 1162.13,
+      "end": 1170.08
+    },
+    {
+      "block": 73,
+      "startChar": 113,
+      "endChar": 290,
+      "text": "The difference RAIDops emphasizes is operational: provenance and limitations must remain connected to version, use, authority, and the controls that can alter what happens next.",
+      "start": 1170.24,
+      "end": 1182.44
+    },
+    {
+      "block": 74,
+      "startChar": 0,
+      "endChar": 44,
+      "text": "Documentation is necessary but insufficient.",
+      "start": 1182.6,
+      "end": 1186.0
+    },
+    {
+      "block": 74,
+      "startChar": 45,
+      "endChar": 210,
+      "text": "A model card can state an intended use; it does not ensure the recipient sees it, interprets it correctly, or possesses authority to reject a conflicting deployment.",
+      "start": 1186.16,
+      "end": 1196.985
+    },
+    {
+      "block": 74,
+      "startChar": 211,
+      "endChar": 305,
+      "text": "A risk register can preserve a concern; it does not ensure the concern receives a disposition.",
+      "start": 1197.145,
+      "end": 1203.57
+    },
+    {
+      "block": 74,
+      "startChar": 306,
+      "endChar": 383,
+      "text": "An approval can be authentic and still be applied to the wrong configuration.",
+      "start": 1203.73,
+      "end": 1208.755
+    },
+    {
+      "block": 75,
+      "startChar": 0,
+      "endChar": 70,
+      "text": "Evidence becomes operational when it can change the state of the work.",
+      "start": 1208.915,
+      "end": 1213.315
+    },
+    {
+      "block": 76,
+      "startChar": 0,
+      "endChar": 37,
+      "text": "The operating model must be federated",
+      "start": 1213.475,
+      "end": 1216.5
+    },
+    {
+      "block": 77,
+      "startChar": 0,
+      "endChar": 95,
+      "text": "RAIDops is not a proposal for one central ethics committee to approve every technical decision.",
+      "start": 1216.82,
+      "end": 1223.47
+    },
+    {
+      "block": 78,
+      "startChar": 0,
+      "endChar": 145,
+      "text": "Central functions can establish common language, minimum evidence, independent challenge, reusable methods, infrastructure, and escalation paths.",
+      "start": 1223.63,
+      "end": 1233.205
+    },
+    {
+      "block": 78,
+      "startChar": 146,
+      "endChar": 276,
+      "text": "Product and mission teams hold local knowledge about the workflow, affected people, operational constraints, and intended outcome.",
+      "start": 1233.365,
+      "end": 1241.615
+    },
+    {
+      "block": 78,
+      "startChar": 277,
+      "endChar": 343,
+      "text": "Technical and domain specialists know different parts of the risk.",
+      "start": 1241.775,
+      "end": 1246.0
+    },
+    {
+      "block": 78,
+      "startChar": 344,
+      "endChar": 478,
+      "text": "Executives, authorizing officials, clinicians, commanders, regulators, or other legitimate authorities may own different dispositions.",
+      "start": 1246.16,
+      "end": 1255.26
+    },
+    {
+      "block": 79,
+      "startChar": 0,
+      "endChar": 94,
+      "text": "The design problem is how those forms of knowledge and authority meet without being flattened.",
+      "start": 1255.42,
+      "end": 1261.195
+    },
+    {
+      "block": 80,
+      "startChar": 0,
+      "endChar": 211,
+      "text": "My related theory of networked accountability treats predeployment review as a routing problem across expertise, credibility, reinforcement, and persistence.2 The relevant organizational questions are practical:",
+      "start": 1261.355,
+      "end": 1276.105
+    },
+    {
+      "block": 81,
+      "startChar": 0,
+      "endChar": 57,
+      "text": "Can risk-relevant knowledge reach an authorized decision?",
+      "start": 1276.265,
+      "end": 1279.89
+    },
+    {
+      "block": 82,
+      "startChar": 0,
+      "endChar": 48,
+      "text": "Can it receive competent and credible challenge?",
+      "start": 1280.05,
+      "end": 1283.1
+    },
+    {
+      "block": 83,
+      "startChar": 0,
+      "endChar": 72,
+      "text": "Can the challenge affect the disposition rather than merely be recorded?",
+      "start": 1283.26,
+      "end": 1287.91
+    },
+    {
+      "block": 84,
+      "startChar": 0,
+      "endChar": 66,
+      "text": "Can the concern survive organizational and contractual boundaries?",
+      "start": 1288.07,
+      "end": 1292.745
+    },
+    {
+      "block": 85,
+      "startChar": 0,
+      "endChar": 67,
+      "text": "Can the reasoning be recovered when the decision must be revisited?",
+      "start": 1292.905,
+      "end": 1297.205
+    },
+    {
+      "block": 86,
+      "startChar": 0,
+      "endChar": 67,
+      "text": "Cross-functional composition alone does not answer those questions.",
+      "start": 1297.365,
+      "end": 1301.865
+    },
+    {
+      "block": 86,
+      "startChar": 68,
+      "endChar": 352,
+      "text": "A lawyer consulted after the architecture has hardened, an operator represented only through a manager, a security reviewer without access to the model's dependencies, or a data scientist unable to see the final interface may all be “in the process” while lacking practical influence.",
+      "start": 1302.025,
+      "end": 1320.175
+    },
+    {
+      "block": 87,
+      "startChar": 0,
+      "endChar": 35,
+      "text": "Formal authority can be ceremonial.",
+      "start": 1320.335,
+      "end": 1323.21
+    },
+    {
+      "block": 87,
+      "startChar": 36,
+      "endChar": 174,
+      "text": "Credible authority needs relevant evidence, competence, time, organizational standing, an answerable forum, and a usable range of actions.",
+      "start": 1323.37,
+      "end": 1332.845
+    },
+    {
+      "block": 88,
+      "startChar": 0,
+      "endChar": 50,
+      "text": "Monitoring should test the conditions of the claim",
+      "start": 1333.005,
+      "end": 1336.155
+    },
+    {
+      "block": 89,
+      "startChar": 0,
+      "endChar": 101,
+      "text": "An AI system does not need to exhibit conspicuous statistical drift for its assurance case to weaken.",
+      "start": 1336.475,
+      "end": 1343.5
+    },
+    {
+      "block": 90,
+      "startChar": 0,
+      "endChar": 31,
+      "text": "The user population can change.",
+      "start": 1343.66,
+      "end": 1346.16
+    },
+    {
+      "block": 90,
+      "startChar": 32,
+      "endChar": 67,
+      "text": "A supplier can update a dependency.",
+      "start": 1346.32,
+      "end": 1349.02
+    },
+    {
+      "block": 90,
+      "startChar": 68,
+      "endChar": 106,
+      "text": "An interface can compress uncertainty.",
+      "start": 1349.18,
+      "end": 1352.005
+    },
+    {
+      "block": 90,
+      "startChar": 107,
+      "endChar": 159,
+      "text": "A workload can make nominal human review impossible.",
+      "start": 1352.165,
+      "end": 1355.89
+    },
+    {
+      "block": 90,
+      "startChar": 160,
+      "endChar": 202,
+      "text": "A policy can change the permitted purpose.",
+      "start": 1356.05,
+      "end": 1359.0
+    },
+    {
+      "block": 90,
+      "startChar": 203,
+      "endChar": 250,
+      "text": "A new threat can alter the security assumption.",
+      "start": 1359.16,
+      "end": 1362.41
+    },
+    {
+      "block": 90,
+      "startChar": 251,
+      "endChar": 340,
+      "text": "A successful deployment can encourage use outside the conditions that made it successful.",
+      "start": 1362.57,
+      "end": 1368.32
+    },
+    {
+      "block": 91,
+      "startChar": 0,
+      "endChar": 78,
+      "text": "This is why I have argued that monitoring deployed AI is a knowledge practice.",
+      "start": 1368.48,
+      "end": 1373.58
+    },
+    {
+      "block": 91,
+      "startChar": 79,
+      "endChar": 284,
+      "text": "Telemetry becomes governance only when observations reach people who can interpret them, connect them to the original claim, and change the product, procedure, authority boundary, or permission to operate.",
+      "start": 1373.74,
+      "end": 1386.515
+    },
+    {
+      "block": 92,
+      "startChar": 0,
+      "endChar": 57,
+      "text": "NIST AI 800-4 makes the breadth of that problem explicit.",
+      "start": 1386.675,
+      "end": 1391.45
+    },
+    {
+      "block": 92,
+      "startChar": 58,
+      "endChar": 196,
+      "text": "Monitoring may need to cover system functionality, operational performance, human interaction, security, compliance, and societal effects.",
+      "start": 1391.61,
+      "end": 1400.985
+    },
+    {
+      "block": 92,
+      "startChar": 197,
+      "endChar": 313,
+      "text": "RAIDops adds a particular question: which observed change could invalidate the basis on which this use was accepted?",
+      "start": 1401.145,
+      "end": 1408.895
+    },
+    {
+      "block": 93,
+      "startChar": 0,
+      "endChar": 52,
+      "text": "The answer should connect to a predeclared response.",
+      "start": 1409.055,
+      "end": 1412.33
+    },
+    {
+      "block": 93,
+      "startChar": 53,
+      "endChar": 65,
+      "text": "Investigate.",
+      "start": 1412.49,
+      "end": 1414.165
+    },
+    {
+      "block": 93,
+      "startChar": 66,
+      "endChar": 88,
+      "text": "Narrow the population.",
+      "start": 1414.325,
+      "end": 1416.275
+    },
+    {
+      "block": 93,
+      "startChar": 89,
+      "endChar": 108,
+      "text": "Restrict a feature.",
+      "start": 1416.435,
+      "end": 1418.285
+    },
+    {
+      "block": 93,
+      "startChar": 109,
+      "endChar": 120,
+      "text": "Revalidate.",
+      "start": 1418.445,
+      "end": 1419.995
+    },
+    {
+      "block": 93,
+      "startChar": 121,
+      "endChar": 131,
+      "text": "Roll back.",
+      "start": 1420.155,
+      "end": 1421.68
+    },
+    {
+      "block": 93,
+      "startChar": 132,
+      "endChar": 140,
+      "text": "Suspend.",
+      "start": 1421.84,
+      "end": 1423.415
+    },
+    {
+      "block": 93,
+      "startChar": 141,
+      "endChar": 148,
+      "text": "Notify.",
+      "start": 1423.575,
+      "end": 1425.125
+    },
+    {
+      "block": 93,
+      "startChar": 149,
+      "endChar": 156,
+      "text": "Retire.",
+      "start": 1425.285,
+      "end": 1426.785
+    },
+    {
+      "block": 94,
+      "startChar": 0,
+      "endChar": 34,
+      "text": "Rollback is not moral time travel.",
+      "start": 1426.945,
+      "end": 1429.72
+    },
+    {
+      "block": 94,
+      "startChar": 35,
+      "endChar": 200,
+      "text": "It may restore a prior technical version, but it cannot undo a denied benefit, an unsafe recommendation, an information disclosure, or a decision already acted upon.",
+      "start": 1429.88,
+      "end": 1441.405
+    },
+    {
+      "block": 94,
+      "startChar": 201,
+      "endChar": 335,
+      "text": "Operational readiness therefore includes recourse, incident learning, and the authority to intervene while intervention still matters.",
+      "start": 1441.565,
+      "end": 1450.09
+    },
+    {
+      "block": 95,
+      "startChar": 0,
+      "endChar": 56,
+      "text": "Defense is the originating stress test, not the boundary",
+      "start": 1450.25,
+      "end": 1454.25
+    },
+    {
+      "block": 96,
+      "startChar": 0,
+      "endChar": 136,
+      "text": "RAIDops grew from research into trustworthy AI in national defense because defense makes the organizational problem difficult to ignore.",
+      "start": 1454.57,
+      "end": 1464.02
+    },
+    {
+      "block": 96,
+      "startChar": 137,
+      "endChar": 336,
+      "text": "AI-enabled capabilities cross contractors, program offices, test organizations, classification boundaries, command structures, coalition relationships, acquisition pathways, and operational contexts.",
+      "start": 1464.18,
+      "end": 1477.905
+    },
+    {
+      "block": 96,
+      "startChar": 337,
+      "endChar": 364,
+      "text": "Evidence can be restricted.",
+      "start": 1478.065,
+      "end": 1480.265
+    },
+    {
+      "block": 96,
+      "startChar": 365,
+      "endChar": 390,
+      "text": "Authority is distributed.",
+      "start": 1480.425,
+      "end": 1482.65
+    },
+    {
+      "block": 96,
+      "startChar": 391,
+      "endChar": 416,
+      "text": "Mission pressure is real.",
+      "start": 1482.81,
+      "end": 1484.86
+    },
+    {
+      "block": 96,
+      "startChar": 417,
+      "endChar": 450,
+      "text": "Consequences can be irreversible.",
+      "start": 1485.02,
+      "end": 1487.795
+    },
+    {
+      "block": 97,
+      "startChar": 0,
+      "endChar": 54,
+      "text": "Those conditions make defense a demanding stress test.",
+      "start": 1487.955,
+      "end": 1491.705
+    },
+    {
+      "block": 97,
+      "startChar": 55,
+      "endChar": 105,
+      "text": "They do not make RAIDops a defense-only framework.",
+      "start": 1491.865,
+      "end": 1495.19
+    },
+    {
+      "block": 98,
+      "startChar": 0,
+      "endChar": 139,
+      "text": "I define high stakes as a relationship among capability, decision, context, authority, and consequence—not as a model type or sector label.",
+      "start": 1495.35,
+      "end": 1505.275
+    },
+    {
+      "block": 98,
+      "startChar": 140,
+      "endChar": 367,
+      "text": "A clinical risk score, fraud detector, public-benefits prioritization system, industrial control assistant, or military decision-support system becomes consequential through the work it enters and the power that work exercises.",
+      "start": 1505.435,
+      "end": 1520.585
+    },
+    {
+      "block": 99,
+      "startChar": 0,
+      "endChar": 147,
+      "text": "What can travel across sectors is a common operating requirement: keep purpose, evidence, authority, challenge, change, and intervention connected.",
+      "start": 1520.745,
+      "end": 1530.22
+    },
+    {
+      "block": 99,
+      "startChar": 148,
+      "endChar": 202,
+      "text": "What cannot simply travel is the institutional answer.",
+      "start": 1530.38,
+      "end": 1534.205
+    },
+    {
+      "block": 99,
+      "startChar": 203,
+      "endChar": 432,
+      "text": "Healthcare, finance, public administration, critical infrastructure, intelligence, and defense each supply different law, professional duties, evidence thresholds, decision authorities, intervention rights, and forms of recourse.",
+      "start": 1534.365,
+      "end": 1548.365
+    },
+    {
+      "block": 100,
+      "startChar": 0,
+      "endChar": 145,
+      "text": "The most credible cross-sector design is therefore one core with domain-specific profiles, not a universal checklist with the job titles renamed.",
+      "start": 1548.525,
+      "end": 1558.3
+    },
+    {
+      "block": 100,
+      "startChar": 146,
+      "endChar": 360,
+      "text": "FDA's final guidance on predetermined change-control plans for AI-enabled device software functions, for example, offers a powerful domain precedent for predefining the evidence and controls around material change.",
+      "start": 1558.46,
+      "end": 1573.485
+    },
+    {
+      "block": 100,
+      "startChar": 361,
+      "endChar": 414,
+      "text": "It is not a universal legal rule for every AI system.",
+      "start": 1573.645,
+      "end": 1577.895
+    },
+    {
+      "block": 101,
+      "startChar": 0,
+      "endChar": 50,
+      "text": "What leaders and builders should be able to answer",
+      "start": 1578.055,
+      "end": 1581.28
+    },
+    {
+      "block": 102,
+      "startChar": 0,
+      "endChar": 90,
+      "text": "The complete RAIDops work includes a proposed pattern language and assessment instruments.",
+      "start": 1581.6,
+      "end": 1587.35
+    },
+    {
+      "block": 102,
+      "startChar": 91,
+      "endChar": 136,
+      "text": "I am intentionally not reproducing them here.",
+      "start": 1587.51,
+      "end": 1590.71
+    },
+    {
+      "block": 102,
+      "startChar": 137,
+      "endChar": 194,
+      "text": "The five questions above are a simpler public diagnostic.",
+      "start": 1590.87,
+      "end": 1595.07
+    },
+    {
+      "block": 102,
+      "startChar": 195,
+      "endChar": 244,
+      "text": "Leadership teams and builders should extend them:",
+      "start": 1595.23,
+      "end": 1598.205
+    },
+    {
+      "block": 103,
+      "startChar": 0,
+      "endChar": 68,
+      "text": "What decision or mission outcome is the AI system actually changing?",
+      "start": 1598.365,
+      "end": 1603.19
+    },
+    {
+      "block": 104,
+      "startChar": 0,
+      "endChar": 58,
+      "text": "What is the complete configured system—not only the model?",
+      "start": 1603.35,
+      "end": 1607.375
+    },
+    {
+      "block": 105,
+      "startChar": 0,
+      "endChar": 57,
+      "text": "Which bounded claims justify the next lifecycle decision?",
+      "start": 1607.535,
+      "end": 1611.71
+    },
+    {
+      "block": 106,
+      "startChar": 0,
+      "endChar": 83,
+      "text": "Which artifacts and observations support each claim, and which uncertainty remains?",
+      "start": 1611.87,
+      "end": 1617.22
+    },
+    {
+      "block": 107,
+      "startChar": 0,
+      "endChar": 115,
+      "text": "Which model, data, interface, supplier, workflow, policy, population, or authority changes require reconsideration?",
+      "start": 1617.38,
+      "end": 1625.78
+    },
+    {
+      "block": 108,
+      "startChar": 0,
+      "endChar": 67,
+      "text": "Who can hold, narrow, redesign, reject, suspend, or retire the use?",
+      "start": 1625.94,
+      "end": 1630.615
+    },
+    {
+      "block": 109,
+      "startChar": 0,
+      "endChar": 73,
+      "text": "Where do exceptions, dissent, near misses, overrides, and workarounds go?",
+      "start": 1630.775,
+      "end": 1635.675
+    },
+    {
+      "block": 110,
+      "startChar": 0,
+      "endChar": 113,
+      "text": "How does experience from one program change requirements, contracts, tooling, training, or decisions in the next?",
+      "start": 1635.835,
+      "end": 1643.21
+    },
+    {
+      "block": 111,
+      "startChar": 0,
+      "endChar": 134,
+      "text": "If the answers live only in the memories of well-connected people, the organization has expertise but not yet an operating capability.",
+      "start": 1643.37,
+      "end": 1652.37
+    },
+    {
+      "block": 112,
+      "startChar": 0,
+      "endChar": 47,
+      "text": "Predictable objections are part of the research",
+      "start": 1652.53,
+      "end": 1655.73
+    },
+    {
+      "block": 113,
+      "startChar": 0,
+      "endChar": 45,
+      "text": "Is RAIDops simply MLOps with more governance?",
+      "start": 1656.05,
+      "end": 1659.45
+    },
+    {
+      "block": 114,
+      "startChar": 0,
+      "endChar": 140,
+      "text": "No. MLOps is a vital adjacent discipline, and strong implementations already include governance, monitoring, documentation, and human roles.",
+      "start": 1659.77,
+      "end": 1670.07
+    },
+    {
+      "block": 114,
+      "startChar": 141,
+      "endChar": 306,
+      "text": "RAIDops asks a different integrative question: how do technical, organizational, policy, assurance, and human-work evidence meet at a bounded consequential decision?",
+      "start": 1670.23,
+      "end": 1681.73
+    },
+    {
+      "block": 114,
+      "startChar": 307,
+      "endChar": 398,
+      "text": "It should strengthen existing pipelines, not build a ceremonial parallel route around them.",
+      "start": 1681.89,
+      "end": 1687.715
+    },
+    {
+      "block": 115,
+      "startChar": 0,
+      "endChar": 34,
+      "text": "Will this create more bureaucracy?",
+      "start": 1687.875,
+      "end": 1690.25
+    },
+    {
+      "block": 116,
+      "startChar": 0,
+      "endChar": 9,
+      "text": "It could.",
+      "start": 1690.57,
+      "end": 1692.02
+    },
+    {
+      "block": 116,
+      "startChar": 10,
+      "endChar": 43,
+      "text": "Any framework can become theater.",
+      "start": 1692.18,
+      "end": 1694.68
+    },
+    {
+      "block": 116,
+      "startChar": 44,
+      "endChar": 125,
+      "text": "Documents can multiply while authority remains vague and tests remain irrelevant.",
+      "start": 1694.84,
+      "end": 1700.54
+    },
+    {
+      "block": 116,
+      "startChar": 126,
+      "endChar": 331,
+      "text": "RAIDops should be evaluated partly by whether it reduces rediscovery, makes handoffs less lossy, automates determinate controls, exposes decision debt earlier, and helps people intervene before commitment.",
+      "start": 1700.7,
+      "end": 1714.325
+    },
+    {
+      "block": 116,
+      "startChar": 332,
+      "endChar": 387,
+      "text": "If it merely adds forms, it has failed its own purpose.",
+      "start": 1714.485,
+      "end": 1718.21
+    },
+    {
+      "block": 117,
+      "startChar": 0,
+      "endChar": 28,
+      "text": "Is an assurance case enough?",
+      "start": 1718.37,
+      "end": 1720.545
+    },
+    {
+      "block": 118,
+      "startChar": 0,
+      "endChar": 122,
+      "text": "No. Evidence is not an argument; an argument is not a decision; confidence is not approval; and approval is not permanent.",
+      "start": 1720.865,
+      "end": 1729.415
+    },
+    {
+      "block": 118,
+      "startChar": 123,
+      "endChar": 176,
+      "text": "An assurance case can make the reasoning inspectable.",
+      "start": 1729.575,
+      "end": 1733.225
+    },
+    {
+      "block": 118,
+      "startChar": 177,
+      "endChar": 330,
+      "text": "Competent people still have to judge the evidence, consider alternatives and affected parties, own the disposition, and revisit it after material change.",
+      "start": 1733.385,
+      "end": 1743.535
+    },
+    {
+      "block": 119,
+      "startChar": 0,
+      "endChar": 48,
+      "text": "Does RAIDops prove that a system is trustworthy?",
+      "start": 1743.695,
+      "end": 1746.97
+    },
+    {
+      "block": 120,
+      "startChar": 0,
+      "endChar": 137,
+      "text": "No. RAIDops is a proposed framework, not a certification scheme, compliance regime, calibrated maturity scale, or validated intervention.",
+      "start": 1747.29,
+      "end": 1757.09
+    },
+    {
+      "block": 120,
+      "startChar": 138,
+      "endChar": 289,
+      "text": "Its architecture is grounded in established research and practice, but the integrated framework and its proposed patterns require empirical evaluation.",
+      "start": 1757.25,
+      "end": 1767.35
+    },
+    {
+      "block": 120,
+      "startChar": 290,
+      "endChar": 319,
+      "text": "Derivation is not validation.",
+      "start": 1767.51,
+      "end": 1770.21
+    },
+    {
+      "block": 121,
+      "startChar": 0,
+      "endChar": 68,
+      "text": "Why call it an invention if the constituent practices already exist?",
+      "start": 1770.37,
+      "end": 1775.12
+    },
+    {
+      "block": 122,
+      "startChar": 0,
+      "endChar": 124,
+      "text": "Because the original contribution is the synthesis and operating architecture, not a claim to have invented its ingredients.",
+      "start": 1775.44,
+      "end": 1783.515
+    },
+    {
+      "block": 122,
+      "startChar": 125,
+      "endChar": 299,
+      "text": "RAIDops connects established bodies of work around an unresolved builder-side problem and proposes an integrated architecture that can be examined, challenged, and evaluated.",
+      "start": 1783.675,
+      "end": 1795.425
+    },
+    {
+      "block": 123,
+      "startChar": 0,
+      "endChar": 82,
+      "text": "That contribution is explicit enough to examine—and bounded enough to prove wrong.",
+      "start": 1795.585,
+      "end": 1800.96
+    },
+    {
+      "block": 124,
+      "startChar": 0,
+      "endChar": 50,
+      "text": "The research is becoming more rigorous as it grows",
+      "start": 1801.12,
+      "end": 1804.695
+    },
+    {
+      "block": 125,
+      "startChar": 0,
+      "endChar": 96,
+      "text": "The initial literature review gave RAIDops its question and much of its intellectual provenance.",
+      "start": 1805.015,
+      "end": 1811.19
+    },
+    {
+      "block": 125,
+      "startChar": 97,
+      "endChar": 163,
+      "text": "It should not be used circularly as proof that RAIDops is correct.",
+      "start": 1811.35,
+      "end": 1815.75
+    },
+    {
+      "block": 125,
+      "startChar": 164,
+      "endChar": 535,
+      "text": "As the project grew, I separated two workstreams: the framework and monograph continue as an author-directed interdisciplinary synthesis; separately, the surviving evidence record of the original review is being reconstructed, and a prospective de novo systematic scoping-review protocol has been designed—but not yet executed—for reporting with PRISMA-ScR and PRISMA-S.3",
+      "start": 1815.91,
+      "end": 1841.06
+    },
+    {
+      "block": 126,
+      "startChar": 0,
+      "endChar": 24,
+      "text": "That separation matters.",
+      "start": 1841.22,
+      "end": 1843.345
+    },
+    {
+      "block": 126,
+      "startChar": 25,
+      "endChar": 134,
+      "text": "A framework should not predetermine the coding or conclusions of the review that may later test its premises.",
+      "start": 1843.505,
+      "end": 1850.28
+    },
+    {
+      "block": 126,
+      "startChar": 135,
+      "endChar": 208,
+      "text": "The current RAIDops patterns and assessment instruments remain proposals.",
+      "start": 1850.44,
+      "end": 1855.24
+    },
+    {
+      "block": 126,
+      "startChar": 209,
+      "endChar": 318,
+      "text": "Existing responsible-AI pattern work provides a useful precedent for naming reusable interventions (Lu et al.",
+      "start": 1855.4,
+      "end": 1863.4
+    },
+    {
+      "block": 126,
+      "startChar": 319,
+      "endChar": 392,
+      "text": "2024); it does not validate RAIDops's selection, arrangement, or effects.",
+      "start": 1863.56,
+      "end": 1869.685
+    },
+    {
+      "block": 126,
+      "startChar": 393,
+      "endChar": 426,
+      "text": "Those remain empirical questions.",
+      "start": 1869.845,
+      "end": 1872.445
+    },
+    {
+      "block": 127,
+      "startChar": 0,
+      "endChar": 59,
+      "text": "This is also why I feel compelled to publish something now.",
+      "start": 1872.605,
+      "end": 1876.455
+    },
+    {
+      "block": 127,
+      "startChar": 60,
+      "endChar": 147,
+      "text": "An unfinished monograph should not be insulated from the communities it hopes to serve.",
+      "start": 1876.615,
+      "end": 1882.065
+    },
+    {
+      "block": 127,
+      "startChar": 148,
+      "endChar": 217,
+      "text": "Scholars can challenge the conceptual boundaries and research design.",
+      "start": 1882.225,
+      "end": 1886.775
+    },
+    {
+      "block": 127,
+      "startChar": 218,
+      "endChar": 356,
+      "text": "Practitioners can identify where the operating model conflicts with actual authority, delivery pressure, acquisition, or field conditions.",
+      "start": 1886.935,
+      "end": 1896.035
+    },
+    {
+      "block": 127,
+      "startChar": 357,
+      "endChar": 454,
+      "text": "Leaders can ask whether the framework improves decisions or merely describes them more elegantly.",
+      "start": 1896.195,
+      "end": 1902.295
+    },
+    {
+      "block": 128,
+      "startChar": 0,
+      "endChar": 39,
+      "text": "The public essay is not the whole book.",
+      "start": 1902.455,
+      "end": 1905.155
+    },
+    {
+      "block": 128,
+      "startChar": 40,
+      "endChar": 93,
+      "text": "It is an invitation to interrogate the central claim.",
+      "start": 1905.315,
+      "end": 1909.165
+    },
+    {
+      "block": 129,
+      "startChar": 0,
+      "endChar": 50,
+      "text": "Trustworthy AI has to be reproduced through change",
+      "start": 1909.325,
+      "end": 1912.7
+    },
+    {
+      "block": 130,
+      "startChar": 0,
+      "endChar": 67,
+      "text": "The durable problem is not getting an AI system through one review.",
+      "start": 1913.02,
+      "end": 1917.52
+    },
+    {
+      "block": 130,
+      "startChar": 68,
+      "endChar": 206,
+      "text": "It is preserving the basis of a consequential decision while the system changes jobs, versions, users, suppliers, environments, and hands.",
+      "start": 1917.68,
+      "end": 1927.155
+    },
+    {
+      "block": 131,
+      "startChar": 0,
+      "endChar": 79,
+      "text": "An organization may have excellent principles and still lose them at a handoff.",
+      "start": 1927.315,
+      "end": 1932.59
+    },
+    {
+      "block": 131,
+      "startChar": 80,
+      "endChar": 140,
+      "text": "It may have a green pipeline and still test the wrong claim.",
+      "start": 1932.75,
+      "end": 1936.6
+    },
+    {
+      "block": 131,
+      "startChar": 141,
+      "endChar": 293,
+      "text": "It may retain a human “in the loop” while the interface, workload, and institutional incentives have already narrowed that person's practical authority.",
+      "start": 1936.76,
+      "end": 1946.535
+    },
+    {
+      "block": 131,
+      "startChar": 294,
+      "endChar": 366,
+      "text": "It may record dissent without allowing dissent to alter the disposition.",
+      "start": 1946.695,
+      "end": 1951.52
+    },
+    {
+      "block": 131,
+      "startChar": 367,
+      "endChar": 466,
+      "text": "It may deploy responsibly once and then allow success itself to expand the use beyond the evidence.",
+      "start": 1951.68,
+      "end": 1958.605
+    },
+    {
+      "block": 132,
+      "startChar": 0,
+      "endChar": 109,
+      "text": "RAIDops is my attempt to make those failures harder to hide and the responsible alternatives easier to enact.",
+      "start": 1958.765,
+      "end": 1966.115
+    },
+    {
+      "block": 133,
+      "startChar": 0,
+      "endChar": 77,
+      "text": "The standard should not be whether a framework helps an organization say yes.",
+      "start": 1966.275,
+      "end": 1970.8
+    },
+    {
+      "block": 133,
+      "startChar": 78,
+      "endChar": 179,
+      "text": "The test of RAIDops is whether the organization can know—and show—when the responsible answer is no.1",
+      "start": 1970.96,
+      "end": 1978.085
+    }
+  ]
+}

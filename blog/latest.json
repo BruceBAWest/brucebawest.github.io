@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-08-29T19:31:58.469861+00:00",
+  "generatedAt": "2026-08-29T19:35:37.234174+00:00",
   "items": [
+    {
+      "title": "Principles do not field themselves: why I am writing RAIDops",
+      "description": "What began as a Columbia University literature review has become Responsible AI Development Operations (RAIDops), my developing framework and in-progress monograph for consequential AI.",
+      "href": "/blog/why-i-am-writing-raidops/",
+      "date": "2026-08-29",
+      "category": "Trustworthy AI",
+      "readTime": 19
+    },
     {
       "title": "Multi-agent systems need a shared world, not just shared messages",
       "description": "Multi-agent AI will not become dependable merely by connecting more capable models. Agents need shared semantics for the world, the work, the evidence, and the authority under which they act.",
@@ -16,14 +24,6 @@
       "date": "2026-08-03",
       "category": "Human-Centered AI",
       "readTime": 13
-    },
-    {
-      "title": "The first deliverable from generative coding should be understanding",
-      "description": "Federal modernization will gain more from generative coding systems when they first make legacy estates legible\u2014mapping dependencies, preserving rationale, and exposing risk before proposing change.",
-      "href": "/blog/the-first-deliverable-from-generative-coding-should-be-understanding/",
-      "date": "2026-07-29",
-      "category": "AI Engineering",
-      "readTime": 9
     }
   ]
 }

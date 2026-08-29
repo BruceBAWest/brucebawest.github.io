@@ -5,8 +5,16 @@
     <link>https://brucebawest.com/blog/</link>
     <description>Research and practice notes on AI systems, strategy, organizational transformation, knowledge infrastructure, and accountable innovation.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Aug 2026 19:31:58 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 19:35:37 GMT</lastBuildDate>
     <atom:link href="https://brucebawest.com/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Principles do not field themselves: why I am writing RAIDops</title>
+      <link>https://brucebawest.com/blog/why-i-am-writing-raidops/</link>
+      <guid isPermaLink="true">https://brucebawest.com/blog/why-i-am-writing-raidops/</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
+      <description>What began as a Columbia University literature review has become Responsible AI Development Operations (RAIDops), my developing framework and in-progress monograph for consequential AI.</description>
+      <category>Trustworthy AI</category>
+    </item>
     <item>
       <title>Multi-agent systems need a shared world, not just shared messages</title>
       <link>https://brucebawest.com/blog/multi-agent-systems-need-a-shared-world/</link>
